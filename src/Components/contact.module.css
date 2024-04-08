@@ -1,0 +1,9 @@
+.form{
+    margin-left: 79px;
+}
+.but{
+    background-color: #793ea5;
+}
+.Address,.mail{
+    display: flex;
+}
