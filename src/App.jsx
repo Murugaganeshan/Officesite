@@ -12,14 +12,14 @@ let App=()=>{
     return (
        <div>
        <BrowserRouter>
-       <Nav></Nav>
-       <Routes>
-       <Route element={<Home/>} path="home"></Route>
-        <Route element={<About/>} path="about"></Route>
-        <Route element={<Service/>} path="service"></Route>
-        <Route element={<Carrers/>} path="carrers"></Route>
-        <Route element={<Contact/>} path="contactus"></Route>
-       </Routes>
+             <Nav></Nav>
+                <Routes>
+                <Route element={<Home/>} path="/"></Route>
+                    <Route element={<About/>} path="/about"></Route>
+                    <Route element={<Service/>} path="/service"></Route>
+                    <Route element={<Carrers/>} path="/carrers"></Route>
+                    <Route element={<Contact/>} path="/contactus"></Route>
+                </Routes>
        </BrowserRouter>
         </div>
     );

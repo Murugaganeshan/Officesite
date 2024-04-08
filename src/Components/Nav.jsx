@@ -6,7 +6,6 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 
 
-
 let Nav = () => {
     return (
         <div>
@@ -14,7 +13,15 @@ let Nav = () => {
                 <div className={`${style.navBar} row align-items-center `}>
                     <div className="col-auto">
                         <img src={logo} alt="" className={`${style.logo}  float-start`} />
+          
+           <div className="container-fluid sticky-top " style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
+                <div className={`${style.navBar} sticky-top row align-items-center`}>
+                    <div className="col-auto ">
+                        <img src={logo} alt="" className={`${style.logo} sticky-top float-start`} />
                     </div>
+                    <button className={`btn btn-primary  position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                         <BiMenu />
+                     </button>
                 </div>
                 <button className={`btn btn-primary  position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <BiMenu />
@@ -22,6 +29,8 @@ let Nav = () => {
             </div>
 
            
+           </div>
+          
 
             <div className="position-relative">
                 <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -31,11 +40,11 @@ let Nav = () => {
                     </div>
                     <div className={`${style.sideBarBody} offcanvas-body`}>
                         <ol className="list-unstyled">
-                            <li><Link to="home" className={style.navLink}>Home</Link></li>
-                            <li><Link to="about" className={style.navLink}>About</Link></li>
-                            <li><Link to="service" className={style.navLink}>Service</Link></li>
-                            <li><Link to="carrers" className={style.navLink}>Carrers</Link></li>
-                            <li><Link to="contactus" className={style.navLink}>Contactus</Link></li>
+                            <li><Link to="/" className={style.navLink}>Home</Link></li>
+                            <li><Link to="/about" className={style.navLink}>About</Link></li>
+                            <li><Link to="/service" className={style.navLink}>Service</Link></li>
+                            <li><Link to="/carrers" className={style.navLink}>Carrers</Link></li>
+                            <li><Link to="/contactus" className={style.navLink}>Contactus</Link></li>
                         </ol>
                         <div className="container ">
                             <div className="row justify-content-between ">
@@ -50,9 +59,13 @@ let Nav = () => {
                    
                 </div>
             </div>
+           
+            
             
         </div>
-       
+        </div>
+        </div>
+    
     );
 }
 
