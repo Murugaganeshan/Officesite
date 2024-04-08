@@ -1,8 +1,9 @@
 import { BiMenu } from 'react-icons/bi';
 import style from "./nav.module.css";
-import logo from "../Components/Assest/logo.jpg";
-import hero from "./Assest/hero-bg.jpg";
+import logo from "../Components/Assest/logo3.png";
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+
 
 
 
@@ -12,19 +13,14 @@ let Nav = () => {
             <div className="container-auto" style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
                 <div className={`${style.navBar} row align-items-center`}>
                     <div className="col-auto">
-                        <img src={logo} alt="" className={`${style.logo} rounded float-start`} />
-                    </div>
-                    <div className="col">
-                        <h2 className={`${style.name} text-start pt-3`}>Thamizhan solution</h2>
+                        <img src={logo} alt="" className={`${style.logo}  float-start`} />
                     </div>
                 </div>
             </div>
 
-            <button className={`btn btn-primary position-fixed top-0 end-0 m-3 ${style.stickyToggle}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <button className={`btn btn-primary  position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <BiMenu />
             </button>
-
-          
 
             <div className="position-relative">
                 <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -34,13 +30,23 @@ let Nav = () => {
                     </div>
                     <div className={`${style.sideBarBody} offcanvas-body`}>
                         <ol className="list-unstyled">
-                            <li><Link to="home">Home</Link></li>
-                            <li><Link to="about">About</Link></li>
-                            <li><Link to="service">Service</Link></li>
-                            <li><Link to="carrers">Carrers</Link></li>
-                            <li><Link to="contactus">Contactus</Link></li>
+                            <li><Link to="home" className={style.navLink}>Home</Link></li>
+                            <li><Link to="about" className={style.navLink}>About</Link></li>
+                            <li><Link to="service" className={style.navLink}>Service</Link></li>
+                            <li><Link to="carrers" className={style.navLink}>Carrers</Link></li>
+                            <li><Link to="contactus" className={style.navLink}>Contactus</Link></li>
                         </ol>
+                        <div className="container ">
+                            <div className="row justify-content-between ">
+                            <div className="col"><a href="/" style={{ color: "white" }}><FaFacebook/> </a></div>
+                            <div className="col"><a href="/" style={{ color: "white" }}><FaInstagram/> </a></div>
+                            <div className="col"><a href="/" style={{ color: "white" }}><FaTwitter/> </a></div>
+                            <div className="col"><a href="/" style={{ color: "white" }}><FaLinkedin/> </a></div>
+                             </div>
+                        </div>
                     </div>
+                   
+                   
                 </div>
             </div>
             

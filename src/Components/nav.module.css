@@ -15,20 +15,82 @@ h1{
 .name{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
+    color: rgb(138, 64, 64);
 }
 .sideBar{
     background-color: rgb(12, 12, 51);
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(194, 85, 85);
+    font-family:  "Montserrat", sans-serif;
     font-weight: 900;
+   
 }
 .sideBar h5{
-    font-size: 28px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .sideBarBody{
     line-height: 3;
     color: white;
     background: linear-gradient(rgb(12, 12, 51),rgb(63, 1, 1));
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: rgb(12, 10, 10); */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
+.roundedButton {
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+}
+
+
+.stickyNav {
+    background-color: #ffffff; 
+    z-index: 1000; 
+}
+
+.stickyToggle {
+    z-index: 1001; 
+    background-color: black;
+    border: 1px solid rgb(228, 223, 223);
+}
+
+/* .roundedButton {
+    border-radius: 50%; 
+} */
+
+.logo {
+    height: 80px;
+    width: 200px;
+    padding: 10px;
+}
+
+.navBar {
+    padding: 10px 0; 
+}
+
+.sideBar {
+   color: white;
+    border: none;
+}
+
+.sideBarBody {
+    padding: 20px;
+}
+
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    
+}
+
+.navBar{
+    background-color: black;
+    height: 10vh;
+}
+
+
+
+
