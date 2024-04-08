@@ -1,3 +1,4 @@
+import About from "./About";
 import hero from "./Assest/hero-bg.jpg";
 import style from "./home.module.css";
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -27,6 +28,8 @@ let Home = () => {
                 <FaInstagram className="me-3" color="white"/>
                 <FaTwitter  color=" white"/>
             </div>
+
+            <About/>
        </div>
     );
 }

@@ -10,17 +10,18 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 let Nav = () => {
     return (
         <div>
-            <div className="container-fluid" style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}>
-                <div className={`${style.navBar} row align-items-center`}>
+            <div className="container-fluid " style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}>
+                <div className={`${style.navBar} row align-items-center `}>
                     <div className="col-auto">
                         <img src={logo} alt="" className={`${style.logo}  float-start`} />
                     </div>
                 </div>
-            </div>
-
-            <button className={`btn btn-primary  position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <button className={`btn btn-primary  position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <BiMenu />
             </button>
+            </div>
+
+           
 
             <div className="position-relative">
                 <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
