@@ -5,14 +5,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
 
+import About from "./About"
 
 
 let Home = () => {
+
     useEffect(() => {
-        AOS.init({
-          duration: 1000,
-        });
+        AOS.init({ duration: 1000, });
       }, []);
+
     return (
        <div>
 
@@ -27,8 +28,8 @@ let Home = () => {
                         <h3 data-aos="fade-right">We build brands and beautiful experiences</h3>
                     </div>
                     <div className={style.btn}  data-aos="fade-left">
-                     <button className={`btn btn-primary me-3 ${style.btn1}`}>MORE ABOUT US</button>
-                     <button className={`btn btn-secondary ${style.btn2}`}>LET'S TALK</button>
+                     <button className={`btn btn-primary me-3  ${style.btn1}`}>MORE ABOUT US</button>
+                     <button className={`btn btn-secondary me-3 ${style.btn2}`}>LET'S TALK</button>
                     </div>
                 </div>
             </div>
@@ -39,6 +40,7 @@ let Home = () => {
                 <FaInstagram className="me-3" color="white"/>
                 <FaTwitter  color=" white"/>
             </div>
+          <About></About>
        </div>
     );
 }

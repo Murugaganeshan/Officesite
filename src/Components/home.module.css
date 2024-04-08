@@ -1,6 +1,6 @@
 .content h1{
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Nunito Sans", sans-serif;;
     font-size: 130px;
     font-weight: 900;
 }
@@ -39,10 +39,11 @@
 }
 .btn{
     margin-top: 50px;
+    line-height: 5;
 }
 .btn1{
     height: 50px;
-    width: 290px;
+    width: 300px;
     background-color: #793ea5;
     border: 0px;
     border-radius: 0px;
