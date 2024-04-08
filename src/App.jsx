@@ -1,3 +1,4 @@
+
 import { BrowserRouter,Routes, Route} from "react-router-dom"
 import Nav from "./Components/Nav"
 import About from "./Components/About"
@@ -23,5 +24,8 @@ let App=()=>{
         </div>
     );
 }
+export default App
 
-export default App;
+
+
+

@@ -15,7 +15,10 @@ let Home = () => {
       }, []);
     return (
        <div>
+
          <div className="container-fluid position-relative" style={{ backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '90vh' }}>
+
+       
             <div className={`${style.overlay}`}>
             <div className="container text-center position-absolute top-50 start-50 translate-middle">
                 <div className="row">
