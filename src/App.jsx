@@ -1,9 +1,13 @@
+import Navbar from "./Components/Navbar"
 let App=()=>{
     return(
         <div>
-            <h1>Hellow</h1>
-            <h1>Hellow</h1>
+         <Navbar/>
         </div>
     )
 }
 export default App
+
+
+
+
