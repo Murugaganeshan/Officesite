@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import contactUs from "./Assest/connect.jpg";
 import style from "./contact.module.css"
-import { FaMapMarkerAlt,FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 import { IoLocationOutline } from "react-icons/io5";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
+
 
 let Contact = () => {
     const [formData, setFormData] = useState({
@@ -22,7 +22,6 @@ let Contact = () => {
             [name]: value
         });
     };
-
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
@@ -34,7 +33,6 @@ let Contact = () => {
             message: ''
         });
     };
-
     return (
         <div>
             <section className="bg-light py-3 py-md-5">
@@ -52,7 +50,7 @@ let Contact = () => {
                     <div className="row gy-3 gy-md-4 gy-lg-0 align-items-xl-center">
                         <div className="col-12 col-lg-6">
 
-<div className="col footer-col">
+                <div className="col footer-col">
                     <h1> Get In Touch </h1>
                     <div className={style.Address}>
                         <div> 
@@ -60,7 +58,7 @@ let Contact = () => {
                         </div>
                         <p style={{textAlign:'start'}}> 2A, Vasantha Nagar 3rd st,
                         Mahalkshmipuram <br></br> Madurai-03
-                            </p>
+                        </p>
                     </div>
                     <div className={style.mail}>
                         <div> 
@@ -68,7 +66,7 @@ let Contact = () => {
                         </div>
                         <p style={{textAlign:'start'}}> mailto:134@gmail.com
                       
-                            </p>
+                        </p>
                     </div>
                     <div className={style.mail}>
                         <div> 
@@ -76,11 +74,9 @@ let Contact = () => {
                         </div>
                         <p style={{textAlign:'start'}}> Home
                        
-                            </p>
+                        </p>
                     </div>
                 </div>
-
-
                         </div>
                         <div className="col-12 col-lg-6">
                             <div className="row justify-content-xl-center">
@@ -139,6 +135,5 @@ let Contact = () => {
         </div>
     );
 };
-
 export default Contact;
 
