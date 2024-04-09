@@ -50,10 +50,10 @@ let Carrers=()=>{
                <h2>Business Development Executive</h2>
                   
                     <ul>
-        <li>Lorem gfdgdfgipsumdfsdfdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</li>
-        <li>LofdsfsdfsdfsLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumdrem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
+        <li>Strong communication skills, both verbal and written, are essential. You should be able to effectively communicate with clients, colleagues, and other stakeholders. </li>
+        <li>Additionally, having basic sales skills and the ability to pitch products or services persuasively is important.</li>
+        <li>Fluently in English.</li>
+        <li> Employers value candidates who are adaptable and willing to learn new technologies. Highlight any experiences where you quickly picked up new skills or adapted to new challenges..</li>
     </ul>
    
                    
@@ -72,13 +72,13 @@ let Carrers=()=>{
 
               <div  className="col pb-4 my-3">
                 <div class="card-shop card ">
-               <h2>Business Development Executive</h2>
+               <h2>Front End Developer</h2>
                   
                     <ul>
-        <li>Lorem gfdgdfgipsumdfsdfdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</li>
-        <li>LofdsfsdfsdfsLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumdrem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
+        <li>Proficiency in HTML, CSS, and JavaScript is essential. These are the core technologies used in front-end development.</li>
+        <li>Understanding of responsive design principles and experience with CSS preprocessors like Sass or Less.</li>
+        <li>Basic understanding of back-end technologies and how they interact with the front end. This might include knowledge of RESTful APIs, server-side rendering, or basic database operations.</li>
+        <li>Knowledge of front-end frameworks and libraries such as React.js. Familiarity with at least one of these frameworks is often required.</li>
     </ul>
    
                    

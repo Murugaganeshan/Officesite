@@ -88,7 +88,7 @@ return(
  
  
  <div className="Submit_form"> 
-  <button type="submit" value="Send">Send</button>
+  <button type="submit" value="Send">Submit</button>
   </div>
 </form>
 

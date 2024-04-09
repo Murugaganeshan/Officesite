@@ -30,7 +30,10 @@
 }
 .Submit_form button{
     padding: 10px 30px;
-    border-radius: 10px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
 }
 .form-card{
     padding: 40px;
