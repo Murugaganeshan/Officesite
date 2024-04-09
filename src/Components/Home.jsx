@@ -7,7 +7,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
 
-
 let Home = () => {
 
     useEffect(() => {
