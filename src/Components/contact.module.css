@@ -1,9 +1,15 @@
 .form{
-    margin-left: 79px;
+    margin-left: 10px;
 }
 .but{
     background-color: #793ea5;
 }
 .Address,.mail{
     display: flex;
+    margin-left: 60px;
+   
+    
+}
+p{
+    margin-left: 15px;
 }

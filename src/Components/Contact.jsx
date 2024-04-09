@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import contactUs from "./Assest/connect.jpg";
+import contactUs from "./Assest/contactuss.jpg";
 import style from "./contact.module.css"
 import { IoLocationOutline } from "react-icons/io5";
 import { IoMailOpenOutline } from "react-icons/io5";
@@ -49,38 +49,36 @@ let Contact = () => {
                 <div className="container rounded col-sm-12" style={{ backgroundImage: `url(${contactUs})`,  backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="row gy-3 gy-md-4 gy-lg-0 align-items-xl-center">
                         <div className="col-12 col-lg-6">
-
                 <div className="col footer-col">
-                    <h1> Get In Touch </h1>
+                    <h1 class="display-4 text-center mb-5">Get In Touch</h1>
                     <div className={style.Address}>
                         <div> 
-                        <IoLocationOutline style={{fontSize:"30px",color:"white" }}/>
+                        <IoLocationOutline style={{fontSize:"30px",color:"red" }}/>
                         </div>
                         <p style={{textAlign:'start'}}> 2A, Vasantha Nagar 3rd st,
                         Mahalkshmipuram <br></br> Madurai-03
                         </p>
-                    </div>
+                    </div><br />
                     <div className={style.mail}>
                         <div> 
-                        <IoMailOpenOutline style={{fontSize:"30px",color:"white" }}/>
+                        <IoMailOpenOutline  style={{fontSize:"30px",color:"green" }}/>
                         </div>
-                        <p style={{textAlign:'start'}}> mailto:134@gmail.com
-                      
+                        <p style={{textAlign:'start'}}> abc@gmail.com
                         </p>
-                    </div>
+                    </div><br />
                     <div className={style.mail}>
                         <div> 
-                        <IoCallOutline  style={{fontSize:"30px", color:"white" }}/>
+                        <IoCallOutline  style={{fontSize:"30px", color:"blue" }}/>
                         </div>
-                        <p style={{textAlign:'start'}}> Home
+                        <p style={{textAlign:'start'}}> +91 9876543210
                        
                         </p>
-                    </div>
+                    </div><br />
                 </div>
                         </div>
                         <div className="col-12 col-lg-6">
                             <div className="row justify-content-xl-center">
-                                <div className={`col-12 col-xl-11 col-sm-12${style.form}`}>
+                                <div className={`col-12 col-xl-11 col-sm-12 ${style.form}`}>
                                     <div className="bg-white border rounded shadow-sm overflow-hidden">
                                         <form onSubmit={handleSubmit}>
                                             <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
@@ -136,4 +134,3 @@ let Contact = () => {
     );
 };
 export default Contact;
-

@@ -4,6 +4,7 @@ import style from "./about.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
+import Service from "./Service";
 
 let About = () => {
     useEffect(() => {
@@ -58,6 +59,7 @@ let About = () => {
                     </div>
                 </div>
             </section>
+            <Service></Service>
         </div>
     )
 }

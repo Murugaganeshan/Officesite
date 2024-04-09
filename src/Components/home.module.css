@@ -51,6 +51,10 @@
     font-size: small;
     
 }
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
 .btn2{
     height: 50px;
     width: 300px;
@@ -59,4 +63,8 @@
     border-radius: 0px;
     font-family: "Nunito Sans", sans-serif;
     font-size: small;
+}
+.btn2 a{
+    color: white;
+    text-decoration: none;
 }
