@@ -12,20 +12,22 @@ let Nav = () => {
                     <div className="col-auto">
                         <img src={logo} alt="" className={`${style.logo} float-start`} />
                     </div>
-                    <div className="col">
-                        <button className={`btn btn-primary position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <BiMenu />
-                        </button>
-                    </div>
                 </div>
             </div>
 
             <div className="position-relative">
-                <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div className={`${style.sideBar} offcanvas-header`}>
-                        <h5 className="offcanvas-title sideBar" id="offcanvasRightLabel">Thamizhan Solution</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "white" }}></button>
+                     <div className="position-fixed top-0 end-0 m-5 mt-4" style={{ zIndex: 999 }}>
+                        <button className={`btn btn-primary position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <BiMenu />
+                        </button>
                     </div>
+                <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+                    <div className={`${style.sideBar} offcanvas-header`}>
+                        <img src={logo} alt="logo" className={`${style.logo} float-start`}/>
+                        <button type="button" className="btn-close " data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "white" }}></button>
+                    </div>
+
                     <div className={`${style.sideBarBody} offcanvas-body`}>
                         <ol className="list-unstyled">
                             <li><Link to="/" className={style.navLink}>Home</Link></li>
@@ -36,10 +38,10 @@ let Nav = () => {
                         </ol>
                         <div className="container">
                             <div className="row justify-content-between">
-                                <div className="col"><a href="/" style={{ color: "white" }}><FaFacebook/> </a></div>
-                                <div className="col"><a href="/" style={{ color: "white" }}><FaInstagram/> </a></div>
-                                <div className="col"><a href="/" style={{ color: "white" }}><FaTwitter/> </a></div>
-                                <div className="col"><a href="/" style={{ color: "white" }}><FaLinkedin/> </a></div>
+                                <div className={`col ${style.socialMedia}`}><a href="/" style={{ color: "white" }}><FaFacebook/> </a></div>
+                                <div className={`col ${style.socialMedia}`}><a href="/" style={{ color: "white" }}><FaInstagram/> </a></div>
+                                <div className={`col ${style.socialMedia}`}><a href="/" style={{ color: "white" }}><FaTwitter/> </a></div>
+                                <div className={`col ${style.socialMedia}`}><a href="/" style={{ color: "white" }}><FaLinkedin/> </a></div>
                             </div>
                         </div>
                     </div>

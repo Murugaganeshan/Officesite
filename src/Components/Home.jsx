@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 let Home = () => {
@@ -15,7 +16,6 @@ let Home = () => {
 
     return (
        <div>
-
          <div className="container-fluid position-relative" style={{ backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '90vh' }}>
 
        
@@ -27,12 +27,12 @@ let Home = () => {
                         <h3 data-aos="fade-right">We build brands and beautiful experiences</h3>
                     </div>
                     <div className={style.btn}  data-aos="fade-left">
-                     <button className={`btn btn-primary me-3  ${style.btn1}`}>MORE ABOUT US</button>
-                     <button className={`btn btn-secondary me-3 ${style.btn2}`}>LET'S TALK</button>
+                     <button className={`btn btn-primary me-3  ${style.btn1}`}> <Link to="/about">MORE ABOUT US</Link> </button>
+                     <button className={`btn btn-secondary me-3 ${style.btn2}`}> <Link to="/contactus">CONTACT US</Link> </button>
                     </div>
                 </div>
             </div>
-            </div>
+         </div>
         </div>   
         <div style={{ position: "absolute", bottom: "50px", left: "50px", display: "flex", alignItems: "center" }}  >
                 <FaFacebook className="me-3"  color="white"/>
@@ -45,4 +45,3 @@ let Home = () => {
 }
 
 export default Home;
-
