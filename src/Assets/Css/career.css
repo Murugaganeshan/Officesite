@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&display=swap');
+.details{
+    margin-top: 25%;
+    padding: 50px;
+    background-color: transparent;
+    border: none;
+}
+.details h1{
+    color: red;
+}
+.view-opening{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    margin-left: 30px;
+}
+.current{
+    text-align: center;
+    padding: 10px;
+}
+.openings{
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+.openings ul {
+    margin-top: 8px;
+}
+.openings ul li{
+    margin-top: 5px;
+}
+.apply {
+    padding: 5px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.card-col{
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px grey;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+.card-shop{
+}
+.card-shop{
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px  grey;
+}
+.card-shop ul{
+    text-align: start;
+}
+.card-shop ul li{
+    text-align: start;
+    margin-top: 5px;
+ 
+}
+.btn-preview{
+padding: 5px 10px;
+border: none;
+background-color: #793ea5;
+color: white;
+border-radius: 5px;
+font-weight: 500;
+font-family: "Nunito Sans", sans-serif;
+
+}
+.details h1{
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: "Concert One", sans-serif;
+}
