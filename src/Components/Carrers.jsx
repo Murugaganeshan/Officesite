@@ -37,7 +37,6 @@ let Carrers=()=>{
            <h1 className="current my-4" ref={ref}>
             Current Opening
            </h1>
-           <p>jfkdsjfk</p>
 
           
 
@@ -61,7 +60,7 @@ let Carrers=()=>{
                     <div className="  col ">
                     <div  className="mx-3 d-flex justify-content-start btn_pre">  
                    
-              <a href="fksdlf"> <button  type="button" class="btn-preview "> Apply </button></a> 
+              <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
 
                    </div>
                     </div>
@@ -86,7 +85,7 @@ let Carrers=()=>{
                     <div className="  col ">
                     <div  className="mx-3 d-flex justify-content-start btn_pre">  
                    
-              <a href="fksdlf"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                    <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
 
                    </div>
                     </div>
@@ -111,7 +110,30 @@ let Carrers=()=>{
                     <div className="  col ">
                     <div  className="mx-3 d-flex justify-content-start btn_pre">  
                    
-              <a href="fksdlf"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                    <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+
+                   </div>
+                    </div>
+                 
+                  
+                
+                </div>
+              </div>
+              <div  className="col pb-4 my-3">
+                <div class="card-shop card ">
+               <h2>Business Development Executive</h2>
+                  
+                    <ul>
+        <li>Lorem gfdgdfgipsumdfsdfdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</li>
+        <li>LofdsfsdfsdfsLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumdrem ipsum</li>
+        <li>Lorem ipsum</li>
+        <li>Lorem ipsum</li>
+    </ul>
+   
+                   
+                    <div className="  col ">
+                    <div  className="mx-3 d-flex justify-content-start btn_pre">  
+                    <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
 
                    </div>
                     </div>
@@ -135,31 +157,7 @@ let Carrers=()=>{
                     <div className="  col ">
                     <div  className="mx-3 d-flex justify-content-start btn_pre">  
                    
-              <a href="fksdlf"> <button  type="button" class="btn-preview "> Apply </button></a> 
-
-                   </div>
-                    </div>
-                 
-                  
-                
-                </div>
-              </div>
-              <div  className="col pb-4 my-3">
-                <div class="card-shop card ">
-               <h2>Business Development Executive</h2>
-                  
-                    <ul>
-        <li>Lorem gfdgdfgipsumdfsdfdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</li>
-        <li>LofdsfsdfsdfsLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumLofdsfsdfsdfsdrem ipsumdrem ipsum</li>
-        <li>Lorem ipsum</li>
-        <li>Lorem ipsum</li>
-    </ul>
-   
-                   
-                    <div className="  col ">
-                    <div  className="mx-3 d-flex justify-content-start btn_pre">  
-                   
-              <a href="fksdlf"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                    <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
 
                    </div>
                     </div>

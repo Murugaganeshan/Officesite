@@ -6,6 +6,7 @@ import Service from "./Components/Service"
 import Carrers from "./Components/Carrers"
 import Contact from "./Components/Contact"
 import Home from "./Components/Home"
+import Submitform from "./Components/Submitform"
 
 
 let App=()=>{
@@ -19,6 +20,7 @@ let App=()=>{
         <Route element={<Service/>} path="/service"></Route>
         <Route element={<Carrers/>} path="/careers"></Route>
         <Route element={<Contact/>} path="/contactus"></Route>
+        <Route element={<Submitform/>} path="/apply"></Route>
        </Routes>
        </BrowserRouter>
         </div>
