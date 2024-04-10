@@ -24,7 +24,6 @@ let About = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="container overflow-hidden">
                     <div className="row gy-4 gy-lg-0">
                         <div className="col-12 col-lg-6">
