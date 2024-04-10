@@ -13,6 +13,7 @@ import Uiux from "./Components/Uiux"
 import Aidevelopment from "./Components/Aidevelopment"
 import Cripto from "./Components/Cripto"
 import Neft from "./Components/Neft"
+import Discovermore from "./Components/Discovermore"
 
 let App=()=>{
     return (
@@ -32,6 +33,7 @@ let App=()=>{
         <Route element={<Aidevelopment/>} path="/aidevelopment"></Route>
         <Route element={<Cripto/>} path="/cripto"></Route>
         <Route element={<Neft/>} path="/neft"></Route>
+        <Route element={<Discovermore/>} path="/discovermore"></Route>
        </Routes>
        </BrowserRouter>
         </div>

@@ -17,8 +17,6 @@ let Home = () => {
     return (
        <div>
          <div className="container-fluid position-relative" style={{ backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '90vh' }}>
-
-       
             <div className={`${style.overlay}`}>
             <div className="container text-center position-absolute top-50 start-50 translate-middle">
                 <div className="row">
@@ -27,8 +25,8 @@ let Home = () => {
                         <h3 data-aos="fade-right">We build brands and beautiful experiences</h3>
                     </div>
                     <div className={style.btn}  data-aos="fade-left">
-                     <button className={`btn btn-primary me-3  ${style.btn1}`}> <Link to="/about">MORE ABOUT US</Link> </button>
-                     <button className={`btn btn-secondary me-3 ${style.btn2}`}> <Link to="/contactus">CONTACT US</Link> </button>
+                    <Link to="/about"> <button className={`btn btn-primary me-3  ${style.btn1}`}> MORE ABOUT US </button></Link>
+                    <Link to="/contactus"><button className={`btn btn-secondary me-3 ${style.btn2}`}> CONTACT US</button></Link> 
                     </div>
                 </div>
             </div>
@@ -38,10 +36,9 @@ let Home = () => {
                 <FaFacebook className="me-3"  color="white"/>
                 <FaInstagram className="me-3" color="white"/>
                 <FaTwitter  color=" white"/>
-            </div>
+        </div>
           <About></About>
-       </div>
+        </div>
     );
 }
-
 export default Home;

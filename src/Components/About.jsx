@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
 import Service from "./Service";
+import { Link } from "react-router-dom";
 
 let About = () => {
     useEffect(() => {
@@ -19,7 +20,7 @@ let About = () => {
                         <div className="col-12 col-md-10 col-lg-8">
                             <h3 className="fs-5 mb-2 text-secondary text-uppercase">About</h3>
                             <h2 className="display-5 mb-4">Our journey began with a dream of redefining how the world perceives design.</h2>
-                            <button type="button" className="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" id={style.dis}>Discover More</button>
+                            <Link to="/discovermore"> <button type="button" className="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" id={style.dis}>Discover More</button></Link>
                         </div>
                     </div>
                 </div>
@@ -44,7 +45,7 @@ let About = () => {
                         <div className="col-12 col-lg-6">
                             <article>
                                 <div className="card border-0" data-aos="fade-left">
-                                    <img className="card-img-top img-fluid m-0" loading="lazy" src={image2} alt="Our Approach" />
+                                    <img className="card-img-top img-fluid m-0" loading="lazy" src={image2} alt="Our Approach"/>
                                     <div className="card-body border bg-white p-4">
                                         <div className="entry-header mb-3">
                                             <h2 className="card-title entry-title h4 mb-0">
@@ -63,4 +64,5 @@ let About = () => {
         </div>
     )
 }
+
 export default About;
