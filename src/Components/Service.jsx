@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
 import { Link } from 'react-router-dom';
+import Carrers from './Carrers';
 
 let Service=()=>{
 
@@ -11,7 +12,7 @@ let Service=()=>{
 
     return(
 
-        <div>
+        <div style={{backgroundColor:"lightblue"}}>
            
                 <section class="py-5 py-xl-8">
                 <div class="container">
@@ -199,6 +200,7 @@ let Service=()=>{
                     </div>
                 </div>
                 </section>
+                <Carrers></Carrers>
 
         </div>
     )

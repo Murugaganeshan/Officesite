@@ -9,7 +9,7 @@ let Carrers=()=>{
     ref.current?.scrollIntoView({behavior: 'smooth'});
   };
     return(
-        <div className="container-fluid">
+        <div className="container-fluid" style={{backgroundColor:"white"}}>
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
             <div className="col">
@@ -30,7 +30,7 @@ let Carrers=()=>{
         </div>
 </div>
 
-            </div>
+            </div>  
            </div>
           <div className="container my-4">
             <h3 className="text-center"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
