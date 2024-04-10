@@ -75,7 +75,13 @@ h1{
     border: none;
     
 }
-
+.closeButton {
+    transition: transform 0.3s ease-in-out;
+    margin: 20px;
+} 
+.closeButton:hover {
+    transform: rotate(90deg);
+}
 .sideBarBody {
     padding: 20px;
 }
