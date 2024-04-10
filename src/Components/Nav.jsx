@@ -17,7 +17,7 @@ let Nav = () => {
 
             <div className="position-relative">
                      <div className="position-fixed top-0 end-0 m-5 mt-4" style={{ zIndex: 999 }}>
-                        <button className={`btn btn-primary position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <button style={{alignItems:"center", display:"flex", justifyContent:"center"}} className={`btn btn-primary position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <BiMenu />
                         </button>
                     </div>
