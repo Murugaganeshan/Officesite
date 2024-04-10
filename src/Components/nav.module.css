@@ -50,13 +50,15 @@ h1{
 
 .stickyToggle {
     z-index: 1001; 
-    background-color:  #FDDC5C;
-    border: 1px solid rgb(66, 65, 65);
+    background-color:  #262525 ;
     font-size: 25px;
+    border: none;
+    transition: transform 0.5s ease-in-out;
 }
 .stickyToggle:hover{
-    background-color: black;
-    border: 1px solid black;
+    background-color: goldenrod;
+    border: none;
+    transform: rotate(180deg);
 }
 
 
@@ -119,7 +121,5 @@ color: white;
    transition: 1s;
    color: black;
 }
-.sociallinks a:hover{
-    color: black;
-}
+
   
