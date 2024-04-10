@@ -135,7 +135,7 @@ let Service=()=>{
                             </svg>
                         </div>
                         <div class="col-12 col-lg-10">
-                            <h4 class="mb-3">Cripto Trading</h4>
+                            <h4 class="mb-3">Crypto Trading</h4>
                             <p class="mb-3 text-secondary">Empowering investors with advanced crypto trading solutions. Our platform offers real-time market analysis, secure transactions, and customizable trading strategies. Seamlessly navigate the volatile cryptocurrency landscape with our innovative tools and expert guidance.</p>
                             <div>
                             <a href="#!" class="fw-bold text-decoration-none link-primary">
