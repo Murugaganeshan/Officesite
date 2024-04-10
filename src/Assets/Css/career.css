@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&display=swap');
 .details{
     margin-top: 25%;
-    padding: 50px;
     background-color: transparent;
     border: none;
+    
     
 }
 .details h1{
     color: red;
 }
 .view-opening{
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     background-color: orange;
-    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 13px;
 }
 .current{
     text-align: center;
@@ -54,7 +55,7 @@
     border-radius: 7px;
     box-shadow: 0px 0px 10px 0px  grey;
 }
-.card-shop ul{
+.card-shop ul {
     text-align: start;
 }
 .card-shop ul li{
