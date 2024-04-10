@@ -37,7 +37,6 @@ h1{
     font-weight: 900;
 }
 .roundedButton {
-    border-radius: 50%; 
     width: 40px; 
     height: 40px; 
     padding: 0; 
@@ -51,12 +50,15 @@ h1{
 
 .stickyToggle {
     z-index: 1001; 
-    background-color: rgb(94, 93, 93);
+    background-color:  #FDDC5C;
     border: 1px solid rgb(66, 65, 65);
+    font-size: 25px;
 }
-.roundedButton {
-    border-radius: 50%; 
+.stickyToggle:hover{
+    background-color: black;
+    border: 1px solid black;
 }
+
 
 .logo {
     height: 80px;

@@ -16,6 +16,7 @@ let Carrers=()=>{
 <div className="card details">
     <h1> JOIN OUR TEAM </h1>
     <h3>Come work with us</h3>
+    <h6 style={{lineHeight:"25px", marginTop:"10px"}}>Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
    
 </div>
 <button onClick={handleClick} className="view-opening">
@@ -54,8 +55,8 @@ let Carrers=()=>{
         <li>Additionally, having basic sales skills and the ability to pitch products or services persuasively is important.</li>
         <li>Fluently in English.</li>
         <li> Employers value candidates who are adaptable and willing to learn new technologies. Highlight any experiences where you quickly picked up new skills or adapted to new challenges..</li>
-    </ul>
-   
+    </ul> 
+    
                    
                     <div className="  col ">
                     <div  className="mx-3 d-flex justify-content-start btn_pre">  
