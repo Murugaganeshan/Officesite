@@ -28,7 +28,7 @@ let Nav = () => {
                         <button type="button" className="btn-close " data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "white" }}></button>
                     </div>
 
-                    <div className={`${style.sideBarBody} offcanvas-body`}>
+                    <div className={`${style.sideBarBody} aoffcanvas-body`}>
                         <ol className="list-unstyled">
                             <li><Link to="/" className={style.navLink}>Home</Link></li>
                             <li><Link to="/about" className={style.navLink}>About</Link></li>
