@@ -7,11 +7,11 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 let Nav = () => {
 
     return (
-        <div>
+        <div>  
             <div className="container-fluid" style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}>
                 <div className={`${style.navBar} row align-items-center`}>
                     <div className="col-auto">
-                        <img src={logo} alt="" className={`${style.logo} float-start`} />
+                        <img src={logo} alt="" className={`${style.logo} float-start`}/>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,6 @@ let Nav = () => {
                         <img src={logo} alt="logo" className={`${style.logo} float-start`}/>
                         <button type="button" className={`btn-close ${style.closeButton}`} data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "white" }}></button>
                     </div>
-
                     <div className={`${style.sideBarBody} offcanvas-body`}>
                         <ol className="list-unstyled">
                             <li><Link to="/" className={style.navLink}>Home</Link></li>

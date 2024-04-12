@@ -3,9 +3,11 @@ import { Link } from "react-router-dom"
 import style from "./mobileapp.module.css"
 
 let Uiux=()=>{
+
     return(
+
         <div>
-                        
+                  
               <section class="py-3 py-md-5">
                 <div class="container mb-4 mb-md-5">
                   <div class="row justify-content-md-center">

@@ -15,13 +15,16 @@ import Cripto from "./Components/Cripto"
 import Neft from "./Components/Neft"
 import Discovermore from "./Components/Discovermore"
 
+
+
 let App=()=>{
+
     return (
-       <div>
-       <BrowserRouter>
-       <Nav></Nav>
-       <Routes>
-       <Route element={<Home/>} path="/"></Route>
+        <div>
+        <BrowserRouter>
+        <Nav></Nav>
+        <Routes>
+        <Route element={<Home/>} path="/"></Route>
         <Route element={<About/>} path="/about"></Route>
         <Route element={<Service/>} path="/service"></Route>
         <Route element={<Carrers/>} path="/careers"></Route>
@@ -34,8 +37,8 @@ let App=()=>{
         <Route element={<Cripto/>} path="/cripto"></Route>
         <Route element={<Neft/>} path="/neft"></Route>
         <Route element={<Discovermore/>} path="/discovermore"></Route>
-       </Routes>
-       </BrowserRouter>
+        </Routes>
+        </BrowserRouter>
         </div>
     );
 }
