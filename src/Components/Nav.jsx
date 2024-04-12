@@ -22,6 +22,7 @@ function NavBar() {
   };
   window.addEventListener("scroll", changeNavbarColor);
 
+
   return (
     <>
       <nav  

@@ -1,21 +1,21 @@
-import mobileApp from "./Assest/mobileApp.jpg"
 import { Link } from "react-router-dom"
 import style from "./mobileapp.module.css"
+import video from "./Assest/mobAppVideo.webm"
 
 
 let MobileApp=()=>{
     return(
-        <div>
-          
+        <div  className={style.back}>
             <section class="py-3 py-md-5">
               <div class="container mb-4 mb-md-5">
                 <div class="row justify-content-md-center">
                   <div class="col-12 col-md-10 col-xxl-8">
-                    <img class="img-fluid rounded shadow" loading="lazy" src={mobileApp} alt="About 3"/>
+                    <div className={`embed-responsive embed-responsive-16by9 ${style.videoContainer}`}>
+                        <video className="embed-responsive-item" src={video} autoPlay loop muted></video>
+                    </div>
                   </div>
                 </div>
               </div>
-
               <div class="container overflow-hidden">
                 <div class="row gy-2 gy-md-0 justify-content-xxl-center">
                   <div class="col-12 order-md-1 col-md-8 col-xxl-6">
