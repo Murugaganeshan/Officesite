@@ -1,52 +1,123 @@
-import { BiMenu } from 'react-icons/bi';
-import style from "./nav.module.css";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { MdOutlineMenuOpen } from "react-icons/md";
+import { IoMdClose } from "react-icons/io";
+import { CgMenuLeftAlt } from "react-icons/cg";
+import "../Assets/Css/navbar.css"
 import logo from "../Components/Assest/logo3.png";
-import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
-let Nav = () => {
+function NavBar() {
 
-    return (
-        <div>  
-            <div className="container-fluid" style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}>
-                <div className={`${style.navBar} row align-items-center`}>
-                    <div className="col-auto">
-                        <img src={logo} alt="" className={`${style.logo} float-start`}/>
-                    </div>
-                </div>
-            </div>
-            <div className="position-relative">
-                     <div className="position-fixed top-0 end-0 m-5 mt-4" style={{ zIndex: 999 }}>
-                        <button className={`btn btn-primary position-fixed top-0 end-0 m-5 mt-4 ${style.stickyToggle} ${style.roundedButton}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <BiMenu />
-                        </button>
-                    </div>
-                <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 
-                    <div className={`${style.sideBar} offcanvas-header`}>
-                        <img src={logo} alt="logo" className={`${style.logo} float-start`}/>
-                        <button type="button" className={`btn-close ${style.closeButton}`} data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "white" }}></button>
-                    </div>
-                    <div className={`${style.sideBarBody} offcanvas-body`}>
-                        <ol className="list-unstyled">
-                            <li><Link to="/" className={style.navLink}>Home</Link></li>
-                            <li><Link to="/about" className={style.navLink}>About</Link></li>
-                            <li><Link to="/service" className={style.navLink}>Service</Link></li>
-                            <li><Link to="/careers" className={style.navLink}>Careers</Link></li>
-                            <li><Link to="/contactus" className={style.navLink}>Contact Us</Link></li>
-                        </ol>
-                        <div className="container">
-                            <div className="row justify-content-center">
-                                <div className={`${style.sociallinks} `}><a href="/"  ><FaFacebook/> </a></div>
-                                <div className={`${style.sociallinks} mx-4 `}><a href="/" ><FaInstagram/> </a></div>
-                                <div className={`${style.sociallinks} `}><a href="/" ><FaTwitter/> </a></div>
-                                <div className={`${style.sociallinks} mx-4`}><a href="/" ><FaLinkedin/> </a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+   
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+      if (window.scrollY >= 80) {
+          setColorchange(true);
+      } else {
+          setColorchange(false);
+      }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
+
+  return (
+    <>
+      <nav  
+       className={
+        colorChange
+            ? "navbar colorChange sticky-top "
+            : "navbar sticky-top"
+    }
+      //  className="navbar sticky-top"
+       >
+        <div className="nav-container">
+         
+          <div className="nav-logo">
+                        <img src={logo} alt="" className="logo " />
+
+          </div>
+
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+           
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/services"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Blog 
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/blog"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact Us
+              </NavLink>
+            </li>
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
+
+            {click ? (
+              <span className="icon">
+                  <IoMdClose />{" "}
+              </span>
+            ) : (
+              <span className="icon">
+            
+              <CgMenuLeftAlt/>
+              </span>
+            )}
+          </div>
         </div>
-    );
+      </nav>
+    </>
+  );
 }
-export default Nav;
+
+export default NavBar;
