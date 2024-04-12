@@ -7,6 +7,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import {useRef} from 'react';
+
+
 let Carrers=()=>{
     const ref = useRef(null);
 
@@ -15,6 +17,8 @@ let Carrers=()=>{
     ref.current?.scrollIntoView({behavior: 'smooth'});
   };
     return(
+      <div>
+        
         <div className="container-fluid" style={{backgroundColor:"white"}}>
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
@@ -200,7 +204,13 @@ let Carrers=()=>{
     </div>
 
             </div>
-        </div>
+                   </div>
+                    </div>
+                 
+                  
+           
+             
+      
     )
 }
 export default Carrers

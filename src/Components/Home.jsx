@@ -7,7 +7,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-
 let Home = () => {
 
     useEffect(() => {
@@ -38,6 +37,7 @@ let Home = () => {
                 <FaTwitter  color=" white"/>
         </div>
           <About></About>
+        
         </div>
     );
 }

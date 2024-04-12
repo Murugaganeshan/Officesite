@@ -2,6 +2,7 @@ import img from "./Assest/dis.jpg"
 import style from "./discovermore.module.css"
 
 let Discovermore=()=>{
+    
     return(
         <div>
             <section class={`py-3 py-md-5 ${style.back}`}>
@@ -88,7 +89,6 @@ let Discovermore=()=>{
                     </div>
 {/* ************************************************************************DOWN-END************************************************************************/}
                     </div>
-                    
                 </div>
                 </section>
         </div>

@@ -3,9 +3,10 @@ import { Link } from "react-router-dom"
 import style from "./mobileapp.module.css"
 
 let Cripto=()=>{
+
     return(
-        <div>
-                        
+      
+        <div>            
               <section class="py-3 py-md-5">
                 <div class="container mb-4 mb-md-5">
                   <div class="row justify-content-md-center">
@@ -39,7 +40,6 @@ let Cripto=()=>{
                     <div class="col-12 order-md-0 col-md-4 col-xxl-4">
                       <div class="text-center text-md-start me-md-3 me-xl-5">
                         <p class="mb-4">
-                          
                           <span class="fs-4 text-secondary">For more details</span>
                         </p>
                         <div class="d-grid">
