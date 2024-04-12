@@ -2,7 +2,7 @@
 
 .navbar {
      /* background-color: transparent;  */
-    background-color: #1f5156;
+    background-color: black;
 
     height: 10vh;
     display: flex;
@@ -23,7 +23,7 @@
   .colorChange{
     position: fixed;
     height: 10vh;
-    background-color: rgb(73, 73, 88);
+    background-color: rgb(18, 184, 230);
         
   }
 
@@ -102,7 +102,7 @@ margin-bottom: 10px;
   .nav-item:hover:after {
     margin: 0 auto;
     width: 70%;
-    background: #ffdd40;
+    background: white;
 
   }
   
@@ -137,7 +137,7 @@ margin-bottom: 10px;
     }
   
     .nav-menu.active {
-      background: red;
+      background:rgb(18, 184, 230);;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;

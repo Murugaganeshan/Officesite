@@ -63,35 +63,35 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
                 About
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/services"
+                to="/service"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog 
+                Service
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/careers"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Carrers 
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contactus"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -119,5 +119,4 @@ function NavBar() {
     </>
   );
 }
-
 export default NavBar;
