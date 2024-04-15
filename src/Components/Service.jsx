@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import Carrers from './Carrers';
 
+
 let Service=()=>{
 
     useEffect(() => {
@@ -13,6 +14,11 @@ let Service=()=>{
     return(
 
         <div style={{backgroundColor:"lightblue"}}>
+           
+
+         
+
+
            
                 <section class="py-5 py-xl-8">
                 <div class="container">
@@ -52,7 +58,7 @@ let Service=()=>{
                         </div>
                         </div>
                 {/* **********************************BOX1-END******************************* */}
-                {/* *****************************BOX2-START************************* */}
+                {/* *********************************BOX2-START****************************** */}
 
                     <div class="col-10 col-md-5 col-xl-4 overflow-hidden" data-aos="fade-left">
                         <div class="row gy-4">
@@ -149,6 +155,9 @@ let Service=()=>{
                         </div>
                     </div>
                 {/* *****************************BOX5-END************************* */}
+                {/* *****************************BOX6-START************************* */}
+
+
 
                     <div class="col-10 col-md-5 col-xl-4 overflow-hidden" data-aos="fade-right">
                         <div class="row gy-4">
@@ -159,8 +168,9 @@ let Service=()=>{
                             </svg>
                         </div>
                         <div class="col-12 col-lg-10">
-                            <h4 class="mb-3">NEFT Marketing</h4>
-                            <p class="mb-3 text-secondary">Revolutionizing NEFT marketing strategies for businesses. We provide targeted campaigns, streamlined processes, and personalized approaches to maximize engagement and conversions. Elevate your NEFT marketing efforts with our comprehensive solutions and drive sustainable growth.</p>
+                            <h4 class="mb-3">NFT Marketing</h4>
+                            <p class="mb-3 text-secondary">NFT marketing relies on engaging content, community building, and influencer collaboration to promote digital assets effectively. It encompasses storytelling, exclusive events, and educational efforts to attract and retain collectors. Transparency, innovation, and strategic partnerships are key elements in navigating the dynamic NFT market landscape.
+                            </p>
                             <div>
                             <a href="#!" class="fw-bold text-decoration-none link-primary">
                                 <Link to="/neft">Learn More</Link>
@@ -172,7 +182,7 @@ let Service=()=>{
                         </div>
                         </div>
                     </div>
-                {/* *****************************BOX6-START************************* */}
+                {/* *****************************BOX6-END************************* */}
 
                     {/* <div class="col-10 col-md-5 col-xl-4 overflow-hidden" data-aos="fade-right">
                         <div class="row gy-4">

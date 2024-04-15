@@ -9,7 +9,7 @@ let Discovermore=()=>{
                 <div class="container">
                     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
                     <div class="col-12 col-lg-6 col-xl-5">
-                        <img class="img-fluid rounded" loading="lazy" src={img} alt="About 1"/>
+                        <img class="img-fluid rounded" loading="lazy" src={img} alt="Image"/>
                     </div>
 {/* *****************************************************************UPPER-START************************************************************************ */}
                     <div class="col-12 col-lg-6 col-xl-7">

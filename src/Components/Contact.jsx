@@ -34,7 +34,7 @@ let Contact = () => {
         });
     };
     return (
-        <div>
+        <div className={style.bb}>
             <section className="bg-light py-3 py-md-5">
                 <div className="container">
                     <div className="row justify-content-md-center">

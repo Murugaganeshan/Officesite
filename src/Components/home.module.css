@@ -3,6 +3,7 @@
     font-family: "Nunito Sans", sans-serif;;
     font-size: 130px;
     font-weight: 900;
+
 }
 .content h3{
 
@@ -68,3 +69,47 @@
     color: white;
     text-decoration: none;
 }
+/* ************************************ */
+
+/* Header */
+.largeheader {
+    position: relative;
+    width: 100%;
+    background: red;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+  }
+  
+  /* #largeheader {
+    background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+  }
+   */
+  .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: red;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+  }
+  
+  .demo-1 .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+  }
+  
+  .main-title .thin {
+    font-weight: 200;
+  }
+  
+  @media only screen and (max-width : 768px) {
+    .demo-1 .main-title {
+      font-size: 3em;
+    }
+  }
