@@ -40,7 +40,7 @@ const Home = () => {
                 for(let x = 0; x < width; x = x + width/20) {
                     for(let y = 0; y < height; y = y + height/20) {
                         let px = x + Math.random()*width/20;
-                        let py = y + Math.random()*height/20;
+                        let py = y + Math.random()*height/30;
                         let p = {x: px, originX: px, y: py, originY: py };
                         points.push(p);
                     }
@@ -201,6 +201,7 @@ const Home = () => {
     }, []); // Empty dependency array ensures this effect runs only once after component mount
 
     return (
+        <> 
         <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '90vh'}}>
 
             <div id="large-header" className="large-header">
@@ -232,6 +233,7 @@ const Home = () => {
             </div>
             <About></About>
         </div>
+        </>
     );
 };
 

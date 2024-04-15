@@ -53,10 +53,10 @@ let Carrers=()=>{
            <div className="acc">
            <div className="container p-3">
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
-              <div className="col"> 
+              <div className="col my-3"> 
       
       
-      <Accordion >
+      <Accordion className="p-1" >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -83,7 +83,7 @@ let Carrers=()=>{
         </AccordionActions>
       </Accordion>
     </div>
-    <div className="col"> 
+    <div className="col my-3"> 
       
       
       <Accordion >
@@ -115,7 +115,7 @@ let Carrers=()=>{
         </AccordionActions>
       </Accordion>
     </div>
-    <div className="col my-4"> 
+    <div className="col my-3"> 
       
       
       <Accordion >
@@ -139,12 +139,15 @@ let Carrers=()=>{
     </ul>
         </AccordionDetails>
         <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
+        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
+                   
+                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+
+                  </div>
         </AccordionActions>
       </Accordion>
     </div>
-    <div className="col my-4"> 
+    <div className="col my-3"> 
       
       
       <Accordion>
@@ -168,12 +171,15 @@ let Carrers=()=>{
     </ul>
         </AccordionDetails>
         <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
+        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
+                   
+                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+
+                  </div>
         </AccordionActions>
       </Accordion>
     </div>
-    <div className="col my-4"> 
+    <div className="col my-3"> 
       
       
       <Accordion >
@@ -197,8 +203,11 @@ let Carrers=()=>{
     </ul>
         </AccordionDetails>
         <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
+        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
+                   
+                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+
+                  </div>
         </AccordionActions>
       </Accordion>
     </div>
