@@ -36,7 +36,7 @@ let Carrers=()=>{
             </div>
             <div className="col">
             <div>
-            <img className="img-fluid" src={Inter} alt=""/>
+            <img className="img-fluid" src={Inter} alt="Interview Image"/>
         </div>
 </div>
 
@@ -50,7 +50,8 @@ let Carrers=()=>{
            </h1>
 
           
-            <div className="container p-3">
+           <div className="acc">
+           <div className="container p-3">
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col"> 
       
@@ -204,6 +205,7 @@ let Carrers=()=>{
     </div>
 
             </div>
+           </div>
                    </div>
                     </div>
                  

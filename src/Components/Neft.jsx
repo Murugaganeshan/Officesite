@@ -22,16 +22,18 @@ let Neft=()=>{
                         <h2 class="display-3 fw-bold lh-1">NEFT</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                        <p>NEFT (National Electronic Funds Transfer) is an electronic payment system that facilitates the transfer of funds from one bank account to another within India. It operates on a deferred net settlement (DNS) basis, where transactions are processed in batches at set intervals throughout the day.
+                        <p>NFT marketing thrives on captivating content and storytelling to forge connections with audiences.
+                            Building vibrant communities around NFT projects fosters engagement and loyalty among collectors.
+                            Collaborating with influencers and celebrities amplifies visibility and credibility within the NFT ecosystem.
+                            Hosting exclusive events like drops and auctions adds excitement and exclusivity to NFT launches.
+                            Educational initiatives play a pivotal role in onboarding newcomers to the world of NFTs and blockchain technology.
+                            Strategic partnerships with aligned brands and platforms extend reach and diversify marketing channels.
+                            Transparency in transactions and authenticity of digital assets are essential for trust and credibility.
+                            Embracing gamification strategies enhances user engagement and fosters a sense of participation.
+                            Regular innovation and adaptation to emerging trends are crucial for staying relevant in the competitive NFT market.
+                            Overall, NFT marketing is a dynamic landscape that requires creativity, community focus, and strategic execution to succeed.
+                            </p>
 
-                              NEFT transactions can be initiated through various channels, including internet banking, mobile banking, ATMs, or by visiting a bank branch. Customers need to provide details such as the recipient's account number, IFSC (Indian Financial System Code) of the recipient's bank branch, and the amount to be transferred.
-
-                              NEFT transactions are processed in hourly batches during the working hours of banks on weekdays and Saturdays, except for the second and fourth Saturdays and bank holidays. There are no minimum or maximum transaction limits imposed by the Reserve Bank of India (RBI) for NEFT transactions.
-
-                              NEFT transfers are typically settled within two hours from the time of initiation, although the actual time may vary depending on factors such as the bank's processing time and the timing of the transaction initiation. NEFT transfers are subject to nominal fees, which vary depending on the amount transferred.
-
-                              NEFT is widely used for various purposes, including salary payments, bill payments, funds transfer between accounts held by individuals, businesses, and institutions. It offers a convenient and reliable means of transferring funds electronically across different banks and geographical locations within India. However, NEFT operates on a deferred settlement basis, which means that funds are not transferred instantly but within a specified time frame.
-                          </p>
                       </div>
                     </div>
                     <div class="col-12 order-md-0 col-md-4 col-xxl-4">
