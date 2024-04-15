@@ -1,18 +1,18 @@
-
 import React, { useEffect } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import style from './home.module.css';
 import hero from './Assest/lp.jpg';
-import TweenLite from 'gsap'; // Import TweenLite
-import Circ from 'gsap'; // Import Circ
+import TweenLite from 'gsap'; 
+import Circ from 'gsap';
 import { Link } from 'react-router-dom';
 import About from "./About"
 
 
 
 const Home = () => {
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
@@ -77,7 +77,7 @@ const Home = () => {
 
                 // assign a circle to each point
                 for(let i in points) {
-                    let c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+                    let c = new Circle(points[i], 2+Math.random()*1, 'rgba(255,255,255,0.1)');
                     points[i].circle = c;
                 }
             }
