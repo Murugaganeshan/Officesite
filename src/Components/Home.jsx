@@ -18,6 +18,7 @@ const Home = () => {
     }, []);
 
     useEffect(() => {
+      
         const initAnimation = () => {
             let width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
