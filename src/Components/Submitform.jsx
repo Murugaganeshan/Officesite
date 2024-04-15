@@ -1,4 +1,3 @@
-import { IoIosArrowDropdownCircle } from "react-icons/io";
 import "../Assets/Css/Submitform.css"
 let Submitform=()=>{
   
@@ -53,7 +52,7 @@ return(
                   <h1 className="text-center">Job Application</h1>
                 <form className="my-5"  >
   <div class="form-group">
-    <input type="text" name="user_name" class="form-control email"  placeholder="Name"/>
+    <input type="text" name="user_name" class="form-control email "  placeholder="Name"/>
   </div>
   <div class="form-group">
     <input type="email" name="user_email" class="form-control email"  placeholder="Your Email"/>
@@ -83,7 +82,7 @@ return(
     <textarea class="form-control email" name="message"  placeholder="Text your message here..." rows="5"></textarea>
   </div>
   <div>
-  <input class="form-control form-control-lg email" id="formFileLg" type="file"/>
+  <input class="form-control  email"  type="file"/>
 </div>
  
  

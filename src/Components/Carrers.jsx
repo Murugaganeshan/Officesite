@@ -55,7 +55,7 @@ let Carrers=()=>{
               <div className="col"> 
       
       
-      <Accordion >
+      <Accordion className="p-1" >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
