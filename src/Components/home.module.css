@@ -1,8 +1,12 @@
 *{
-    padding: 0;
-    margin: 0;
-}
 
+
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+   
+
+}
 .content h1{
     color: white;
     font-family: "Nunito Sans", sans-serif;;
@@ -78,12 +82,16 @@
 
 /* Header */
 .largeheader {
+    position: relative;
+    width: 100vh;
+    background: red;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
   }
-  
-  /* #largeheader {
-    background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
-  }
-   */
+
+
   .main-title {
     position: absolute;
     margin: 0;

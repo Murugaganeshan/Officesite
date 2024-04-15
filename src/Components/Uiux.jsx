@@ -8,7 +8,7 @@ let Uiux=()=>{
     return(
 
         <div className={style.back}>
-          
+
               <section class="py-3 py-md-5">
                 <div class="container mb-4 mb-md-5">
                   <div class="row justify-content-md-center">
@@ -28,7 +28,7 @@ let Uiux=()=>{
                         <h2 class="display-3 fw-bold lh-1">UI/UX Development</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                            <p>UI/UX development focuses on creating user interfaces and experiences that are intuitive, efficient, and enjoyable for users. UI (User Interface) design involves designing the visual elements of an application or website, including layout, typography, color schemes, and interactive elements, to create a visually appealing and cohesive design. UX (User Experience) design focuses on understanding users' needs, behaviors, and preferences to create interfaces that are user-friendly, accessible, and provide a seamless experience.
+                            <p>UI/UX development <h1>hello</h1> focuses on creating user interfaces and experiences that are intuitive, efficient, and enjoyable for users. UI (User Interface) design involves designing the visual elements of an application or website, including layout, typography, color schemes, and interactive elements, to create a visually appealing and cohesive design. UX (User Experience) design focuses on understanding users' needs, behaviors, and preferences to create interfaces that are user-friendly, accessible, and provide a seamless experience.
 
                               UI/UX designers utilize various tools and techniques such as wireframing, prototyping, and user testing to iterate and refine designs based on user feedback. They aim to create interfaces that are easy to navigate, with clear hierarchies and logical flow, to ensure users can accomplish tasks efficiently.
 
