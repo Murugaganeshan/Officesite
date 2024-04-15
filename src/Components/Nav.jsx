@@ -9,8 +9,6 @@ import logo from "../Components/Assest/logo3.png";
 function NavBar() {
 
 
-
-
         
   const [click, setClick] = useState(false);
 
@@ -35,10 +33,9 @@ function NavBar() {
             ? "navbar colorChange sticky-top "
             : "navbar sticky-top"
     }
-  
       //  className="navbar sticky-top"
        >
-        <div className="nav-container"  >
+        <div className="nav-container">
          
           <div className="nav-logo">
                         <img src={logo} alt="Logo Image" className="logo " />
@@ -104,7 +101,7 @@ function NavBar() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
+            {/ <i className={click ? "fas fa-times" : "fas fa-bars"}></i> /}
 
             {click ? (
               <span className="icon">

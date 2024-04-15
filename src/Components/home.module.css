@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .content h1{
     color: white;
     font-family: "Nunito Sans", sans-serif;;
@@ -73,13 +78,6 @@
 
 /* Header */
 .largeheader {
-    position: relative;
-    width: 100%;
-    background: red;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
   }
   
   /* #largeheader {
