@@ -18,6 +18,7 @@ const Home = () => {
     }, []);
 
     useEffect(() => {
+      
         const initAnimation = () => {
             let width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
@@ -207,7 +208,7 @@ const Home = () => {
              
                 <canvas id="demo-canvas">
                 </canvas>
-                <div className="container-fluid " >
+                <div className="container-fluid  " >
                     <div className={`${style.overlay}`}>
                         <div className="container text-center position-absolute top-50 start-50 translate-middle">
                             <div className="row " >

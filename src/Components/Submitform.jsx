@@ -1,10 +1,14 @@
 import "../Assets/Css/Submitform.css"
 import interview from "./Assest/aa.png"
 import "./submitform.module.css"
+import Footer from './Footer';
+
+
 
 let Submitform=()=>{
   
 return(
+  <div> 
     <div style={{ backgroundImage: `url(${interview})`}} >
        
       <div className="container py-5">
@@ -50,9 +54,11 @@ return(
 </form>
 </div>
 
-                </div> */
+                </div> 
              
  </div>
+ </div>
+ <Footer></Footer>
 </div>
 )}
 

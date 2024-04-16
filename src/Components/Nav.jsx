@@ -85,7 +85,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Carrers 
+                Careers 
               </NavLink>
             </li>
             <li className="nav-item">

@@ -1,19 +1,19 @@
+
 *{
 
 
     margin: 0px;
     padding: 0px;
     max-width: 100%;
+}
    
 
-}
 .content h1{
     color: white;
     font-family: "Nunito Sans", sans-serif;;
     font-size: 130px;
     font-weight: 900;
-  
-    text-align: center;
+   
 }
 .content h3{
 
