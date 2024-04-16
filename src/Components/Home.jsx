@@ -208,12 +208,12 @@ const Home = () => {
              
                 <canvas id="demo-canvas">
                 </canvas>
-                <div className="container-fluid " >
+                <div className="container-fluid  " >
                     <div className={`${style.overlay}`}>
                         <div className="container text-center position-absolute top-50 start-50 translate-middle">
-                            <div className="row" >
+                            <div className="row " >
                                 <div className={`col ${style.content}`}>
-                                    <h1  data-aos="fade-right">Thamizhan Solution</h1>
+                                    <h1   data-aos="fade-right">Thamizhan Solution</h1>
                                     <h3 data-aos="fade-right">We build brands and beautiful experiences</h3>
                                 </div>
                                 <div className={style.btn}  data-aos="fade-left">
