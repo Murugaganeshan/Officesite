@@ -4,6 +4,7 @@ import style from "./contact.module.css"
 import { IoLocationOutline } from "react-icons/io5";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
+import Footer from './Footer';
 
 
 let Contact = () => {
@@ -130,6 +131,7 @@ let Contact = () => {
                     </div>
                 </div>
             </section>
+            <Footer></Footer>
         </div>
     );
 };

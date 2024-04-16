@@ -7,6 +7,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import {useRef} from 'react';
+import Contact from "./Contact"
 
 
 let Carrers=()=>{
@@ -216,6 +217,7 @@ let Carrers=()=>{
             </div>
            </div>
                    </div>
+                   <Contact></Contact>
                     </div>
                  
                   

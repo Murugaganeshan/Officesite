@@ -1,0 +1,4 @@
+.widget ul li:hover {
+    margin-left: 10px; 
+    transition: margin-left 0.10s ease;
+}

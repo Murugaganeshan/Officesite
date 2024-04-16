@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Carrers from './Carrers';
 
 
+
 let Service=()=>{
 
     useEffect(() => {
@@ -14,12 +15,6 @@ let Service=()=>{
     return(
 
         <div style={{backgroundColor:"lightblue"}}>
-           
-
-         
-
-
-           
                 <section class="py-5 py-xl-8">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -30,7 +25,6 @@ let Service=()=>{
                     </div>
                     </div>
                 </div>
-
                 <div class="container overflow-hidden">
                     <div class="row gy-5 gx-md-5 justify-content-center">
 
@@ -210,6 +204,7 @@ let Service=()=>{
                     </div>
                 </div>
                 </section>
+              
                 <Carrers></Carrers>
 
         </div>
