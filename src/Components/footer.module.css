@@ -1,4 +1,10 @@
-.widget ul li:hover {
+ ul li:hover {
     margin-left: 10px; 
     transition: margin-left 0.10s ease;
+    color:white; 
+
+    
+}
+.footerBlock{
+    background-color: black;
 }
