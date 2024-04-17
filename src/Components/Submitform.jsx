@@ -1,7 +1,7 @@
 import "../Assets/Css/Submitform.css"
 import interview from "./Assest/aa.png"
 import "./submitform.module.css"
-import Footer from './Footer';
+
 
 
 
@@ -58,7 +58,7 @@ return(
              
  </div>
  </div>
- <Footer></Footer>
+ 
 </div>
 )}
 
