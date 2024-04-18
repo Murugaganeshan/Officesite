@@ -1,6 +1,7 @@
 import img from "./Assest/cripto.jpg"
 import { Link } from "react-router-dom"
 import style from "../Assets/Css/mobileapp.module.css"
+import Footer from "./Footer"
 
 let Neft=()=>{
     return(
@@ -50,6 +51,7 @@ let Neft=()=>{
                   </div>
                 </div>
               </section>
+              <Footer></Footer>
         </div>
     )
 }

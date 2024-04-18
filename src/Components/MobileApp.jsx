@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import style from "../Assets/Css/mobileapp.module.css"
 import video from "./Assest/mobAppVideo.webm"
-
+import Footer from "./Footer"
 
 let MobileApp=()=>{
     return(
@@ -40,6 +40,7 @@ let MobileApp=()=>{
                 </div>
               </div>
             </section>
+            <Footer></Footer>
         </div>
     )
 }

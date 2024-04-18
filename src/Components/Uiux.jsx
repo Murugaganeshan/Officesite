@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom"
 import style from "../Assets/Css/mobileapp.module.css"
 import video from "./Assest/uiuxVideo.mp4"
+import Footer from "./Footer"
 
 let Uiux=()=>{
 
@@ -52,6 +53,7 @@ let Uiux=()=>{
                   </div>
                 </div>
               </section>
+              <Footer></Footer>
         </div>
     )
 }
