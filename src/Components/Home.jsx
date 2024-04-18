@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import style from './home.module.css';
+import style from '../Assets/Css/home.module.css';
 import hero from './Assest/lp.jpg';
 import TweenLite from 'gsap'; 
 import Circ from 'gsap';
