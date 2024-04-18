@@ -15,6 +15,7 @@
     font-weight: 900;
     background: -webkit-linear-gradient(	#2b2b2b,#FFFFFF,	#2b2b2b);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
    
 }
 .content h3{

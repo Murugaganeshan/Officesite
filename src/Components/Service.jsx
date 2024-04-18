@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import Carrers from './Carrers';
-
+import "../Assets/Css/service.css"
 
 
 let Service=()=>{
@@ -19,7 +19,7 @@ let Service=()=>{
                 <div class="container">
                     <div class="row justify-content-md-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                        <h2 class="mb-4 display-5 text-center" style={{color:"white"}}>Our Services</h2>
+                        <h2 class="mb-4 display-5 text-center service" style={{color:"white"}}>Our Services</h2>
                         <p class="text-secondary mb-5 text-center">Empowering businesses with comprehensive IT solutions. From software development to cybersecurity, we offer tailored services to drive innovation and efficiency. Partner with us for reliable, future-focused technology support.</p>
                         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
                     </div>

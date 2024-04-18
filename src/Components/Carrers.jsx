@@ -5,12 +5,13 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import {useRef} from 'react';
 import Contact from "./Contact"
 
 
 let Carrers=()=>{
+
     const ref = useRef(null);
 
   const handleClick = () => {
@@ -26,10 +27,9 @@ let Carrers=()=>{
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
             <div className="col">
 <div className="card details">
-    <h1 class="fs-1"> JOIN OUR TEAM </h1>
+    <h1 class="fs-1 "> JOIN OUR TEAM </h1>
     <h3 style={{color:"white",marginTop:"10"}} class="fs-3 text-secondary">Come work with us</h3>
     <h6 className="fs-5 text-secondary">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
-   
 </div>
 <button onClick={handleClick} class="btn btn-primary">View Opening</button>
             </div>
@@ -47,13 +47,10 @@ let Carrers=()=>{
            <h1 className="current my-4 fs-1" ref={ref}>
             Current Openings
            </h1>
-
-          
            <div className="acc">
            <div className="container p-3">
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col my-3"> 
-      
       
       <Accordion className="p-1" >
         <AccordionSummary
@@ -86,7 +83,7 @@ let Carrers=()=>{
     <div className="col my-3"> 
       
       
-      <Accordion >
+      <Accordion className="p-1">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -118,7 +115,7 @@ let Carrers=()=>{
     <div className="col my-3"> 
       
       
-      <Accordion >
+      <Accordion className="p-1">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -150,7 +147,7 @@ let Carrers=()=>{
     <div className="col my-3"> 
       
       
-      <Accordion>
+      <Accordion className="p-1">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -179,10 +176,7 @@ let Carrers=()=>{
         </AccordionActions>
       </Accordion>
     </div>
-    <div className="col my-3"> 
-      
-     
-    </div>
+  
     </div>
 
             </div>
