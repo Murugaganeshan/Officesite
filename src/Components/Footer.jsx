@@ -1,50 +1,36 @@
 import { Link } from "react-router-dom"
 import { GoArrowRight } from "react-icons/go";
-import style from"./footer.module.css"
-import { SlArrowRight } from "react-icons/sl";
 import logo from "./Assest/logo3.png"
+import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import "../Assets/Css/Footer.css"
 
 let Footer=()=>{
 
     return(
       
-    <div className={`container-fluid ${style.fullWidthContainer}`}>
-      <div className={`row ${style.fullWidthRow}`}>
-        <div class={`col-12 col-lg-4  py-4 py-md-5 py-xxl-8 ${style.footerBlock}`}>
+    <div className='container-fluid  fullWidthContainer'>
+      <div className="row" >
+        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8 footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
-            <div class="col-12 col-md-11 col-xl-10">
+            <div class="col-12 col-md-11 col-xl-10 footer-con">
               <div class="footer-logo-wrapper m-3">
                 <a href="#!">
                   <img src={logo} alt="Company Logo" width="179" height="60"/>
                 </a>
               </div>
-              <div class="social-media-wrapper mt-5 m-3">
-                <ul class="nav socialLink">
-                  <li class="nav-item me-3">
-                    <a class="nav-link  p-2 " href="#!">
-                    <FaFacebook   color="white"/>
-                    </a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link  p-2 " href="#!">
-                    <FaInstagram  color="white"/>
-                    </a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link  p-2 " href="#!">
-                    <FaTwitter  color=" white"/>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  p-2 " href="#!">
-                    <FaWhatsapp color="white"/>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <div className="col footer-col">
+                <h1> Follow Us </h1>
+                    <div className="social-links my-4">
+                       <a href="/"><FaFacebook/> </a>
+                       <a href="/"><FaInstagram/> </a>
+                       <a href="/"><FaTwitter/> </a>
+                       <a href="https://coinmarketcap.com/"><FaLinkedin/> </a>
+                    </div>
+                </div>
+             
               <div class="address-wrapper mt-5">
-                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light">Madurai</span> </address>
+                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light">21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
                 <p class="mb-2">
                   <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light">+91 9876543210</span> </a>
                 </p>
@@ -60,7 +46,7 @@ let Footer=()=>{
             <div class="col-12 col-md-11 col-xxl-10">
               <div class="row row-cols-md-3 row-cols-sm-1 row-cols-1 gy-4 gy-sm-0">
                 <div class="col-6 col-sm-3">
-                  <div class={` mx-5 ${style.widget}`}>
+                  <div class=' mx-5'>
                     <h4 class="widget-title mb-4 text-white ">Services</h4>
                     <ul class="list-unstyled">
                       <li class="mb-3">
@@ -85,7 +71,7 @@ let Footer=()=>{
                   </div>
                 </div>
                 <div class="col-6 col-sm-3">
-                  <div class={`mx-2${style.widget}`}>
+                  <div class='mx-2'>
                     <h4 class="widget-title mb-4 text-white">Company</h4>
                     <ul class="list-unstyled">
                       <li class="mb-3">
@@ -143,6 +129,6 @@ let Footer=()=>{
         </div>
       </div>
     </div>
-    )
-}
+    )}
+                          
 export default Footer
