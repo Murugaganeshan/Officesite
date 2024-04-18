@@ -202,7 +202,8 @@ const Home = () => {
 
     return (
         <> 
-        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '90vh'}}>
+        <div> 
+        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
 
             <div id="large-header" className="large-header">
              
@@ -231,7 +232,9 @@ const Home = () => {
                     <FaTwitter  color=" white"/>
                 </div>
             </div>
-            <About></About>
+            
+        </div>
+        <About/>
         </div>
         </>
     );

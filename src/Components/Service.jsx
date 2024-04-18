@@ -15,7 +15,7 @@ let Service=()=>{
     return(
 
         <div>
-                <section class="py-5 py-xl-8" style={{backgroundColor:"lightblue"}}>
+                <section class="py-5 py-xl-8" >
                 <div class="container">
                     <div class="row justify-content-md-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">

@@ -1,11 +1,19 @@
 .contact{
-    background-color: rgb(243, 240, 248);
+    background-color: rgb(242, 244, 246);
     
 }
 .form{
-    background-color: rgb(243, 240, 248);
+    background-color: rgb(242, 244, 246);
     color: black;
 }
 .rounded{
     border-radius: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    iframe{
+        height: 300px;
+        width: 300px;
+    }
+
 }

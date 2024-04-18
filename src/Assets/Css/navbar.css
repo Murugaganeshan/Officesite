@@ -12,18 +12,16 @@
     /* z-index: 20;  */
     transition: 0.4s;
 
+
   }
   
   .colorChange{
     width: 100%;
     position: fixed;
     height: 10vh;
-    background-color: rgb(18, 184, 230);
-        
+    background-color: rgb(33, 37, 47);
   }
 
-
-  
   .nav-container {
   
     display: flex;
