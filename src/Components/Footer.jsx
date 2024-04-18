@@ -47,12 +47,12 @@ let Footer=()=>{
                 </ul>
               </div>
               <div class="address-wrapper mt-5">
-                <address class="mb-2 m-3 text-white fw-bold">Address  :   <span class="fw-light">Madurai</span> </address>
+                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light">Madurai</span> </address>
                 <p class="mb-2">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-lighter">+91 9876543210</span> </a>
+                  <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light">+91 9876543210</span> </a>
                 </p>
                 <p class="mb-0">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-lighter">abc@gmail.com</span> </a>
+                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light">abc@gmail.com</span> </a>
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ let Footer=()=>{
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 ">
-                  <div class="widget mx-2">
+                  <div class="widget mx-4">
                     <h4 class="widget-title mb-4 text-white">Our Newsletter</h4>
                     <p class="mb-4 text-white  fw-lighter">Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
                     <form action="#!">
@@ -136,8 +136,8 @@ let Footer=()=>{
                 </div>
               </div>
               
-              <div class="row mt-6 border-top border-light-subtle my-5">
-                <div class="footer-copyright-wrapper link-secondary  ">
+              <div class="row mt-6 border-top border-light-subtle my-5 mx-5">
+                <div class="footer-copyright-wrapper link-secondary my-4">
                   &copy; copyrights <span className="fw-bold text-white">Thamizhan Solutions</span> All Rights Reserved.
                 </div>
               </div>

@@ -1,16 +1,20 @@
-import img from "./Assest/ai.jpg"
+// import img from "./Assest/ai.jpg"
 import { Link } from "react-router-dom"
 import style from "./mobileapp.module.css"
+import video from "./Assest/aiVideo.mp4"
 
 let Aidevelopment=()=>{
     return(
-        <div>
+        <div className={style.back}>
           
               <section class="py-3 py-md-5">
                 <div class="container mb-4 mb-md-5">
                   <div class="row justify-content-md-center">
                     <div class="col-12 col-md-10 col-xxl-8">
-                      <img class="img-fluid rounded shadow" loading="lazy" src={img} alt="About 3"/>
+                      {/* <img class="img-fluid rounded shadow" loading="lazy" src={img} alt="About 3"/> */}
+                      <div className={`embed-responsive embed-responsive-16by9 ${style.videoContainer}`}>
+                            <video className="embed-responsive-item" src={video} autoPlay loop muted></video>
+                        </div>
                     </div>
                   </div>
                 </div>
