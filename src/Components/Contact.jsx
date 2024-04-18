@@ -52,7 +52,7 @@ let Contact=()=>{
                     <div className="container">
                         <div className="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 justify-content-center"> 
                             <div className="col-lg-5 col-md-6 col-sm-10 col-12 form my-3 shadow-lg p-5 mb-5 bg-body-tertiary rounded"   data-aos="fade-right">
-                                <h1 className="text-center mb-5 ">Contact Us</h1>
+                                <h1 className="text-center mb-5 connect " style={{color:"black"}}>Contact Us</h1>
                                 <form className="my-4">
                                     <div className="form-group my-3"> 
                                         <input name="user_name" className="form-control " placeholder="Name"/>

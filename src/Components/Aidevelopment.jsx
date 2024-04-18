@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom"
 import style from "../Assets/Css/mobileapp.module.css"
 import video from "./Assest/aiVideo.mp4"
+import Footer from "./Footer"
 
 let Aidevelopment=()=>{
     return(
@@ -56,6 +57,7 @@ let Aidevelopment=()=>{
                   </div>
                 </div>
               </section>
+              <Footer></Footer>
         </div>
     )
 }

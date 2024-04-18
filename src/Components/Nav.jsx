@@ -4,7 +4,7 @@ import { MdOutlineMenuOpen } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { CgMenuLeftAlt } from "react-icons/cg";
 import "../Assets/Css/navbar.css"
-import logo from "../Components/Assest/logo3.png";
+import logo from "../Assets/Images/finalLogo.jpg";
 
 function NavBar() {
 
@@ -38,7 +38,7 @@ function NavBar() {
         <div className="nav-container">
          
           <div className="nav-logo">
-                        <img src={logo} alt="Logo Image" className="logo " />
+                        <img src={logo} alt="Logo Image" className="logo"  />
 
           </div>
 

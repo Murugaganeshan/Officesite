@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { GoArrowRight } from "react-icons/go";
-import logo from "./Assest/logo3.png"
+import logo from "../Assets/Images/finalLogo.jpg"
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import "../Assets/Css/Footer.css"
