@@ -79,6 +79,7 @@ font-family: "Nunito Sans", sans-serif;
  h1{
     color: white;
     font-weight: 200;
+    font-weight: bolder;
 }
 h5{
     color: black;
@@ -86,5 +87,4 @@ h5{
 }
 h6{
     color: grey;
-    font-weight: bolder;
 }

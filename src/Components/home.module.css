@@ -14,7 +14,6 @@
     font-size: 130px;
     font-weight: 900;
     background: -webkit-linear-gradient(	#2b2b2b,#FFFFFF,	#2b2b2b);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
 }

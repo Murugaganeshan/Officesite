@@ -76,19 +76,19 @@ let Footer=()=>{
                     <h4 class="widget-title mb-4 text-white">Company</h4>
                     <ul class="list-unstyled ">
                       <li class="mb-3">
-                        <Link className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
+                        <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
                       </li>
                       <li class="mb-3">
-                      <Link className="link-secondary text-decoration-none"><GoArrowRight /> About</Link>
+                      <Link to="/about" className="link-secondary text-decoration-none"><GoArrowRight /> About</Link>
                       </li>
                       <li class="mb-3">
-                      <Link className="link-secondary text-decoration-none"><GoArrowRight /> Services</Link>
+                      <Link to="/service" className="link-secondary text-decoration-none"><GoArrowRight /> Services</Link>
                       </li>
                       <li class="mb-3">
-                      <Link className="link-secondary text-decoration-none"><GoArrowRight /> Careers</Link>
+                      <Link to="/careers" className="link-secondary text-decoration-none"><GoArrowRight /> Careers</Link>
                       </li>
                       <li class="mb-3">
-                      <Link className="link-secondary text-decoration-none"><GoArrowRight /> Contact Us</Link>
+                      <Link to="/contactus" className="link-secondary text-decoration-none"><GoArrowRight /> Contact Us</Link>
                       </li>
                     </ul>
                   </div>
