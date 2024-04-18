@@ -1,9 +1,6 @@
- ul li:hover {
+.socialLink ul li:hover {
     margin-left: 10px; 
     transition: margin-left 0.10s ease;
-  
-
-    
 }
 .footerBlock{
     background-color: black;

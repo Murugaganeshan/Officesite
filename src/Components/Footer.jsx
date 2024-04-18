@@ -20,7 +20,7 @@ let Footer=()=>{
                 </a>
               </div>
               <div class="social-media-wrapper mt-5 m-3">
-                <ul class="nav">
+                <ul class="nav socialLink">
                   <li class="nav-item me-3">
                     <a class="nav-link  p-2 " href="#!">
                     <FaFacebook   color="white"/>
