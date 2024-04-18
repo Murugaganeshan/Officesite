@@ -1,16 +1,4 @@
-import { Link } from "react-router-dom"
-import { GoArrowRight } from "react-icons/go";
-import logo from "./Assest/logo3.png"
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-import "../Assets/Css/Footer.css"
-
-let Footer=()=>{
-
-    return(
-
-      <>
-    <div className='container-fluid footer'>
+  <div className='container-fluid footer'>
       <div className="row" >
         <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8 footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
@@ -42,83 +30,57 @@ let Footer=()=>{
             </div>
           </div>
         </div>
-        <div className="col footer-col">
-                <h1> Quick Links </h1>
-                    <ul>
-                   
-                    <li> 
-                    <a href="#"> 
-                    <div className="Icons">
-                        <div> 
-                        </div>
-                        <p style={{textAlign:'start'}}> Home
-                       
-                            </p>
-                    </div>
-                    </a>
-                    </li>
-                    <li> 
-                    <a href="#"> 
-                    <div className="Icons">
-                        <div> 
-                        </div>
-                        <p style={{textAlign:'start'}}> About Us
-                       
-                            </p>
-                    </div>
-                    </a>
-                    </li>
-                    <li> 
-                    <a href="#"> 
-                    <div className="Icons">
-                        <div> 
-                        </div>
-                        <p style={{textAlign:'start'}}> Our Services
-                       
-                            </p>
-                    </div>
-                    </a>
-                    </li>
-                    <li> 
-                    <a href="#"> 
-                    <div className="Icons">
-                        <div> 
-                        </div>
-                        <p style={{textAlign:'start'}}> Meet The Team
-                       
-                            </p>
-                    </div>
-                    </a>
-                    </li>
-                    <li> 
-                    <a href="#"> 
-                    <div className="Icons">
-                        <div> 
-                        </div>
-                        <p style={{textAlign:'start'}}> Latest Blog
-                       
-                            </p>
-                    </div>
-                    </a>
-                    </li>
-                    <li> 
-                    <a href="#"> 
-                    <div className="Icons">
-                        <div> 
-                        </div>
-                        <p style={{textAlign:'start'}}> Contact Us
-                       
-                            </p>
-                    </div>
-                    </a>
-                    </li>
-                       
-
-                        
+        <div class="col-12 col-lg-8 bg-dark py-4 py-md-5 py-xxl-8 ">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-11 col-xxl-10">
+              <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 gy-4 gy-sm-0">
+                <div class="col">
+                  <div class=' mx-5'>
+                    <h4 class="widget-title mb-4 text-white ">Services</h4>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                      <Link to="/mobileapp" class="link-secondary text-decoration-none" path="/mobileapp"><GoArrowRight /> Mobile Development</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/webdevelopment" class="link-secondary text-decoration-none" ><GoArrowRight /> Web Development</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/uiux" class="link-secondary text-decoration-none"><GoArrowRight /> UI/UX Development</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="aidevelopment" class="link-secondary text-decoration-none"><GoArrowRight /> AI Development</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/cripto" class="link-secondary text-decoration-none"><GoArrowRight /> Crypto Trading</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/neft" class="link-secondary text-decoration-none"><GoArrowRight /> NFT Marketing</Link>
+                      </li>
                     </ul>
+                  </div>
                 </div>
-   
-               
+                <div class="col">
+                  <div class='mx-5'>
+                    <h4 class="widget-title mb-4 text-white">Company</h4>
+                    <ul class="list-unstyled ">
+                      <li class="mb-3">
+                        <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/about" className="link-secondary text-decoration-none"><GoArrowRight /> About</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/service" className="link-secondary text-decoration-none"><GoArrowRight /> Services</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/careers" className="link-secondary text-decoration-none"><GoArrowRight /> Careers</Link>
+                      </li>
+                      <li class="mb-3">
+                      <Link to="/contactus" className="link-secondary text-decoration-none"><GoArrowRight /> Contact Us</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
                 <div class="col ">
                   <div class="widget mx-5">
                     <h4 class="widget-title mb-4 text-white">Our Newsletter</h4>
@@ -148,13 +110,7 @@ let Footer=()=>{
                 </div>
               </div>
             </div>
-         
- ]
-
-
-
-
-    </>
-    )}
-                          
-export default Footer
+          </div>
+        </div>
+      </div>
+    </div> 

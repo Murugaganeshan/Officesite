@@ -6,6 +6,9 @@
 .footer{
     width: 100%;
 }
+.services-li{
+    background-color: red;
+}
 
 .footerBlock{
     background-color: black;
@@ -37,3 +40,23 @@
     color: #23262b;
     background-color: #ffffff;
 }
+.bottom-1,.bottom-2,.bottom-3{
+    margin-top: 80px;
+}
+@media(max-width:470px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
