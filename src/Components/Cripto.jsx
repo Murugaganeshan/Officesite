@@ -1,6 +1,6 @@
 import img from "./Assest/cripto.jpg"
 import { Link } from "react-router-dom"
-import style from "./mobileapp.module.css"
+import style from "../Assets/Css/mobileapp.module.css"
 
 let Cripto=()=>{
 
@@ -23,7 +23,7 @@ let Cripto=()=>{
                         <h2 class="display-3 fw-bold lh-1">Cripto Trading</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                        <p>Cryptocurrency trading involves buying and selling digital assets on exchanges with the goal of generating profits through price fluctuations. Traders employ various strategies, including technical analysis, fundamental analysis, and sentiment analysis, to make informed decisions about when to enter or exit trades.
+                        <p style={{color:"grey"}}>Cryptocurrency trading involves buying and selling digital assets on exchanges with the goal of generating profits through price fluctuations. Traders employ various strategies, including technical analysis, fundamental analysis, and sentiment analysis, to make informed decisions about when to enter or exit trades.
 
                               Technical analysis involves analyzing historical price data, trading volume, and market indicators to identify patterns and trends that may indicate future price movements. Fundamental analysis evaluates the intrinsic value of a cryptocurrency based on factors such as its technology, team, adoption, and market demand.
 

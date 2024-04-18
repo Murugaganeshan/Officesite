@@ -1,6 +1,6 @@
 import image1 from "./Assest/aboutUs1.avif";
 import image2 from "./Assest/iii";
-import style from "./about.module.css";
+import style from "../Assets/Css/about.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";

@@ -1,6 +1,6 @@
 // import img from "./Assest/ai.jpg"
 import { Link } from "react-router-dom"
-import style from "./mobileapp.module.css"
+import style from "../Assets/Css/mobileapp.module.css"
 import video from "./Assest/aiVideo.mp4"
 
 let Aidevelopment=()=>{
@@ -26,7 +26,7 @@ let Aidevelopment=()=>{
                         <h2 class="display-3 fw-bold lh-1">AI Development</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                        <p>AI (Artificial Intelligence) development involves creating intelligent systems that can perceive, learn, and act autonomously to accomplish tasks traditionally requiring human intelligence. It encompasses various techniques and technologies, including machine learning, deep learning, natural language processing (NLP), computer vision, and robotics.
+                        <p style={{color:"grey"}}>AI (Artificial Intelligence) development involves creating intelligent systems that can perceive, learn, and act autonomously to accomplish tasks traditionally requiring human intelligence. It encompasses various techniques and technologies, including machine learning, deep learning, natural language processing (NLP), computer vision, and robotics.
 
                               Machine learning algorithms enable systems to learn from data and make predictions or decisions without being explicitly programmed. Deep learning, a subset of machine learning, utilizes neural networks with multiple layers to process complex data and extract meaningful patterns.
 

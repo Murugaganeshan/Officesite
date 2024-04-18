@@ -20,34 +20,31 @@ let Carrers=()=>{
     return(
       <div>
         
-        <div className="container-fluid" style={{backgroundColor:"white"}}>
+        <div className="container-fluid" style={{backgroundColor:"rgb(33, 37, 47)"}}>
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
             <div className="col">
 <div className="card details">
-    <h1> JOIN OUR TEAM </h1>
-    <h3>Come work with us</h3>
-    <h6 style={{lineHeight:"25px", marginTop:"10px"}}>Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
+    <h1 class="fs-1"> JOIN OUR TEAM </h1>
+    <h3 style={{color:"white",marginTop:"10"}} class="fs-3 text-secondary">Come work with us</h3>
+    <h6 className="fs-5 text-secondary">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
    
 </div>
-<button onClick={handleClick} className="view-opening">
-        View Opening
-
-    </button>
+<button onClick={handleClick} class="btn btn-primary">View Opening</button>
             </div>
             <div className="col">
-            <div>
-            <img className="img-fluid" src={Inter} alt="Interview Image"/>
+            <div className="my-5">
+            <img className="img-fluid rounded " src={Inter} alt="Interview Image"/>
         </div>
 </div>
 
             </div>  
            </div>
-          <div className="container my-4">
-            <h3 className="text-center"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
+          <div className="container my-4 open">
+            <h3 className="text-center fs-1"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
           </div>
-           <h1 className="current my-4" ref={ref}>
-            Current Opening
+           <h1 className="current my-4 fs-1" ref={ref}>
+            Current Openings
            </h1>
 
           
@@ -62,6 +59,7 @@ let Carrers=()=>{
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
           id="panel3-header"
+          
         >
          <h5>Business Development Executive</h5>
         </AccordionSummary>
@@ -78,7 +76,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
@@ -110,7 +108,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
@@ -142,7 +140,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
@@ -174,7 +172,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
@@ -206,7 +204,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn-preview "> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
 
                   </div>
         </AccordionActions>

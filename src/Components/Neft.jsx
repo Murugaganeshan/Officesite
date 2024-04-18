@@ -1,6 +1,6 @@
 import img from "./Assest/cripto.jpg"
 import { Link } from "react-router-dom"
-import style from "./mobileapp.module.css"
+import style from "../Assets/Css/mobileapp.module.css"
 
 let Neft=()=>{
     return(
@@ -22,7 +22,7 @@ let Neft=()=>{
                         <h2 class="display-3 fw-bold lh-1">NEFT</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                        <p>NFT marketing thrives on captivating content and storytelling to forge connections with audiences.
+                        <p style={{color:"grey"}}>NFT marketing thrives on captivating content and storytelling to forge connections with audiences.
                             Building vibrant communities around NFT projects fosters engagement and loyalty among collectors.
                             Collaborating with influencers and celebrities amplifies visibility and credibility within the NFT ecosystem.
                             Hosting exclusive events like drops and auctions adds excitement and exclusivity to NFT launches.

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import style from "./mobileapp.module.css"
+import style from "../Assets/Css/mobileapp.module.css"
 import video from "./Assest/mobAppVideo.webm"
 
 
@@ -23,7 +23,7 @@ let MobileApp=()=>{
                       <h2 class="display-3 fw-bold lh-1">MobilApp Development</h2>
                       <p class="text-secondary fs-4 mb-2">Description</p>
                       <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                      <p>Mobile app development involves the creation of software applications specifically designed to run on mobile devices like smartphones and tablets. It typically follows a process involving ideation, design, development, testing, and deployment. Developers use programming languages like Java, Kotlin, Swift, or React Native to build apps for Android and iOS platforms. User experience (UX) and user interface (UI) design play crucial roles in ensuring the app's success. Security measures are implemented to protect user data and prevent unauthorized access. Continuous integration and continuous deployment (CI/CD) practices help streamline the development workflow. App performance optimization is essential for providing a smooth user experience and ensuring efficient resource utilization. Mobile apps often leverage device features like GPS, camera, and sensors to offer enhanced functionalities. The app store submission process involves adhering to platform-specific guidelines and standards. Regular updates and maintenance are necessary to address bugs, introduce new features, and stay compatible with evolving technology and user needs</p>
+                      <p style={{color:"grey"}}>Mobile app development involves the creation of software applications specifically designed to run on mobile devices like smartphones and tablets. It typically follows a process involving ideation, design, development, testing, and deployment. Developers use programming languages like Java, Kotlin, Swift, or React Native to build apps for Android and iOS platforms. User experience (UX) and user interface (UI) design play crucial roles in ensuring the app's success. Security measures are implemented to protect user data and prevent unauthorized access. Continuous integration and continuous deployment (CI/CD) practices help streamline the development workflow. App performance optimization is essential for providing a smooth user experience and ensuring efficient resource utilization. Mobile apps often leverage device features like GPS, camera, and sensors to offer enhanced functionalities. The app store submission process involves adhering to platform-specific guidelines and standards. Regular updates and maintenance are necessary to address bugs, introduce new features, and stay compatible with evolving technology and user needs</p>
                     </div>
                   </div>
                   <div class="col-12 order-md-0 col-md-4 col-xxl-4">

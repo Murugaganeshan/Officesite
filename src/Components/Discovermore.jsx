@@ -1,5 +1,6 @@
 import img from "./Assest/dis.jpg"
-import style from "./discovermore.module.css"
+import style from "../Assets/Css/discovermore.module.css"
+import Footer from "./Footer"
 
 let Discovermore=()=>{
     
@@ -91,6 +92,7 @@ let Discovermore=()=>{
                     </div>
                 </div>
                 </section>
+                <Footer></Footer>
         </div>
     )
 }

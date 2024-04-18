@@ -119,7 +119,7 @@ textarea::placeholder {
         border-radius: 5px;
         font-size: 10px;
         color: red;
-        background: rgb(247, 87, 159);
+        /* background: rgb(247, 87, 159); */
     }
 
 }

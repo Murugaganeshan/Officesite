@@ -7,7 +7,12 @@
     
 }
 .details h1{
-    color: red;
+    
+    color: white;
+}
+.details h6{
+    margin-top: 15px;
+    font-size: 15px !important;
 }
 .view-opening{
     padding: 10px 20px;
@@ -22,16 +27,8 @@
     text-align: center;
     padding: 10px;
 }
-.openings{
-    padding: 10px;
-    border: none;
-    background-color: transparent;
-}
-.openings ul {
-    margin-top: 8px;
-}
-.openings ul li{
-    margin-top: 5px;
+.btn{
+    margin-top: 15px;
 }
 .apply {
     padding: 5px 20px;
@@ -63,18 +60,27 @@
     margin-top: 5px;
  
 }
-.btn-preview{
+/* .btn-preview{
 padding: 5px 10px;
-border: none;
-background-color: #793ea5;
+border: none;   
 color: white;
 border-radius: 5px;
 font-weight: 500;
 font-family: "Nunito Sans", sans-serif;
-
+} */
+.open h3{
+    color: grey;
+    font-weight: 300 !important;
 }
-.details h1{
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-family: "Concert One", sans-serif;
+ h1{
+    color: white;
+    font-weight: 200;
+}
+h5{
+    color: black;
+    font-weight: 300;
+}
+h6{
+    color: grey;
+    font-weight: bolder;
 }
