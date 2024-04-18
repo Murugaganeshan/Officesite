@@ -155,18 +155,18 @@ let Carrers=()=>{
           aria-controls="panel3-content"
           id="panel3-header"
         >
-           <h5>Back End Developer</h5>
+           <h5>Digital Marketing</h5>
         </AccordionSummary>
         <AccordionDetails>
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
           <ul>
-        <li>Good knowledge of Node.js with 1 year of minimum experience.</li>
-        <li>Good exposure on Mongodb and Express.js.</li>
-        <li>User authentication and authorization between multiple systems, servers, and environments.</li>
-        <li>Integration of multiple data sources and databases into one system.</li>
-        <li>Proficient understanding of code versioning tools, such as GitLab, GitHub, Bitbucket.</li>
-         <li>Basic understanding of front-end technologies, such as HTML5, Bootstrap, and CSS3.</li>
+        <li>SEO (Search Engine Optimization): Understanding how search engines work and optimizing content to rank higher in search engine results pages (SERPs) is crucial for driving organic traffic to websites.</li>
+        <li>Content Marketing: Creating valuable, relevant, and engaging content tailored to the target audience is essential for attracting and retaining customers. This includes blog posts, videos, infographics, and more.</li>
+        <li>Social Media Marketing: Proficiency in leveraging various social media platforms (such as Facebook, Twitter, Instagram, LinkedIn, etc.) to build brand awareness, engage with the audience, and drive traffic to the website.</li>
+        <li>PPC Advertising: Knowledge of Pay-Per-Click advertising platforms like Google Ads and Bing Ads to create and optimize campaigns that drive targeted traffic and conversions.</li>
+        <li>Email Marketing: Ability to create effective email campaigns, manage subscriber lists, and analyze campaign performance to nurture leads and drive sales.</li>
+         <li>Marketing Automation: Familiarity with marketing automation tools like HubSpot, Marketo, or Mailchimp to streamline repetitive tasks, nurture leads, and improve efficiency.</li>
     </ul>
         </AccordionDetails>
         <AccordionActions>
@@ -180,35 +180,7 @@ let Carrers=()=>{
     </div>
     <div className="col my-3"> 
       
-      
-      <Accordion >
-        <AccordionSummary
-         expandIcon={<ExpandMoreIcon />}
-         aria-controls="panel1-content"
-         id="panel1-header"
-        >
-           <h5>Back End Developer</h5>
-        </AccordionSummary>
-        <AccordionDetails>
-        <h6>Experiece: 0-1 Year</h6>
-          <h6>Skills</h6>
-          <ul>
-        <li>Good knowledge of Node.js with 1 year of minimum experience.</li>
-        <li>Good exposure on Mongodb and Express.js.</li>
-        <li>User authentication and authorization between multiple systems, servers, and environments.</li>
-        <li>Integration of multiple data sources and databases into one system.</li>
-        <li>Proficient understanding of code versioning tools, such as GitLab, GitHub, Bitbucket.</li>
-         <li>Basic understanding of front-end technologies, such as HTML5, Bootstrap, and CSS3.</li>
-    </ul>
-        </AccordionDetails>
-        <AccordionActions>
-        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   
-                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
-
-                  </div>
-        </AccordionActions>
-      </Accordion>
+     
     </div>
     </div>
 
@@ -225,3 +197,4 @@ let Carrers=()=>{
     )
 }
 export default Carrers
+

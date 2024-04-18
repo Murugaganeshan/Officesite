@@ -4,7 +4,6 @@ import { TiLocation } from "react-icons/ti";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import "../Assets/Css/Contact.css"
-import map from "./Assest/ml.jpg"
 import Footer from "./Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
