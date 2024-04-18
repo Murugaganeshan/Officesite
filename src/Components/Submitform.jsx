@@ -1,3 +1,7 @@
+import "../Assets/Css/Submitform.css"
+import interview from "./Assest/aa.png"
+// import "./submitform.module.css"
+import Footer from "./Footer"
 import "../Assets/Css/Submitform.css";
 import interview from "./Assest/aa.png";
 import Footer from "./Footer";

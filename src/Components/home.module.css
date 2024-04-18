@@ -13,8 +13,7 @@
     font-family: "Nunito Sans", sans-serif;;
     font-size: 130px;
     font-weight: 900;
-    background: -webkit-linear-gradient(#000000,#FFFFFF,#000000);
-    -webkit-background-clip: text;
+    background: -webkit-linear-gradient(	#2b2b2b,#FFFFFF,	#2b2b2b);
     -webkit-text-fill-color: transparent;
    
 }

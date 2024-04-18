@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
 .details{
     margin-top: 25%;
     background-color: transparent;

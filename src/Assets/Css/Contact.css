@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .contact{
     background-color: rgb(242, 244, 246);
     
@@ -16,4 +17,10 @@
         width: 300px;
     }
 
+}
+
+.get {
+    color: #ffff !important;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
 }
