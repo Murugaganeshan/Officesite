@@ -8,8 +8,9 @@ import "../Assets/Css/Footer.css"
 let Footer=()=>{
 
     return(
-      
-    <div className='container-fluid  fullWidthContainer'>
+
+      <>
+    <div className='container-fluid footer'>
       <div className="row" >
         <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8 footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
@@ -25,12 +26,12 @@ let Footer=()=>{
                        <a href="/"><FaFacebook/> </a>
                        <a href="/"><FaInstagram/> </a>
                        <a href="/"><FaTwitter/> </a>
-                       <a href="https://coinmarketcap.com/"><FaLinkedin/> </a>
+                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-YjU4MDVhNDUtMTEyMC00NzUxLWE0YjAtZWEyY2IwYjlhN2U2XzAxMA==/"><FaLinkedin/> </a>
                     </div>
                 </div>
              
               <div class="address-wrapper mt-5">
-                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light">21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
+                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light" style={{color:'grey'}}>21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
                 <p class="mb-2">
                   <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light">+91 9876543210</span> </a>
                 </p>
@@ -73,7 +74,7 @@ let Footer=()=>{
                 <div class="col-6 col-sm-3">
                   <div class='mx-2'>
                     <h4 class="widget-title mb-4 text-white">Company</h4>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled ">
                       <li class="mb-3">
                         <Link className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
                       </li>
@@ -95,16 +96,12 @@ let Footer=()=>{
                 <div class="col-12 col-sm-6 ">
                   <div class="widget mx-4">
                     <h4 class="widget-title mb-4 text-white">Our Newsletter</h4>
-                    <p class="mb-4 text-white  fw-lighter">Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
+                    <p class="mb-4   fw-lighter" style={{color:"grey"}}>Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
                     <form action="#!">
                       <div class="row gy-4">
                         <div class="col-12">
                           <div class="input-group">
-                            {/* <span class="input-group-text" id="email-newsletter-addon">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                              </svg>
-                            </span> */}
+                           
                             <input type="email" class="form-control" id="email-newsletter"  placeholder="email" aria-label="email-newsletter" aria-describedby="email-newsletter-addon" required />
                           </div>
                         </div>
@@ -129,6 +126,7 @@ let Footer=()=>{
         </div>
       </div>
     </div>
+    </>
     )}
                           
 export default Footer

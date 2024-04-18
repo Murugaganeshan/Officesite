@@ -1,11 +1,17 @@
-.footerBlock{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+  max-width: 100%;
+}
+.footer{
+    width: 100%;
 }
 
-.fullWidthContainer {
-    padding-left: 0;
-    padding-right: 0;
+.footerBlock{
+    background-color: black;
+    max-width: 100%;
 }
+
 .footer-col .social-links{
     text-align: start;
 }

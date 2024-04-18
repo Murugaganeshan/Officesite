@@ -19,10 +19,15 @@ let Contact=()=>{
 
     return(
 
-              <div>
-                    <div class="container text-center shadow-lg p-3  my-5 rounded  contact"  data-aos="fade-down">
+              <div style={{backgroundColor:"rgb(33, 37, 47)"}}>
+                <div className="container p-2 text-center  "> 
+                 <h1 style={{color:'black'}} className="get">Get in touch</h1>
+                 <h5 style={{color:'grey'}}>Want to get in touch? We'd love to hear from you. Here's how <br/>You can reach us.</h5>
+                 </div>
+                    <div class="container text-center shadow-lg p-3 rounded my-5 contact"  data-aos="fade-down">
+                       
                         <div className="row my-2">
-                            <h1>Get in Touch</h1>
+                          
                         </div>
                         <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 my-5">
                             <div class="col">

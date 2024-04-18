@@ -1,6 +1,6 @@
 import "../Assets/Css/Submitform.css"
 import interview from "./Assest/aa.png"
-import "./submitform.module.css"
+// import "./submitform.module.css"
 import Footer from "./Footer"
 
 

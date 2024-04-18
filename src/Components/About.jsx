@@ -13,6 +13,7 @@ let About = () => {
     }, []);
 
     return (
+        <> 
         <div >
             <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(33, 37, 47)"}}>
                 <div className="container" data-aos="fade-down">
@@ -61,6 +62,7 @@ let About = () => {
             </section>
             <Service></Service>
         </div>
+        </>
     )
 }
 
