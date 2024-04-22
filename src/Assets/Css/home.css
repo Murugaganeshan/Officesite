@@ -110,4 +110,6 @@
       font-size: 1vw;
   }
  
- 
+ #demo-canvas{
+    width: 100%;
+ }
