@@ -160,5 +160,11 @@ margin-bottom: 18px;
       cursor: pointer;
       color: #ffdd40;
     }
+    .nav-item:hover:after {
+      margin: 0 auto;
+      width: 25%;
+      background: white;
+  
+    }
   }
   
