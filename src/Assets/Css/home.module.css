@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
-
-
     margin: 0px;
     padding: 0px;
-    max-width: 100%;
+    /* box-sizing: border-box; */
 }
-   
 
 .content h1{
     color: white;
@@ -23,7 +20,6 @@
   font-family: "Acme", sans-serif;
     font-weight: 500;
     color: rgb(94, 93, 93);
-   
 }
 .overlay {
     position: absolute;
@@ -94,8 +90,6 @@
     background-position: center center;
     z-index: 1;
   }
-
-
   .main-title {
     position: absolute;
     margin: 0;
@@ -133,3 +127,5 @@
     background-color: goldenrod;
     border-radius: 100px;
   } */
+     
+

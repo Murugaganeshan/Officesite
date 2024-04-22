@@ -51,13 +51,12 @@ let Carrers=()=>{
            <div className="container p-3">
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col my-3"> 
-      
-      <Accordion className="p-1" >
+
+      <Accordion className="p-1">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
           id="panel3-header"
-          
         >
          <h5>Business Development Executive</h5>
         </AccordionSummary>
@@ -82,7 +81,7 @@ let Carrers=()=>{
     </div>
     <div className="col my-3"> 
       
-      
+    
       <Accordion className="p-1">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -113,8 +112,6 @@ let Carrers=()=>{
       </Accordion>
     </div>
     <div className="col my-3"> 
-      
-      
       <Accordion className="p-1">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -178,7 +175,6 @@ let Carrers=()=>{
     </div>
   
     </div>
-
             </div>
            </div>
                    </div>
@@ -186,8 +182,6 @@ let Carrers=()=>{
                     </div>
                  
                     </>
-           
-             
       
     )
 }
