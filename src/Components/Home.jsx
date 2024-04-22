@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import style from '../Assets/Css/home.module.css';
+import "../Assets/Css/home.css"
 import hero from './Assest/lp.jpg';
 import TweenLite from 'gsap'; 
 import Circ from 'gsap';
@@ -208,28 +208,26 @@ const Home = () => {
              
                 <canvas id="demo-canvas">
                 </canvas>
-                <div className="container-fluid  " >
-                    <div className={`${style.overlay}`}>
-                        <div className="container text-center position-absolute top-50 start-50 translate-middle">
-                            <div className="row " >
-                                <div className={`col ${style.content}`}>
-                                    <h1   data-aos="fade-right">Thamizhan Solutions</h1>
-                                    <h3 data-aos="fade-right">We build brands and beautiful experiences</h3>
+                <div className='content-home'>
+                <div style={{marginTop:"10px"}} className="hero border-1 pb-3 ">
+      
+        <div className="card-img-overlay d-flex align-items-center">
+          <div className="container d-grid gap-2">
+           
+          <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutions</h1>
+          <h3 data-aos="fade-right" className='content-h3 text-center'>We build brands and beautiful experiences</h3>
+          <div className=''  data-aos="fade-left">
+                                    <Link to="/about"> <button className='btn btn-primary me-3  btn1' >MORE ABOUT US </button></Link>
+                                    <Link to="/contactus"><button className='btn btn-secondary me-3 btn2'> CONTACT US</button></Link> 
                                 </div>
-                                <div className={style.btn}  data-aos="fade-left">
-                                    <Link to="/about"> <button className={`btn btn-primary me-3  ${style.btn1}`}> MORE ABOUT US </button></Link>
-                                    <Link to="/contactus"><button className={`btn btn-secondary me-3 ${style.btn2}`}> CONTACT US</button></Link> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
-              
-                <div style={{ position: "absolute", bottom: "50px", left: "50px", display: "flex", alignItems: "center" }}  >
-                    <FaFacebook className="me-3"  color="white"/>
-                    <FaInstagram className="me-3" color="white"/>
-                    <FaTwitter  color=" white"/>
+         
+           
+           
+          </div>
+        </div>
+    </div>
                 </div>
+               
             </div>
             
         </div>

@@ -30,7 +30,7 @@ let Carrers=()=>{
     <h3 style={{color:"white",marginTop:"10"}} class="fs-3 text-secondary">Come work with us</h3>
     <h6 className="fs-5 text-secondary">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
 </div>
-<button onClick={handleClick} class="btn btn-primary">View Opening</button>
+<button onClick={handleClick} class=" View">View Opening</button>
             </div>
             <div className="col">
             <div className="my-5">
@@ -57,9 +57,9 @@ let Carrers=()=>{
           aria-controls="panel3-content"
           id="panel3-header"
         >
-         <h5>Business Development Executive</h5>
+         <h5 cla>Business Development Executive</h5>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails >
           <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
         <ul>
