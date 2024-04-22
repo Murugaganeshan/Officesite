@@ -55,14 +55,7 @@
     font-weight: 500;
     color: rgb(94, 93, 93);
 }
-.overlay {
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);  */
-}
+
 
 
 .btn2 a{
@@ -118,9 +111,5 @@
   .Discover{
       font-size: 1vw;
   }
-  .img-bg {
-      /* border-radius: 20px; */
-  }
-  .img-bg img{
-      /* border-radius: 20px; */
-  }
+ 
+ 

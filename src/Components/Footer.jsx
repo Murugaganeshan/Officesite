@@ -76,7 +76,7 @@ let Footer=()=>{
                 </div>
                 <div class="col-6 col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white">Companyyy</h4>
+                    <h4 class="widget-title mb-4 text-white">Company</h4>
                     <ul class="list-unstyled ">
                       <li class="mb-3">
                         <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
