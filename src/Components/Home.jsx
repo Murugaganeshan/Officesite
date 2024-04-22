@@ -38,7 +38,7 @@ const Home = () => {
                 // create points
                 points = [];
                 for(let x = 0; x < width; x = x + width/20) {
-                    for(let y = 0; y < height; y = y + height/20) {
+                    for(let y = 0; y < height; y = y + height/30) {
                         let px = x + Math.random()*width/20;
                         let py = y + Math.random()*height/30;
                         let p = {x: px, originX: px, y: py, originY: py };
@@ -187,7 +187,7 @@ const Home = () => {
                     ctx.fill();
                 };
             }
-            
+
             function getDistance(p1, p2) {
                 return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
             }
@@ -209,7 +209,7 @@ const Home = () => {
              
                 <canvas id="demo-canvas">
                 </canvas>
-                <div className="container-fluid  " >
+                <div className="container-fluid">
                     <div className={`${style.overlay}`}>
                         <div className="container text-center position-absolute top-50 start-50 translate-middle">
                             <div className="row " >
@@ -241,3 +241,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+

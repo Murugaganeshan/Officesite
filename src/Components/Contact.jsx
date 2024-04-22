@@ -18,7 +18,8 @@ let Contact=()=>{
 
     return(
 
-              <div style={{backgroundColor:"rgb(33, 37, 47)"}}>
+              <div>
+                <div style={{backgroundColor:"rgb(33, 37, 47)"}}>
                 <div className="container p-2 text-center  "> 
                  <h1 style={{color:'black'}} className="get">Get in touch</h1>
                  <h5 style={{color:'grey'}}>Want to get in touch? We'd love to hear from you. Here's how <br/>You can reach us.</h5>
@@ -78,6 +79,7 @@ let Contact=()=>{
                     </div>
                 
                         <Footer></Footer>
+              </div>
               </div>
     )
 }

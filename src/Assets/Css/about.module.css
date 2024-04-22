@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    max-width: 100%;
+    box-sizing: border-box;
+    /* max-width: 100%; */
 }
 #dis a{
     text-decoration: none;

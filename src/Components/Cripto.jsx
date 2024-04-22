@@ -1,14 +1,15 @@
-import img from "./Assest/cripto.jpg"
+// import img from "./Assest/cripto.jpg"
 import { Link } from "react-router-dom"
 import style from "../Assets/Css/mobileapp.module.css"
 import Footer from "./Footer"
 import video from "./Assest/cryptoVideo.mp4"
+// import style from "../Assets/Css/mobileapp.module.css"
 
 let Cripto=()=>{
 
     return(
       
-        <div>            
+        <div className={style.back}>            
               <section class="py-3 py-md-5">
                 <div class="container mb-4 mb-md-5">
                   <div class="row justify-content-md-center">

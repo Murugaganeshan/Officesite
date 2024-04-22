@@ -2,7 +2,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+   
 }
 
 .content h1{
@@ -15,7 +16,6 @@
     -webkit-text-fill-color: transparent;
    
 }
-
 .content h3{
 
   font-family: "Acme", sans-serif;
