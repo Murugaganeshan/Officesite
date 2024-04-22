@@ -1,5 +1,7 @@
 
 
+
+
 import { Link } from "react-router-dom"
 import { GoArrowRight } from "react-icons/go";
 import logo from "../Assets/Images/finalLogo.jpg"
@@ -11,7 +13,6 @@ let Footer=()=>{
 
     return(
 
-      <>
     <div className='container-fluid footer'>
       <div className="row" >
         <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8 footerBlock'>
@@ -128,7 +129,6 @@ let Footer=()=>{
         </div>
       </div>
     </div>
-    </>
     )}
                          
 export default Footer

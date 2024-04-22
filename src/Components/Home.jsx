@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import style from '../Assets/Css/home.module.css';
+import "../Assets/Css/home.css"
 import hero from './Assest/lp.jpg';
 import TweenLite from 'gsap'; 
 import Circ from 'gsap';
@@ -38,7 +38,7 @@ const Home = () => {
                 // create points
                 points = [];
                 for(let x = 0; x < width; x = x + width/20) {
-                    for(let y = 0; y < height; y = y + height/30) {
+                    for(let y = 0; y < height; y = y + height/20) {
                         let px = x + Math.random()*width/20;
                         let py = y + Math.random()*height/30;
                         let p = {x: px, originX: px, y: py, originY: py };
@@ -182,12 +182,12 @@ const Home = () => {
                 this.draw = function() {
                     if(!_this.active) return;
                     ctx.beginPath();
-                    ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
+                    ctx.arc(_this.pos.x, this.pos.y, this.radius, 0, 2 * Math.PI, false);
                     ctx.fillStyle = 'rgba(255, 255, 255,' + _this.active + ')';
                     ctx.fill();
                 };
             }
-
+            
             function getDistance(p1, p2) {
                 return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
             }
@@ -201,46 +201,39 @@ const Home = () => {
     }, []); // Empty dependency array ensures this effect runs only once after component mount
 
     return (
-        <> 
         <div> 
-        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
+        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
 
             <div id="large-header" className="large-header">
              
                 <canvas id="demo-canvas">
                 </canvas>
-                <div className="container-fluid">
-                    <div className={`${style.overlay}`}>
-                        <div className="container text-center position-absolute top-50 start-50 translate-middle">
-                            <div className="row " >
-                                <div className={`col ${style.content}`}>
-                                    <h1   data-aos="fade-right">Thamizhan Solutions</h1>
-                                    <h3 data-aos="fade-right">We build brands and beautiful experiences</h3>
+                <div className='content-home'>
+                <div style={{marginTop:"10px"}} className="hero border-1 pb-3 ">
+      
+        <div className="card-img-overlay d-flex align-items-center">
+          <div className="container d-grid gap-2">
+           
+          <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutions</h1>
+          <h3 data-aos="fade-right" className='content-h3 text-center'>We build brands and beautiful experiences</h3>
+          <div className=''  data-aos="fade-left">
+                                    <Link to="/about"> <button className='btn btn-primary me-3  btn1' >MORE ABOUT US </button></Link>
+                                    <Link to="/contactus"><button className='btn btn-secondary me-3 btn2'> CONTACT US</button></Link> 
                                 </div>
-                                <div className={style.btn}  data-aos="fade-left">
-                                    <Link to="/about"> <button className={`btn btn-primary me-3  ${style.btn1}`}> MORE ABOUT US </button></Link>
-                                    <Link to="/contactus"><button className={`btn btn-secondary me-3 ${style.btn2}`}> CONTACT US</button></Link> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>   
-              
-                <div style={{ position: "absolute", bottom: "50px", left: "50px", display: "flex", alignItems: "center" }}  >
-                    <FaFacebook className="me-3"  color="white"/>
-                    <FaInstagram className="me-3" color="white"/>
-                    <FaTwitter  color=" white"/>
+         
+           
+           
+          </div>
+        </div>
+    </div>
                 </div>
+               
             </div>
             
         </div>
         <About/>
         </div>
-        </>
     );
 };
 
 export default Home;
-
-
-
