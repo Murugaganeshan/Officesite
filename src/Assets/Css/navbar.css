@@ -6,15 +6,13 @@
 }
 
 .navbar {
-     /* background-color: transparent;  */
+
      background-color: rgb(11, 10, 16);
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: sticky; */
-     /* position: fixed !important;  */
-    /* z-index: 20;  */
+
     transition: 0.4s;
 
 
@@ -105,11 +103,6 @@ margin-bottom: 18px;
 
   }
  
-  /* .nav-item .active {
-    color: #ffdd40;
-  
-  } */
-  
   .nav-icon {
     display: none;
     color: #f5b921;
