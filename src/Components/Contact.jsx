@@ -27,7 +27,7 @@ let Contact=()=>{
               <div style={{backgroundColor:"rgb(33, 37, 47)"}}>
                
                  <div className="container">
-                    <h1>dkfjksf</h1>
+                    <h1>dkfjkdfsdfdsfsdfsf</h1>
 
 
                  </div>
