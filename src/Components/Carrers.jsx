@@ -19,7 +19,6 @@ let Carrers=()=>{
     ref.current?.scrollIntoView({behavior: 'smooth'});
   };
     return(
-      <> 
       <div>
         
         <div className="container-fluid" style={{backgroundColor:"rgb(33, 37, 47)"}}>
@@ -185,7 +184,6 @@ let Carrers=()=>{
                    <Contact></Contact>
                     </div>
                  
-                    </>
            
              
       

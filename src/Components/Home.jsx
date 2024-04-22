@@ -201,16 +201,14 @@ const Home = () => {
     }, []); // Empty dependency array ensures this effect runs only once after component mount
 
     return (
-        <> 
         <div> 
-        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`,width:"100%", backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
+        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
 
             <div id="large-header" className="large-header">
              
                 <canvas id="demo-canvas">
                 </canvas>
                 <div className="container-fluid  " >
-                    <div className={`${style.overlay}`}>
                         <div className="container text-center position-absolute top-50 start-50 translate-middle">
                             <div className="row " >
                                 <div className={`col ${style.content}`}>
@@ -223,7 +221,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>   
               
                 <div style={{ position: "absolute", bottom: "50px", left: "50px", display: "flex", alignItems: "center" }}  >
@@ -236,7 +233,6 @@ const Home = () => {
         </div>
         <About/>
         </div>
-        </>
     );
 };
 
