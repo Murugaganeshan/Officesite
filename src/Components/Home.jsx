@@ -216,7 +216,7 @@ const Home = () => {
                      <div className="card-img-overlay d-flex align-items-center">
                     <div className="container d-grid gap-2">
            
-                      <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutions</h1>
+                      <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutionss</h1>
                       <h3 data-aos="fade-right" className='content-h3 text-center'>We build brands and beautiful experiences</h3>
                       <div className='text-center'  data-aos="fade-left">
                                     <Link to="/about"> <button className='btn btn-primary  me-3  btn1 bt' >MORE ABOUT US </button></Link>
