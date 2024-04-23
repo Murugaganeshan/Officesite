@@ -2,16 +2,20 @@ import img from "./Assest/cripto.jpg"
 import { Link } from "react-router-dom"
 import style from "../Assets/Css/mobileapp.module.css"
 import Footer from "./Footer"
+import video from "./Assest/nftVideo.mp4"
 
 let Neft=()=>{
     return(
-        <div>
+        <div className={style.back}>
                         
               <section class="py-3 py-md-5">
                 <div class="container mb-4 mb-md-5">
                   <div class="row justify-content-md-center">
                     <div class="col-12 col-md-10 col-xxl-8">
-                      <img class="img-fluid rounded shadow" loading="lazy" src={img} alt="About 3"/>
+                      {/* <img class="img-fluid rounded shadow" loading="lazy" src={img} alt="About 3"/> */}
+                      <div className={`embed-responsive embed-responsive-16by9 ${style.videoContainer}`}>
+                        <video className="embed-responsive-item" src={video} autoPlay loop muted></video>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -20,7 +24,7 @@ let Neft=()=>{
                   <div class="row gy-2 gy-md-0 justify-content-xxl-center">
                     <div class="col-12 order-md-1 col-md-8 col-xxl-6">
                       <div class="text-center text-md-start">
-                        <h2 class="display-3 fw-bold lh-1">NEFT</h2>
+                        <h2 class="display-3 fw-bold lh-1">NFT</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
                         <p style={{color:"grey"}}>NFT marketing thrives on captivating content and storytelling to forge connections with audiences.

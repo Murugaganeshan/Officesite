@@ -202,36 +202,30 @@ const Home = () => {
 
     return (
         <div> 
-        <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
-
-            <div id="large-header" className="large-header">
-             
-                <canvas id="demo-canvas">
-                </canvas>
-                <div className='content-home'>
-                <div style={{marginTop:"10px"}} className="hero border-1 pb-3 ">
+             <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
+                 <div id="large-header" className="large-header">
+                     <canvas id="demo-canvas">
+                     </canvas>
+                    <div className='content-home'>
+                    <div style={{marginTop:"10px"}} className="hero border-1 pb-3 ">
       
-        <div className="card-img-overlay d-flex align-items-center">
-          <div className="container d-grid gap-2">
+                     <div className="card-img-overlay d-flex align-items-center">
+                    <div className="container d-grid gap-2">
            
-          <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutions</h1>
-          <h3 data-aos="fade-right" className='content-h3 text-center'>We build brands and beautiful experiences</h3>
-          <div className=''  data-aos="fade-left">
-                                    <Link to="/about"> <button className='btn btn-primary me-3  btn1' >MORE ABOUT US </button></Link>
-                                    <Link to="/contactus"><button className='btn btn-secondary me-3 btn2'> CONTACT US</button></Link> 
-                                </div>
-         
-           
-           
-          </div>
-        </div>
-    </div>
-                </div>
-               
-            </div>
+                      <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutions</h1>
+                      <h3 data-aos="fade-right" className='content-h3 text-center'>We build brands and beautiful experiences</h3>
+                      <div className='text-center'  data-aos="fade-left">
+                                    <Link to="/about"> <button className='btn btn-primary  me-3  btn1 bt' >MORE ABOUT US </button></Link>
+                                    <Link to="/contactus"><button className='btn btn-secondary me-3 btn2 bt'> CONTACT US</button></Link> 
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                 </div>
             
-        </div>
-        <About/>
+              </div>
+            <About/>
         </div>
     );
 };

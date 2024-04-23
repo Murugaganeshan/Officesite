@@ -3,39 +3,14 @@
 
     margin: 0px;
     padding: 0px;
-
-    padding: 0;
-    margin: 0;
-
     box-sizing: border-box;
 }
 .contact{
-    background-color: rgb(242, 244, 246);
-    
-}
-.form{
-    background-color: rgb(242, 244, 246);
-    color: black;
-}
-.rounded{
-    border-radius: 5px;
-}
-
-@media screen and (max-width: 400px) {
-    iframe{
-        height: 300px;
-        width: 300px;
-    }
-
-}
-
-.get {
-    color: #ffff !important;
-    font-family: "Lexend", sans-serif;
-    font-weight: 400;
-}
-.connect{
-    font-family:  "Lexend", sans-serif;
+    font-family:  "Lexend", sans-serif    !important;
     font-weight: 400;
 
+}
+.formPage{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px white;
 }

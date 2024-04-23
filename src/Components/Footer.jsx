@@ -39,7 +39,7 @@ let Footer=()=>{
                   <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light" style={{color:'grey'}}>+91 9876543210</span> </a>
                 </p>
                 <p class="mb-0">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light" style={{color:'grey'}}>abc@gmail.com</span> </a>
+                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light" style={{color:'grey'}}>thamizhan1630@gmail.com</span> </a>
                 </p>
               </div>
             </div>

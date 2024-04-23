@@ -57,6 +57,11 @@
 }
 
 
+.bt{
+    height: 50px;
+    width: 350px;
+    border-radius: none !important;
+}
 
 .btn2 a{
     color: white;
@@ -80,11 +85,6 @@
 .us{
     margin-left: 10px;
 }
-
-
-
-
-
 
   .elevate{
     font-weight: bold;
