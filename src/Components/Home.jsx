@@ -16,7 +16,6 @@ const Home = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
-
     useEffect(() => {
       
         const initAnimation = () => {
@@ -198,7 +197,12 @@ const Home = () => {
         };
 
         initAnimation();
-    }, []); // Empty dependency array ensures this effect runs only once after component mount
+    }, []);
+
+ 
+
+   
+
 
     return (
         <div> 
