@@ -120,7 +120,7 @@ let Footer=()=>{
                 </div>
               </div>
               
-              <div class="row mt-6 border-top border-light-subtle my-5 mx-5">
+              <div class="row mt-6 border-top border-light-subtle my-5 text-center">
                 <div class="footer-copyright-wrapper link-secondary my-4">
                   &copy; copyrights <span className="fw-bold text-white">Thamizhan Solutions</span> All Rights Reserved.
                 </div>
