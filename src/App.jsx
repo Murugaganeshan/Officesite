@@ -23,9 +23,9 @@ let App=()=>{
         <div>
         <BrowserRouter>
         <Nav></Nav>
-        <Routes>
+        <Routes>          
         <Route element={<Home/>} path="/"></Route>
-        <Route element={<About/>} path="/about"></Route>
+        <Route element={<About/>} path="/about"></Route>  
         <Route element={<Service/>} path="/service"></Route>
         <Route element={<Carrers/>} path="/careers"></Route>
         <Route element={<Contact/>} path="/contactus"></Route>

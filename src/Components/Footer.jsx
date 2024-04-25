@@ -52,8 +52,8 @@ let Footer=()=>{
               <div class="row row-cols-md-3 row-cols-sm-1 row-cols-1 gy-4 gy-sm-0">
                 <div class="col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white ">Services</h4>
-                    <ul class="list-unstyled">
+                    <h4 class="widget-title mb-4 text-white">Services</h4>
+                    <ul class="list-unstyled service">
                       <li class="mb-3">
                       <Link to="/mobileapp" class="link-secondary text-decoration-none" path="/mobileapp"><GoArrowRight /> Mobile Development</Link>
                       </li>
@@ -64,7 +64,7 @@ let Footer=()=>{
                       <Link to="/uiux" class="link-secondary text-decoration-none"><GoArrowRight /> UI/UX Development</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="aidevelopment" class="link-secondary text-decoration-none"><GoArrowRight /> AI Development</Link>
+                      <Link to="/aidevelopment" class="link-secondary text-decoration-none"><GoArrowRight /> AI Development</Link>
                       </li>
                       <li class="mb-3">
                       <Link to="/cripto" class="link-secondary text-decoration-none"><GoArrowRight /> Crypto Trading</Link>
@@ -78,7 +78,7 @@ let Footer=()=>{
                 <div class="col-6 col-sm-3">
                   <div>
                     <h4 class="widget-title mb-4 text-white">Company</h4>
-                    <ul class="list-unstyled ">
+                    <ul class="list-unstyled company">
                       <li class="mb-3">
                         <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
                       </li>

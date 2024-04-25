@@ -52,10 +52,9 @@ textarea::placeholder {
 }
 .Submit_form button{
     padding: 10px 30px;
-    border-radius: 15px;
+    /* border-radius: 40px; */
     letter-spacing: 2px;
     font-weight: bold;
-    background: rgb(247, 87, 159);
     border: none;
 
 }
@@ -116,19 +115,12 @@ textarea::placeholder {
     }
     .Submit_form button{
         padding: 5px 10px;
-        border-radius: 5px;
         font-size: 10px;
-
-        color: red;
-        /* background: rgb(247, 87, 159); */
-
-        background: rgb(247, 87, 159);
     }
 
 }
 .glass{
     background-color: rgba(0, 0, 0, 0.5);
-    /* box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5); */
     padding: 30px;
     border-radius: 5px;
    

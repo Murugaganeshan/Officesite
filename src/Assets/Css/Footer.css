@@ -61,10 +61,15 @@ iframe{
     border-radius: 10px;
 }
 
-
-
-
-
+.service li:hover{
+    transition: all 0.3s;
+    margin-left: 15px;
+}
+.company li:hover{
+    transition: all 0.3s;
+    margin-left: 15px;
+}
+ 
 
 
 

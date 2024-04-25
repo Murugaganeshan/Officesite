@@ -16,6 +16,7 @@ const Home = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
+
     useEffect(() => {
       
         const initAnimation = () => {
@@ -142,7 +143,6 @@ const Home = () => {
                             points[i].active = 0;
                             points[i].circle.active = 0;
                         }
-
                         drawLines(points[i]);
                         points[i].circle.draw();
                     }
@@ -199,35 +199,30 @@ const Home = () => {
         initAnimation();
     }, []);
 
- 
-
-   
-
-
     return (
+        
         <div> 
              <div style={{backgroundColor:"black",position:'relative',backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}}>
                  <div id="large-header" className="large-header">
                      <canvas id="demo-canvas">
                      </canvas>
                     <div className='content-home'>
-                    <div style={{marginTop:"10px"}} className="hero border-1 pb-3 ">
+                    <div style={{marginTop:"10px"}} className="hero border-1 pb-3">
       
                      <div className="card-img-overlay d-flex align-items-center">
                     <div className="container d-grid gap-2">
            
-                      <h1  className='text-center contents-h1'  data-aos="fade-right">Thamizhan Solutionss</h1>
+                      <h1  className='text-center contents-h1 typing-animation'  data-aos="fade-right">Thamizhan Solutions</h1>
                       <h3 data-aos="fade-right" className='content-h3 text-center'>We build brands and beautiful experiences</h3>
                       <div className='text-center'  data-aos="fade-left">
                                     <Link to="/about"> <button className='btn btn-primary  me-3  btn1 bt' >MORE ABOUT US </button></Link>
                                     <Link to="/contactus"><button className='btn btn-secondary me-3 btn2 bt'> CONTACT US</button></Link> 
-                      </div>
+                     </div>
                     </div>
                     </div>
                     </div>
                     </div>
                  </div>
-            
               </div>
             <About/>
         </div>

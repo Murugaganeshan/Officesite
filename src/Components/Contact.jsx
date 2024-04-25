@@ -21,17 +21,16 @@ let Contact=()=>{
                             <section class="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(33, 37, 47)"}}>
                             <div class="container ">
                                 <div class="row">
-                                <div class=" container-fluid  text-center">
+                                <div class=" container-fluid  text-center" data-aos="fade-down">
                                     <h3 class="fs-5 mb-2 text-secondary text-uppercase ">Contact</h3>
                                     <h2 class="display-5 mb-4 mb-md-5 mb-xl-8 contact" style={{color:"white"}}>We're always on the lookout to work with new clients. Please get in touch in one of the following ways.</h2>
                                 </div>
                                 </div>
                             </div>
-
                             <div class="container ">
                                 <div class="row gy-4 gy-md-5 gy-lg-0 align-items-md-center">
                                 <div class="col-12 col-lg-6  ">
-                                    <div class="border overflow-hidden formPage">
+                                    <div class="border overflow-hidden formPage" data-aos="fade-right">
                                     <form action="#!">
                                         <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                                         <div class="col-12">
@@ -75,10 +74,9 @@ let Contact=()=>{
                                         </div>
                                         </div>
                                     </form>
-
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6 ">
+                                <div class="col-12 col-lg-6 " data-aos="fade-left">
                                     <div class="row justify-content-xl-center">
                                     <div class="col-12 col-xl-11">
                                         <div class="mb-4 mb-md-5">
@@ -107,7 +105,7 @@ let Contact=()=>{
                                                 <p class="mb-2" style={{color:"grey"}}>Please speak with us directly.</p>
                                                 <hr class="w-75 mb-3 border-dark-subtle"/>
                                                 <p class="mb-0">
-                                                <a class="text-decoration-none" href="tel:+15057922430" style={{color:"white"}}>+91 9876543210</a>
+                                                <a class="text-decoration-none" href="tel:+8870854141" style={{color:"white"}}>+91 8870854141</a>
                                                 </p>
                                             </div>
                                             </div>
@@ -125,7 +123,7 @@ let Contact=()=>{
                                                 <p class="mb-2" style={{color:"grey"}}>Please write to us directly.</p>
                                                 <hr class="w-75 mb-3 border-dark-subtle"/>
                                                 <p class="mb-0">
-                                                <a class=" text-decoration-none" href="mailto:demo@yourdomain.com" style={{color:"white"}}>abc@gmail.com</a>
+                                                <a class=" text-decoration-none" href="mailto:demo@yourdomain.com" style={{color:"white"}}>thamizhan1630@gmail.com</a>
                                                 </p>
                                             </div>
                                             </div>
@@ -143,13 +141,13 @@ let Contact=()=>{
                                             <p class="mb-2" style={{color:"grey"}}>Explore our business opening hours.</p>
                                             <hr class="w-50 mb-3 border-dark-subtle"/>
                                             <div class="d-flex mb-1">
-                                            <p class=" fw-bold mb-0 me-5" style={{color:"white"}}>Mon - Fri</p>
+                                            <p class=" fw-bold mb-0 me-5" style={{color:"white"}}>Mon - Sat</p>
                                             <p class=" mb-0" style={{color:"white"}}>9am - 6.30pm</p>
                                             </div>
-                                            <div class="d-flex">
-                                            <p class=" fw-bold mb-0 me-5" style={{color:"white"}}>Sat - Sun</p>
+                                            {/* <div class="d-flex">
+                                            <p class=" fw-bold mb-0 me-5" style={{color:"white"}}> - Sun</p>
                                             <p class=" mb-0" style={{color:"white"}}>9am - 2pm</p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         </div>
                                     </div>

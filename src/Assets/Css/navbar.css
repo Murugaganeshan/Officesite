@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -12,10 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition: 0.4s;
-
-
   }
   
   .colorChange{
@@ -32,13 +29,12 @@
     align-items: center;
     width: 90%;
     height: 10vh;
-    /* max-width: 1500px; */
+    
   }
   
   .nav-logo {
     text-decoration: none;
     height: 10vh;
-  
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,9 +73,7 @@ margin-bottom: 18px;
     height: 100%;
     border-bottom: 3px solid transparent;
   }
-  /* .fa-code {
-    margin-left: 1rem;
-  } */
+ 
   
   .nav-item {
     line-height: 30px;
@@ -129,16 +123,13 @@ margin-bottom: 18px;
     }
   
     .nav-menu.active {
-      background:rgb(18, 184, 230);;
+      background:rgb(11, 10, 16);;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: -1;
     }
-    /* .nav-item .active {
-      color: #ffdd40;
-      border: none;
-    } */
+   
     .nav-links {
       width: 100%;
       display: table;
@@ -167,4 +158,4 @@ margin-bottom: 18px;
   
     }
   }
-  
+     

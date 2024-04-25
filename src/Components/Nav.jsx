@@ -6,6 +6,7 @@ import { CgMenuLeftAlt } from "react-icons/cg";
 import "../Assets/Css/navbar.css"
 import logo from "../Assets/Images/finalLogo.jpg";
 
+
 function NavBar() {
 
 
@@ -51,7 +52,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Home
+               Home
               </NavLink>
             </li>
            
@@ -96,7 +97,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+               Contact Us
               </NavLink>
             </li>
           </ul>
@@ -119,3 +120,4 @@ function NavBar() {
   );
 }
 export default NavBar;
+
