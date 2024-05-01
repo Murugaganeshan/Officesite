@@ -43,23 +43,29 @@
 .bottom-1,.bottom-2,.bottom-3{
     margin-top: 80px;
 }
+
+iframe{
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  border-radius: 30px;
+ 
+}
 @media screen and (max-width: 450px) {
     iframe{
         height: 150px;
-        width: 300px;
+       width: 100%;
     }
 
 }
 @media screen and (max-width: 290px) {
     iframe{
         height: 150px;
-        width: 220px;
+        width: 100%;
     }
 
 }
-iframe{
-    border-radius: 10px;
-}
+
 
 
 
