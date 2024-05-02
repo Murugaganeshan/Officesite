@@ -2,6 +2,9 @@ import { useState } from "react";
 import "../Assets/Css/Submitform.css";
 import interview from "./Assest/aa.png";
 import Footer from "./Footer";
+import {  toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Submitform = () => {
   const [formData, setFormData] = useState({
@@ -36,6 +39,7 @@ const Submitform = () => {
   const submit = (e) => {
     e.preventDefault();
     const validationErrors = {};
+    
 
     if (!formData.user_name.trim()) {
       validationErrors.user_name = "Name is required";
@@ -82,8 +86,11 @@ const Submitform = () => {
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
+
     } else {
       console.log("Form submitted:", formData);
+    toast.info("Application Submitted")
+
       setFormData({
         user_name: "",
         user_email: "",
