@@ -12,6 +12,8 @@ import { useEffect } from "react";
 
 let Contact=()=>{
 
+    
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
@@ -35,7 +37,7 @@ let Contact=()=>{
                                         <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                                         <div class="col-12">
                                             <label for="fullname" class="form-label"style={{color:"white"}} >Full Name <span class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" id="fullname" name="fullname"  required/>
+                                            <input type="text" class="form-control"  id="fullname" name="fullname"  required/>
                                         </div>
                                         <div class="col-12 col-md-6">
                                             <label for="email" class="form-label" style={{color:"white"}}>Email <span class="text-danger">*</span></label>

@@ -1,13 +1,9 @@
-
-
-
-
 import { Link } from "react-router-dom"
 import { GoArrowRight } from "react-icons/go";
 import logo from "../Assets/Images/finalLogo.jpg"
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-import "../Assets/Css/Footer.css"
+import "../Assets/Css/Footer.css" 
 
 let Footer=()=>{
 
@@ -15,13 +11,13 @@ let Footer=()=>{
 
     <div className='container-fluid footer'>
       <div className="row" >
-        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8 footerBlock'>
+        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8  footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
             <div class="col-12 col-md-11 col-xl-10 footer-con">
               <div class="footer-logo-wrapper m-3">
-                <a href="#!">
+               
                   <img src={logo} alt="Company Logo" width="179" height="60"/>
-                </a>
+                
               </div>
               <div className="col footer-col">
                 <h1> Follow Us </h1>
