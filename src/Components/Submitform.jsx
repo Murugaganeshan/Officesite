@@ -1,17 +1,11 @@
 import { useState } from "react";
 import "../Assets/Css/Submitform.css";
 import Footer from "./Footer";
-<<<<<<< HEAD
 import {  toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-
-
-
-=======
 import axios from "axios";
 import {ApplyForm}from '../Authiapis/backendcall'
 import { toast } from "react-toastify";
->>>>>>> e61af66fbda5299881ac630928328b2ed83c8feb
 const Submitform = () => {
   const [formData, setFormData] = useState({
     name: "",
