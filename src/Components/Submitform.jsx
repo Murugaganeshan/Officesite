@@ -149,7 +149,7 @@ const Submitform = () => {
                     className={`form-control email ${
                       errors.contact ? "is-invalid" : ""
                     }`}
-                    placeholder="Contact"
+                    placeholder="Phone number"
                   />
                   {errors.contact && (
                     <div className="invalid-feedback"><b>{errors.contact}</b></div>
