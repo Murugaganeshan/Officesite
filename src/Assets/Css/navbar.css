@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -94,7 +94,7 @@ margin-bottom: 18px;
   
   .nav-item:hover:after {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     background: white;
 
   }
@@ -109,36 +109,39 @@ margin-bottom: 18px;
     width: 2rem;
     height: 2rem;
   }
-  
-  @media (max-width: 960px) {
-     .nav-menu {
+ 
+  @media screen and (max-width: 1050px) {
+    .nav-menu {
       display: flex;
       flex-direction: column;
       width: 100%;
       border-top: 1pxsolid #fff;
       position: absolute;
-      /* top: 67px; */
-    top: 10vh;
+      top: 10vh;
       left: -110%;
-
-    
       opacity: 1;
       transition: all 0.5s ease;
       padding: 20px;
-
+    }
   
-    } 
-   
     .nav-menu.active {
       background:rgb(11, 10, 16);;
       background-color: rgb(11, 10, 16);
+      left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: -1;
-
-
     }
-   
+    .nav-item .active {
+      color: #ffdd40;
+      border: none;
+    }
+    .nav-item:hover:after {
+      margin: 0 auto;
+      width: 30%;
+      background: white;
+  
+    }
     .nav-links {
       width: 100%;
       display: table;
@@ -160,11 +163,5 @@ margin-bottom: 18px;
       cursor: pointer;
       color: #ffdd40;
     }
-    .nav-item:hover:after {
-      margin: 0 auto;
-      width: 25%;
-      background: white;
-  
-    }
   }
-     
+  
