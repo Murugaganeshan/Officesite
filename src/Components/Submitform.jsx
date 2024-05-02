@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "../Assets/Css/Submitform.css";
-import interview from "./Assest/aa.png";
 import Footer from "./Footer";
 import axios from "axios";
 import {ApplyForm}from '../Authiapis/backendcall'
@@ -127,7 +126,7 @@ const Submitform = () => {
 
   return (
     <div>
-      <div style={{ backgroundImage: `url(${interview})` }}>
+      <div style={{ backgroundColor:"rgb(33, 37, 47)"}}>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-6 glass">
@@ -160,6 +159,7 @@ const Submitform = () => {
                       errors.email ? "is-invalid" : ""
                     }`}
                     placeholder="Your Email"
+                   
                   />
                   {errors.email && (
                     <div className="invalid-feedback">
@@ -179,7 +179,7 @@ const Submitform = () => {
                     placeholder="Contact"
                   />
                   {errors.contact && (
-                    <div className="invalid-feedback">{errors.contact}</div>
+                    <div className="invalid-feedback"><b>{errors.contact}</b></div>
                   )}
                 </div>
                 <div className="row row-cols-md-2 row-cols-1">
@@ -195,6 +195,7 @@ const Submitform = () => {
                       style={{ width: "100%" }}
                     >
                       <option selected>Choose Position...</option>
+                      <option>Senior Frontend Developer</option>
                       <option>Backend (Nodejs)</option>
                       <option>Digital Marketing</option>
                       <option>Business Development Executive</option>
@@ -237,7 +238,7 @@ const Submitform = () => {
                     rows="5"
                   ></textarea>
                   {errors.message && (
-                    <div className="invalid-feedback">{errors.message}</div>
+                    <div className="invalid-feedback"><b>{errors.message}</b></div>
                   )}
                 </div>
                 <div>
@@ -252,7 +253,7 @@ const Submitform = () => {
                     onChange={handleFileChange}
                   />
                   {errors.file && (
-                    <div className="invalid-feedback">{errors.file}</div>
+                    <div className="invalid-feedback"><b>{errors.file}</b></div>
                   )}
                 </div>
                 <div className="Submit_form">
