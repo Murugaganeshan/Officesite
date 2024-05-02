@@ -116,7 +116,7 @@ const Submitform = () => {
                     className={`form-control email ${
                       errors.user_name ? "is-invalid" : ""
                     }`}
-                    placeholder="Name "
+                    placeholder="Name"
                   />
                   {errors.user_name && (
                     <div className="invalid-feedback"><b>{errors.user_name}</b></div>
@@ -132,6 +132,7 @@ const Submitform = () => {
                       errors.user_email ? "is-invalid" : ""
                     }`}
                     placeholder="Your Email"
+                   
                   />
                   {errors.user_email && (
                     <div className="invalid-feedback">
@@ -167,6 +168,7 @@ const Submitform = () => {
                       style={{ width: "100%" }}
                     >
                       <option selected>Choose Position...</option>
+                      <option>Senior Frontend Developer</option>
                       <option>Backend (Nodejs)</option>
                       <option>Digital Marketing</option>
                       <option>Business Development Executive</option>
