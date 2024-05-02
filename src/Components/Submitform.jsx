@@ -91,7 +91,7 @@ const Submitform = () => {
         position: "",
         experience: "",
         message: "",
-        file: null,
+        file: "",
       });
       setErrors({});
     }
@@ -116,7 +116,7 @@ const Submitform = () => {
                     className={`form-control email ${
                       errors.user_name ? "is-invalid" : ""
                     }`}
-                    placeholder="Name"
+                    placeholder="Name "
                   />
                   {errors.user_name && (
                     <div className="invalid-feedback">{errors.user_name}</div>

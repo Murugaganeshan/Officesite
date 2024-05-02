@@ -201,7 +201,7 @@ let Contact = () => {
                                                         <p class="mb-2" style={{ color: "grey" }}>Please write to us directly.</p>
                                                         <hr class="w-75 mb-3 border-dark-subtle" />
                                                         <p class="mb-0">
-                                                            <a class=" text-decoration-none" href="mailto:demo@yourdomain.com" style={{ color: "white" }}>abc@gmail.com</a>
+                                                            <a class=" text-decoration-none" href="mailto:demo@yourdomain.com" style={{ color: "white" }}>thamizhansolutions1630@gmail.com</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -219,13 +219,10 @@ let Contact = () => {
                                                 <p class="mb-2" style={{ color: "grey" }}>Explore our business opening hours.</p>
                                                 <hr class="w-50 mb-3 border-dark-subtle" />
                                                 <div class="d-flex mb-1">
-                                                    <p class=" fw-bold mb-0 me-5" style={{ color: "white" }}>Mon - Fri</p>
+                                                    <p class=" fw-bold mb-0 me-5" style={{ color: "white" }}>Mon - Sat</p>
                                                     <p class=" mb-0" style={{ color: "white" }}>9am - 6.30pm</p>
                                                 </div>
-                                                <div class="d-flex">
-                                                    <p class=" fw-bold mb-0 me-5" style={{ color: "white" }}>Sat - Sun</p>
-                                                    <p class=" mb-0" style={{ color: "white" }}>9am - 2pm</p>
-                                                </div>
+                                               
                                             </div>
                                         </div>
                                     </div>
