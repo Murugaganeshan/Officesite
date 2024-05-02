@@ -5,7 +5,6 @@ import {  toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
 import {ApplyForm}from '../Authiapis/backendcall'
-import { toast } from "react-toastify";
 const Submitform = () => {
   const [formData, setFormData] = useState({
     name: "",
