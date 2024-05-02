@@ -26,7 +26,7 @@ let Cripto=()=>{
                   <div class="row gy-2 gy-md-0 justify-content-xxl-center">
                     <div class="col-12 order-md-1 col-md-8 col-xxl-6">
                       <div class="text-center text-md-start">
-                        <h2 class="display-3 fw-bold lh-1">Cripto Trading</h2>
+                        <h2 class="display-3 fw-bold lh-1">Crypto Trading</h2>
                         <p class="text-secondary fs-4 mb-2">Description</p>
                         <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
                         <p style={{color:"grey"}}>Cryptocurrency trading involves buying and selling digital assets on exchanges with the goal of generating profits through price fluctuations. Traders employ various strategies, including technical analysis, fundamental analysis, and sentiment analysis, to make informed decisions about when to enter or exit trades.

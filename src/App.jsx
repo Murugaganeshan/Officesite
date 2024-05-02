@@ -14,6 +14,7 @@ import Aidevelopment from "./Components/Aidevelopment"
 import Cripto from "./Components/Cripto"
 import Neft from "./Components/Neft"
 import Discovermore from "./Components/Discovermore"
+import { ToastContainer } from "react-toastify"
 
 
 
@@ -21,6 +22,8 @@ let App=()=>{
 
     return (
         <div>
+            <ToastContainer />
+
         <BrowserRouter>
         <Nav></Nav>
         <Routes>          
