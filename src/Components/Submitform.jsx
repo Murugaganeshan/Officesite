@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "../Assets/Css/Submitform.css";
-import interview from "./Assest/aa.png";
 import Footer from "./Footer";
 
 const Submitform = () => {
@@ -99,7 +98,7 @@ const Submitform = () => {
 
   return (
     <div>
-      <div style={{ backgroundImage: `url(${interview})` }}>
+      <div style={{ backgroundColor:"rgb(144,224,239)"}}>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-6 glass">
@@ -119,7 +118,7 @@ const Submitform = () => {
                     placeholder="Name "
                   />
                   {errors.user_name && (
-                    <div className="invalid-feedback">{errors.user_name}</div>
+                    <div className="invalid-feedback"><b>{errors.user_name}</b></div>
                   )}
                 </div>
                 <div className="form-group">
@@ -135,7 +134,7 @@ const Submitform = () => {
                   />
                   {errors.user_email && (
                     <div className="invalid-feedback">
-                      {errors.user_email}
+                      <b>{errors.user_email}</b>
                     </div>
                   )}
                 </div>
@@ -151,7 +150,7 @@ const Submitform = () => {
                     placeholder="Contact"
                   />
                   {errors.contact && (
-                    <div className="invalid-feedback">{errors.contact}</div>
+                    <div className="invalid-feedback"><b>{errors.contact}</b></div>
                   )}
                 </div>
                 <div className="row row-cols-md-2 row-cols-1">
@@ -173,7 +172,7 @@ const Submitform = () => {
                     </select>
                     {errors.position && (
                       <div className="invalid-feedback">
-                        {errors.position}
+                       <b> {errors.position}</b>
                       </div>
                     )}
                   </div>
@@ -191,7 +190,7 @@ const Submitform = () => {
                     />
                     {errors.experience && (
                       <div className="invalid-feedback">
-                        {errors.experience}
+                        <b>{errors.experience}</b>
                       </div>
                     )}
                   </div>
@@ -209,7 +208,7 @@ const Submitform = () => {
                     rows="5"
                   ></textarea>
                   {errors.message && (
-                    <div className="invalid-feedback">{errors.message}</div>
+                    <div className="invalid-feedback"><b>{errors.message}</b></div>
                   )}
                 </div>
                 <div>
@@ -223,7 +222,7 @@ const Submitform = () => {
                     onChange={handleFileChange}
                   />
                   {errors.file && (
-                    <div className="invalid-feedback">{errors.file}</div>
+                    <div className="invalid-feedback"><b>{errors.file}</b></div>
                   )}
                 </div>
                 <div className="Submit_form">
