@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../Assets/Css/Submitform.css";
 import Footer from "./Footer";
 
+
 const Submitform = () => {
   const [formData, setFormData] = useState({
     user_name: "",
@@ -98,7 +99,7 @@ const Submitform = () => {
 
   return (
     <div>
-      <div style={{ backgroundColor:"rgb(144,224,239)"}}>
+      <div style={{ backgroundColor:"rgb(33, 37, 47)"}}>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-6 glass">
