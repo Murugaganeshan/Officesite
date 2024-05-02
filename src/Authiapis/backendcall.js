@@ -22,10 +22,10 @@ import { makeApiRequest } from "./axiosService";
     }
   }
 
-  export const staketoken = async (bodyData) => {
+  export const ApplyForm = async (bodyData) => {
     try {
       let params = {
-        url: `staketoken`,
+        url: `applyforjob`,
         method: "POST",
         data: bodyData
       }
@@ -37,7 +37,7 @@ import { makeApiRequest } from "./axiosService";
         data:response.data
       }
     } catch (error) {
-      console.log('getLoanHistory error',error);
+      // console.log('getLoanHistory error',error);
       return {
         status:false,
         message: "Error on server"

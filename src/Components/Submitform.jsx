@@ -2,14 +2,16 @@ import { useState } from "react";
 import "../Assets/Css/Submitform.css";
 import interview from "./Assest/aa.png";
 import Footer from "./Footer";
-
+import axios from "axios";
+import {ApplyForm}from '../Authiapis/backendcall'
+import { toast } from "react-toastify";
 const Submitform = () => {
   const [formData, setFormData] = useState({
-    user_name: "",
-    user_email: "",
+    name: "",
+    email: "",
     contact: "",
-    position: "",
-    experience: "",
+    Position: "",
+    Experience: "",
     message: "",
     file: "",
   });
@@ -33,22 +35,22 @@ const Submitform = () => {
   };
 
 
-  const submit = (e) => {
+  const submit = async(e) => {
     e.preventDefault();
     const validationErrors = {};
 
-    if (!formData.user_name.trim()) {
-      validationErrors.user_name = "Name is required";
+    if (!formData.name.trim()) {
+      validationErrors.name = "Name is required";
     }
 
-    if (!formData.user_email.trim()) {
-      validationErrors.user_email = "Email is required";
+    if (!formData.email.trim()) {
+      validationErrors.email = "Email is required";
     } else if (
       !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(
-        formData.user_email
+        formData.email
       )
     ) {
-      validationErrors.user_email = "Invalid email format";
+      validationErrors.email = "Invalid email format";
     }
 
     if (!formData.contact.trim()) {
@@ -57,11 +59,11 @@ const Submitform = () => {
       validationErrors.contact = "Invalid phone number (must be 10 digits)";
     }
 
-    if (!formData.position.trim()) {
+    if (!formData.Position.trim()) {
       validationErrors.position = "Position is required";
     }
 
-    if (!formData.experience.trim()) {
+    if (!formData.Experience.trim()) {
       validationErrors.experience = "Experience is required";
     }
 
@@ -83,19 +85,45 @@ const Submitform = () => {
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
     } else {
-      console.log("Form submitted:", formData);
-      setFormData({
-        user_name: "",
-        user_email: "",
-        contact: "",
-        position: "",
-        experience: "",
-        message: "",
-        file: null,
-      });
-      setErrors({});
+      const formDataToSend = new FormData();
+      formDataToSend.append("name", formData.name);
+      formDataToSend.append("email", formData.email);
+      formDataToSend.append("contact", formData.contact);
+      formDataToSend.append("Position", formData.Position);
+      formDataToSend.append("Experience", formData.Experience);
+      formDataToSend.append("message", formData.message);
+      formDataToSend.append("pdfFile", formData.file);
+
+      try {
+        // Reset form data and errors after successful submission
+        const response = await ApplyForm(formDataToSend)
+        if(response.status){
+
+    
+          toast.success(response.message)
+        }
+        else{
+  
+          toast.error(response.message)
+        }
+        setFormData({
+          name: "",
+          email: "",
+          contact: "",
+          Position: "",
+          Experience: "",
+          message: "",
+          file: null,
+        });
+        setErrors({});
+        window.location.href='/'
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        // Handle error if needed
+      }
     }
   };
+;
 
   return (
     <div>
@@ -110,32 +138,32 @@ const Submitform = () => {
                 <div className="form-group">
                   <input
                     type="text"
-                    name="user_name"
-                    value={formData.user_name}
+                    name="name"
+                    value={formData.name}
                     onChange={handleInputChange}
                     className={`form-control email ${
-                      errors.user_name ? "is-invalid" : ""
+                      errors.name ? "is-invalid" : ""
                     }`}
                     placeholder="Name"
                   />
-                  {errors.user_name && (
-                    <div className="invalid-feedback">{errors.user_name}</div>
+                  {errors.name && (
+                    <div className="invalid-feedback">{errors.name}</div>
                   )}
                 </div>
                 <div className="form-group">
                   <input
                     type="email"
-                    name="user_email"
-                    value={formData.user_email}
+                    name="email"
+                    value={formData.email}
                     onChange={handleInputChange}
                     className={`form-control email ${
-                      errors.user_email ? "is-invalid" : ""
+                      errors.email ? "is-invalid" : ""
                     }`}
                     placeholder="Your Email"
                   />
-                  {errors.user_email && (
+                  {errors.email && (
                     <div className="invalid-feedback">
-                      {errors.user_email}
+                      {errors.email}
                     </div>
                   )}
                 </div>
@@ -157,12 +185,12 @@ const Submitform = () => {
                 <div className="row row-cols-md-2 row-cols-1">
                   <div className="form-group col">
                     <select
-                      name="position"
-                      value={formData.position}
+                      name="Position"
+                      value={formData.Position}
                       onChange={handleInputChange}
                       id="inputState"
                       className={`form-control email ${
-                        errors.position ? "is-invalid" : ""
+                        errors.Position ? "is-invalid" : ""
                       }`}
                       style={{ width: "100%" }}
                     >
@@ -171,27 +199,27 @@ const Submitform = () => {
                       <option>Digital Marketing</option>
                       <option>Business Development Executive</option>
                     </select>
-                    {errors.position && (
+                    {errors.Position && (
                       <div className="invalid-feedback">
-                        {errors.position}
+                        {errors.Position}
                       </div>
                     )}
                   </div>
                   <div className="form-group col">
                     <input
                       type="text"
-                      name="experience"
-                      value={formData.experience}
+                      name="Experience"
+                      value={formData.Experience}
                       onChange={handleInputChange}
                       className={`form-control email ${
-                        errors.experience ? "is-invalid" : ""
+                        errors.Experience ? "is-invalid" : ""
                       }`}
                       placeholder="Experience"
                       style={{ width: "100%" }}
                     />
-                    {errors.experience && (
+                    {errors.Experience && (
                       <div className="invalid-feedback">
-                        {errors.experience}
+                        {errors.Experience}
                       </div>
                     )}
                   </div>
@@ -217,9 +245,10 @@ const Submitform = () => {
                     className={`form-control form-control-lg email ${
                       errors.file ? "is-invalid" : ""
                     }`}
-                    id="formFileLg"
+                    id="file"
                     type="file"
                     accept=".pdf"
+                     name="file" 
                     onChange={handleFileChange}
                   />
                   {errors.file && (

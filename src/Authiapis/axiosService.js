@@ -6,10 +6,11 @@ export const makeApiRequest = async (params) => {
     const headers = {
         "Access-Control-Allow-Origin": "*",
         'Content-Type': 'application/json',
-        "Access-Control-Allow-Headers": "*"
+        "Access-Control-Allow-Headers": "*",
+        "Content-Type": "multipart/form-data",
     };
     let response;
-    console.log('config.BACKEND_URL', config.BACKEND_URL)
+    
 
     switch (params.method.toUpperCase()) {
       case "GET":
