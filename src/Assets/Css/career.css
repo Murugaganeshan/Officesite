@@ -74,10 +74,7 @@
  
 }
 
-.open h3{
-    color: grey;
-    font-weight: 300 !important;
-}
+
  h1{
     color: white;
     font-weight: 200;
@@ -91,6 +88,16 @@ h5{
 }
 h6{
     color: grey;
+}
+.carrersTitle{
+    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.carrersSubTitle{
+    color: white;
+    font-weight: 300;
+    font-size: 34px !important;
 }
 @media screen and (max-width: 370px) {
     .position {

@@ -12,9 +12,7 @@
     /* font-size: 90px; */
     font-size: 90px;
     font-weight: 900;
-    background: radial-gradient(circle, 
-    #ffffff  0%, 
-    #29323c 100%);
+    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
@@ -26,7 +24,7 @@
         /* font-size: 90px; */
         font-size: 50px;
         font-weight: 900;
-        background: -webkit-linear-gradient(rgba(9,24,27,0.22172619047619047) 100%);
+        background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
        
@@ -40,9 +38,9 @@
         /* font-size: 90px; */
         font-size: 30px;
         font-weight: 900;
-        background: -webkit-linear-gradient(	#2b2b2b,#FFFFFF,	#2b2b2b);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
        
     }
 
@@ -56,7 +54,7 @@
 
   font-family: "Acme", sans-serif;
     font-weight: 500;
-    color: rgb(94, 93, 93);
+    color: white;
 }
 
 
@@ -118,7 +116,7 @@
  #demo-canvas{
     width: 100%;
  }
- 
+
 
 
 

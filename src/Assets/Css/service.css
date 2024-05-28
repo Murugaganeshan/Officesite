@@ -12,3 +12,13 @@
 .serviceIcon{
    color: rgb(202, 172, 121);
 }
+.serviceTitle{
+    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.serviceSubTitle{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}

@@ -25,9 +25,9 @@ let Carrers=()=>{
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
             <div className="col">
-<div className="card details">
-    <h1 class="fs-1 "> JOIN OUR TEAM </h1>
-    <h3 style={{color:"white",marginTop:"10"}} class="fs-3 text-secondary">Come work with us</h3>
+<div className="card details" data-aos="fade-in">
+    <h1 class="fs-1 carrersTitle"> JOIN OUR TEAM </h1>
+    <h3 style={{color:"white",marginTop:"10"}} class="fs-3 carrersSubTitle">Come work with us</h3>
     <h6 className="fs-5 text-secondary">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
 </div>
 
@@ -40,10 +40,10 @@ let Carrers=()=>{
 
             </div>  
            </div>
-          <div className="container my-4 open">
-            <h3 className="text-center fs-1"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
+          <div className="container my-4 open" data-aos="fade-in">
+            <h3 className="text-center fs-1 carrersSubTitle"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
           </div>
-           <h1 className="current my-4 fs-1" ref={ref}>
+           <h1 className="current my-4 fs-1 carrersTitle" ref={ref} data-aos="fade-in ">
             Current Openings
            </h1>
            <div className="acc">
@@ -51,7 +51,7 @@ let Carrers=()=>{
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col my-3"> 
 
-      <Accordion className="p-1">
+      <Accordion className="p-1" >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -81,7 +81,7 @@ let Carrers=()=>{
     <div className="col my-3"> 
       
     
-      <Accordion className="p-1">
+      <Accordion className="p-1" >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -119,7 +119,7 @@ let Carrers=()=>{
         >
            <h5>Back End Developer</h5>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails >
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
           <ul>
@@ -151,7 +151,7 @@ let Carrers=()=>{
         >
            <h5>Digital Marketing</h5>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails >
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
           <ul>

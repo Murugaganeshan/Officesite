@@ -50,55 +50,55 @@ let Footer=()=>{
               <div class="row row-cols-md-3 row-cols-sm-1 row-cols-1 gy-4 gy-sm-0">
                 <div class="col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white">Services</h4>
+                    <h4 class="widget-title mb-4 footerTitle">Services</h4>
                     <ul class="list-unstyled service">
                       <li class="mb-3">
-                      <Link to="/mobileapp" class="link-secondary text-decoration-none" path="/mobileapp"><GoArrowRight /> Mobile Development</Link>
+                      <Link to="/mobileapp" class="link-secondary text-decoration-none footerSubTitle" path="/mobileapp"><GoArrowRight /> Mobile Development</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/webdevelopment" class="link-secondary text-decoration-none" ><GoArrowRight /> Web Development</Link>
+                      <Link to="/webdevelopment" class="link-secondary text-decoration-none footerSubTitle" ><GoArrowRight /> Web Development</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/uiux" class="link-secondary text-decoration-none"><GoArrowRight /> UI/UX Development</Link>
+                      <Link to="/uiux" class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> UI/UX Development</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/aidevelopment" class="link-secondary text-decoration-none"><GoArrowRight /> AI Development</Link>
+                      <Link to="/aidevelopment" class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> AI Development</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/cripto" class="link-secondary text-decoration-none"><GoArrowRight /> Crypto Trading</Link>
+                      <Link to="/cripto" class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Crypto Trading</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/neft" class="link-secondary text-decoration-none"><GoArrowRight /> NFT Marketing</Link>
+                      <Link to="/neft" class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> NFT Marketing</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-6 col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white">Company</h4>
+                    <h4 class="widget-title mb-4 footerTitle">Company</h4>
                     <ul class="list-unstyled company">
                       <li class="mb-3">
-                        <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
+                        <Link to="/" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Home</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/about" className="link-secondary text-decoration-none"><GoArrowRight /> About</Link>
+                      <Link to="/about" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> About</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/service" className="link-secondary text-decoration-none"><GoArrowRight /> Services</Link>
+                      <Link to="/service" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Services</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/careers" className="link-secondary text-decoration-none"><GoArrowRight /> Careers</Link>
+                      <Link to="/careers" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Careers</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/contactus" className="link-secondary text-decoration-none"><GoArrowRight /> Contact Us</Link>
+                      <Link to="/contactus" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Contact Us</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-12 col-sm-6">
                   <div class="widget mx-4">
-                    <h4 class="widget-title mb-4 text-white">Our Newsletter</h4>
-                    <p class="mb-4   fw-lighter" style={{color:"grey"}}>Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
+                    <h4 class="widget-title mb-4 footerTitle">Our Newsletter</h4>
+                    <p class="mb-4    footerSubTitle" >Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
                     <form action="#!">
                       <div class="row gy-4">
                         <div class="col-12">
@@ -119,8 +119,8 @@ let Footer=()=>{
               </div>
               
               <div class="row mt-6 border-top border-light-subtle my-5 text-center">
-                <div class="footer-copyright-wrapper link-secondary my-4">
-                  &copy; copyrights <span className="fw-bold text-white">Thamizhan Solutions</span> All Rights Reserved.
+                <div class="footer-copyright-wrapper foot my-4">
+                  &copy; copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
                 </div>
               </div>
             </div>

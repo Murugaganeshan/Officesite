@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
-import { CgMenuLeftAlt } from "react-icons/cg";
 import "../Assets/Css/navbar.css"
 import logo from "../Assets/Images/finalLogo.jpg";
-
+import { CgMenuRightAlt } from "react-icons/cg";
 
 function NavBar() {
 
@@ -109,7 +108,7 @@ function NavBar() {
             ) : (
               <span className="icon">
             
-              <CgMenuLeftAlt/>
+            <CgMenuRightAlt />
               </span>
             )}
           </div>
