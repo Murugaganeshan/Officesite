@@ -10,8 +10,10 @@ let Footer=()=>{
     return(
 
     <div className='container-fluid footer'>
+
+      
       <div className="row" >
-        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8  footerBlock'>
+        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
             <div class="col-12 col-md-11 col-xl-10 footer-con">
               <div class="footer-logo-wrapper m-3">
@@ -25,11 +27,11 @@ let Footer=()=>{
                        <a href="/"><FaFacebook/> </a>
                        <a href="/"><FaInstagram/> </a>
                        <a href="/"><FaTwitter/> </a>
-                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-YjU4MDVhNDUtMTEyMC00NzUxLWE0YjAtZWEyY2IwYjlhN2U2XzAxMA==/"><FaLinkedin/> </a>
+                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><FaLinkedin/></a>
                     </div>
                 </div>
-{/*              
-              <div class="address-wrapper mt-5">
+                    
+           {/* <div class="address-wrapper mt-5">
                 <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light" style={{color:'grey'}}>21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
                 <p class="mb-2">
                   <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light" style={{color:'grey'}}>+91 9876543210</span> </a>
@@ -42,7 +44,7 @@ let Footer=()=>{
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-8 bg-dark py-4 py-md-5 py-xxl-8 ">
+        <div class="col-12 col-lg-8 footerRight py-4 py-md-5 py-xxl-8 ">
           <div class="row justify-content-center">
             <div class="col-12 col-md-11 col-xxl-10">
               <div class="row row-cols-md-3 row-cols-sm-1 row-cols-1 gy-4 gy-sm-0">
@@ -93,7 +95,7 @@ let Footer=()=>{
                     </ul>
                   </div>
                 </div>
-                <div class="col-12 col-sm-6 ">
+                <div class="col-12 col-sm-6">
                   <div class="widget mx-4">
                     <h4 class="widget-title mb-4 text-white">Our Newsletter</h4>
                     <p class="mb-4   fw-lighter" style={{color:"grey"}}>Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>

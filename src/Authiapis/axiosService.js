@@ -8,7 +8,8 @@ export const makeApiRequest = async (params) => {
         'Content-Type': 'application/json',
         "Access-Control-Allow-Headers": "*",
         "Content-Type": "multipart/form-data",
-    };
+    };   
+    
     let response;
     
 

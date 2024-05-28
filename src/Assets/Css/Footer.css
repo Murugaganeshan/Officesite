@@ -5,14 +5,20 @@
 }
 .footer{
     width: 100%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
 }
 .services-li{
     background-color: red;
 }
 
 .footerBlock{
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(28, 41, 47);
     max-width: 100%;
+}
+.footerRight{
+    background-color: rgb(28, 41, 47);
+
 }
 .fullWidthContainer {
     padding-left: 0;

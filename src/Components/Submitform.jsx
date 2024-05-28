@@ -5,7 +5,9 @@ import {  toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
 import {ApplyForm}from '../Authiapis/backendcall'
+
 const Submitform = () => {
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -36,10 +38,10 @@ const Submitform = () => {
 
 
   const submit = async(e) => {
+    
     e.preventDefault();
     const validationErrors = {};
     
-
     if (!formData.name.trim()) {
       validationErrors.name = "Name is required";
     }
@@ -143,7 +145,7 @@ const Submitform = () => {
 
   return (
     <div>
-      <div style={{ backgroundColor:"rgb(33, 37, 47)"}}>
+      <div style={{backgroundColor:" rgb(17, 40, 51)"}}>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-6 glass">
@@ -163,7 +165,7 @@ const Submitform = () => {
                     placeholder="Name"
                   />
                   {errors.name && (
-                    <div className="invalid-feedback">{errors.name}</div>
+                    <div className="invalid-feedback"><b>{errors.name}</b></div>
                   )}
                 </div>
                 <div className="form-group">
@@ -180,7 +182,7 @@ const Submitform = () => {
                   />
                   {errors.email && (
                     <div className="invalid-feedback">
-                      {errors.email}
+                      <b>{errors.email}</b>
                     </div>
                   )}
                 </div>
@@ -219,7 +221,7 @@ const Submitform = () => {
                     </select>
                     {errors.Position && (
                       <div className="invalid-feedback">
-                        {errors.Position}
+                        <b>{errors.Position}</b>
                       </div>
                     )}
                   </div>
@@ -237,7 +239,7 @@ const Submitform = () => {
                     />
                     {errors.Experience && (
                       <div className="invalid-feedback">
-                        {errors.Experience}
+                        <b>{errors.Experience}</b>
                       </div>
                     )}
                   </div>

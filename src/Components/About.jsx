@@ -14,12 +14,12 @@ let About = () => {
 
     return (
         <div >
-            <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(33, 37, 47)"}}>
+            <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(17, 40,51 )"}}>
                 <div className="container" data-aos="fade-down">
-                    <div className="row">
+                    <div className="row ">
                         <div className="col-12 col-md-10 col-lg-8">
-                            <h3 className="fs-5 mb-2 text-secondary text-uppercase">About</h3>
-                            <h2 className="display-5 mb-4" style={{color:"white"}}>Our journey began with a dream of redefining how the world perceives design.</h2>
+                            <h3 className="fs-5 mb-2 text-secondary aboutTitle text-uppercase ">About</h3>
+                            <h2 className="display-5 mb-4 " style={{color:"white"}}>Our journey began with a dream of redefining how the world perceives design.</h2>
                             <Link to="/discovermore"> <button type="button" className="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" id={style.dis}>Discover More</button></Link>
                         </div>
                     </div>

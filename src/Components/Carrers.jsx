@@ -1,4 +1,4 @@
-import Inter from "../Assets/Images/inter.jpg"
+import Inter from "../Assets/Images/interview.png"
 import "../Assets/Css/career.css"
 import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
@@ -21,7 +21,7 @@ let Carrers=()=>{
     return(
       <div>
         
-        <div className="container-fluid" style={{backgroundColor:"rgb(33, 37, 47)"}}>
+        <div className="container-fluid" style={{backgroundColor:" rgb(17, 40, 51)"}}>
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
             <div className="col">
@@ -30,7 +30,7 @@ let Carrers=()=>{
     <h3 style={{color:"white",marginTop:"10"}} class="fs-3 text-secondary">Come work with us</h3>
     <h6 className="fs-5 text-secondary">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
 </div>
-<button onClick={handleClick} class=" View">View Opening</button>
+
             </div>
             <div className="col">
             <div className="my-5">
