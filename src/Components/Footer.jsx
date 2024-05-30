@@ -12,7 +12,7 @@ let Footer=()=>{
     <div className='container-fluid footer'>
 
       
-      <div className="row" >
+      <div className="row">
         <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
             <div class="col-12 col-md-11 col-xl-10 footer-con">
@@ -118,10 +118,10 @@ let Footer=()=>{
                 </div>
               </div>
               
-              <div class="row mt-6 border-top border-light-subtle my-5 text-center">
+              <div class="row mt-6 border-top border-light-subtle my-5 text-start">
                 <div class="footer-copyright-wrapper foot my-4">
                   &copy; copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
-                </div>
+                </div>        
               </div>
             </div>
           </div>
@@ -131,6 +131,3 @@ let Footer=()=>{
     )}
                          
 export default Footer
-
-
-
