@@ -138,7 +138,7 @@ margin-bottom: 18px;
     }
     .nav-item:hover:after {
       margin: 0 auto;
-      width: 30%;
+      width: 20%;
       background: white;
   
     }

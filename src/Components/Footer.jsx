@@ -25,20 +25,10 @@ let Footer=()=>{
                        <a href="/"><FaFacebook/> </a>
                        <a href="/"><FaInstagram/> </a>
                        <a href="/"><FaTwitter/> </a>
-                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-YjU4MDVhNDUtMTEyMC00NzUxLWE0YjAtZWEyY2IwYjlhN2U2XzAxMA==/"><FaLinkedin/> </a>
+                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><FaLinkedin/> </a>
                     </div>
                 </div>
-{/*              
-              <div class="address-wrapper mt-5">
-                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light" style={{color:'grey'}}>21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
-                <p class="mb-2">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light" style={{color:'grey'}}>+91 9876543210</span> </a>
-                </p>
-                <p class="mb-0">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light" style={{color:'grey'}}>thamizhan1630@gmail.com</span> </a>
-                </p>
-              </div> */}
-              <iframe width="350" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=453&amp;height=400&amp;hl=en&amp;q=%2021,%20Pandian%20Street,%20TVS%20Nagar,%20Madurai%20Madurai+(Thamizhan%20Solutions)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.acadoo.de/'></a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=0d38e54c9e178e1c131e8fc1c513d29279b1afe9'></script>
+
             </div>
           </div>
         </div>
@@ -48,8 +38,8 @@ let Footer=()=>{
               <div class="row row-cols-md-3 row-cols-sm-1 row-cols-1 gy-4 gy-sm-0">
                 <div class="col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white">Services</h4>
-                    <ul class="list-unstyled service">
+                    <h4 class="widget-title mb-4 text-white mx-4">Services</h4>
+                    <ul class="list-unstyled service mx-4     ">
                       <li class="mb-3">
                       <Link to="/mobileapp" class="link-secondary text-decoration-none" path="/mobileapp"><GoArrowRight /> Mobile Development</Link>
                       </li>
@@ -73,9 +63,9 @@ let Footer=()=>{
                 </div>
                 <div class="col-6 col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white">Company</h4>
-                    <ul class="list-unstyled company">
-                      <li class="mb-3">
+                    <h4 class="widget-title mb-4 text-white mx-4">Company</h4>
+                    <ul class="list-unstyled company mx-4">
+                      <li class="mb-3 ">
                         <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
                       </li>
                       <li class="mb-3">
@@ -116,8 +106,18 @@ let Footer=()=>{
                 </div>
               </div>
               
-              <div class="row mt-6 border-top border-light-subtle my-5 text-center">
-                <div class="footer-copyright-wrapper link-secondary my-4">
+              <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 mt-6 border-top border-light-subtle my-5 text-center">
+                <div className="col"> 
+                <div className="privacy">
+            <a class="nav-link " aria-current="page" href="#">Privacy & Policy</a>
+            <div class="vert"></div>
+                           
+            <a class="nav-link " aria-current="page" href="#">Terms & Condition   </a>
+         
+
+            </div></div>
+          
+                <div class="footer-copyright-wrapper link-secondary my-4 col">
                   &copy; copyrights <span className="fw-bold text-white">Thamizhan Solutions</span> All Rights Reserved.
                 </div>
               </div>

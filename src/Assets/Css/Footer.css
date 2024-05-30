@@ -51,6 +51,22 @@ iframe{
   border-radius: 30px;
  
 }
+.privacy{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+   
+   }
+   .privacy{
+    color: rgb(245, 245, 245);
+    font-weight: 500;
+   }
+   .vert{
+    margin-left: 20px;
+    border-left: 3px solid rgb(245, 245, 245);
+    height: 25px;
+   }
 @media screen and (max-width: 450px) {
     iframe{
         height: 150px;
