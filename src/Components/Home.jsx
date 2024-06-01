@@ -7,7 +7,7 @@ import hero from './Assest/lp.jpg';
 import TweenLite from 'gsap'; 
 import Circ from 'gsap';
 import { Link } from 'react-router-dom';
-import About from "./About"
+import About from "./About"   
 
 
 
@@ -224,7 +224,6 @@ const Home = () => {
                     </div>
                  </div>
               </div>
-            <About/>
         </div>
     );
 };

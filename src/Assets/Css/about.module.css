@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* max-width: 100%; */
 }
 #dis a{
     text-decoration: none;
@@ -11,3 +10,15 @@
 #dis{
     border-radius: 0px;
 }
+
+ 
+.aboutTitle {
+    text-align: center;
+    margin-bottom: 20px; 
+    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px !important;
+    font-weight: 400;
+}
+

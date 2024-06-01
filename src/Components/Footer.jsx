@@ -1,17 +1,24 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import logo from "../Assets/Images/finalLogo.jpg"
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { RiWhatsappFill } from "react-icons/ri";
 import "../Assets/Css/Footer.css" 
+import { useState } from "react";
 
 let Footer=()=>{
+  const closeMenu=()=> setClick(false)
+  const [click, setClick] = useState(false);
+
 
     return(
 
     <div className='container-fluid footer'>
-      <div className="row" >
-        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8  footerBlock'>
+
+      
+      <div className="row">
+        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
             <div class="col-12 col-md-11 col-xl-10 footer-con">
               <div class="footer-logo-wrapper m-3">
@@ -22,71 +29,184 @@ let Footer=()=>{
               <div className="col footer-col">
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
-                       <a href="/"><FaFacebook/> </a>
+                      <div className="social-div">
+                       <a href="/"><FaFacebook/> </a> <h6>jdfjskf</h6>
+                       </div>
                        <a href="/"><FaInstagram/> </a>
                        <a href="/"><FaTwitter/> </a>
-                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><FaLinkedin/> </a>
+                       <a href="/"><FaWhatsapp/> </a>
+                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><FaLinkedin/></a>
                     </div>
                 </div>
-
+                    
+           {/* <div class="address-wrapper mt-5">
+                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light" style={{color:'grey'}}>21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
+                <p class="mb-2">
+                  <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light" style={{color:'grey'}}>+91 9876543210</span> </a>
+                </p>
+                <p class="mb-0">
+                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light" style={{color:'grey'}}>thamizhan1630@gmail.com</span> </a>
+                </p>
+              </div> */}
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-8 bg-dark py-4 py-md-5 py-xxl-8 ">
+        <div class="col-12 col-lg-8 footerRight py-4 py-md-5 py-xxl-8 ">
           <div class="row justify-content-center">
             <div class="col-12 col-md-11 col-xxl-10">
               <div class="row row-cols-md-3 row-cols-sm-1 row-cols-1 gy-4 gy-sm-0">
                 <div class="col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white mx-4">Services</h4>
-                    <ul class="list-unstyled service mx-4     ">
+                    <h4 class="widget-title mb-4 footerTitle">Services</h4>
+                    <ul class="list-unstyled service">
                       <li class="mb-3">
-                      <Link to="/mobileapp" class="link-secondary text-decoration-none" path="/mobileapp"><GoArrowRight /> Mobile Development</Link>
+                      <a href="/mobileapp"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Mobile Development </a>
                       </li>
                       <li class="mb-3">
-                      <Link to="/webdevelopment" class="link-secondary text-decoration-none" ><GoArrowRight /> Web Development</Link>
+                      <a href="/webdevelopment"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Web Development </a>
                       </li>
                       <li class="mb-3">
-                      <Link to="/uiux" class="link-secondary text-decoration-none"><GoArrowRight /> UI/UX Development</Link>
+                      <a href="/uiux"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> UI/UX Development </a>
                       </li>
                       <li class="mb-3">
-                      <Link to="/aidevelopment" class="link-secondary text-decoration-none"><GoArrowRight /> AI Development</Link>
+                      <a href="/aidevelopment"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> AI Development </a>
+
                       </li>
                       <li class="mb-3">
-                      <Link to="/cripto" class="link-secondary text-decoration-none"><GoArrowRight /> Crypto Trading</Link>
+                      <a href="/cripto"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Crypto Trading </a>
                       </li>
                       <li class="mb-3">
-                      <Link to="/neft" class="link-secondary text-decoration-none"><GoArrowRight /> NFT Marketing</Link>
+                        <a href="/neft"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> NFT Marketing </a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-6 col-sm-3">
                   <div>
-                    <h4 class="widget-title mb-4 text-white mx-4">Company</h4>
-                    <ul class="list-unstyled company mx-4">
-                      <li class="mb-3 ">
-                        <Link to="/" className="link-secondary text-decoration-none"><GoArrowRight /> Home</Link>
+                    <h4 class="widget-title mb-4 footerTitle">Company</h4>
+                    <ul class="list-unstyled company">
+                    <li className="mb-3">
+              {/* <Link
+            
+              exact
+                to="/"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClassName="active"
+                className="link-secondary text-decoration-none footerSubTitle"
+                onClick={closeMenu}
+              >
+             <GoArrowRight />  Home
+              </Link> */}
+
+
+              <a href="/"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Home</a>
+            </li>
+           
+            <li className="mb-3">
+            {/* <Link
+                exact
+                to="/about"
+                spy={true}
+                smooth={true}
+                offset={-110}
+                duration={500}
+                activeClassName="active"
+                className="link-secondary text-decoration-none footerSubTitle"
+                onClick={closeMenu}
+              >
+              <GoArrowRight /> About
+              </Link> */}
+              
+              <a href="/about"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> About</a>
+            </li>
+            <li className="mb-3">
+            {/* <Link
+                exact
+                to="/service"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClassName="active"
+                className="link-secondary text-decoration-none footerSubTitle"
+                onClick={closeMenu}
+              >
+              <GoArrowRight /> Service
+              </Link> */}
+               <a href="/service"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Service</a>
+            </li>
+            <li className="mb-3">
+            {/* <Link
+                exact
+                to="/career"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClassName="active"
+                className="link-secondary text-decoration-none footerSubTitle"
+                onClick={closeMenu}
+              >
+               
+               <GoArrowRight /> Careers
+              </Link> */}
+               <a href="/career"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Career</a>
+            </li>
+            <li className="mb-3">
+            {/* <Link
+            
+                exact
+                to="/contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                activeClassName="active"
+                className="link-secondary text-decoration-none footerSubTitle"
+                onClick={closeMenu}
+              >
+              <GoArrowRight/> Contact
+              </Link> */}
+               <a href="/contact"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Contact</a>
+            </li>
+            <li className="mb-3">
+
+            <a href="/contact"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Terms & Condition</a>
+            </li>
+            <li className="mb-3">
+
+            <a href="/contact"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Privacy Policy</a>
+            </li>
+
+
+
+
+
+                       {/* <li class="mb-3">
+                        <Link to="/" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Home</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/about" className="link-secondary text-decoration-none"><GoArrowRight /> About</Link>
+                      <Link to="/about" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> About</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/service" className="link-secondary text-decoration-none"><GoArrowRight /> Services</Link>
+                      <Link to="/service" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Services</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/careers" className="link-secondary text-decoration-none"><GoArrowRight /> Careers</Link>
+                      <Link to="/careers" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Careers</Link>
                       </li>
                       <li class="mb-3">
-                      <Link to="/contactus" className="link-secondary text-decoration-none"><GoArrowRight /> Contact Us</Link>
-                      </li>
+                      <Link to="/contactus" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Contact Us</Link>
+                      </li>  */}
                     </ul>
                   </div>
                 </div>
-                <div class="col-12 col-sm-6 ">
+                <div class="col-12 col-sm-6">
                   <div class="widget mx-4">
-                    <h4 class="widget-title mb-4 text-white">Our Newsletter</h4>
-                    <p class="mb-4   fw-lighter" style={{color:"grey"}}>Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
+                    <h4 class="widget-title mb-4 footerTitle">Our Newsletter</h4>
+                    <p class="mb-4    footerSubTitle" >Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
                     <form action="#!">
                       <div class="row gy-4">
                         <div class="col-12">
@@ -106,20 +226,10 @@ let Footer=()=>{
                 </div>
               </div>
               
-              <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 mt-6 border-top border-light-subtle my-5 text-center">
-                <div className="col"> 
-                <div className="privacy">
-            <a class="nav-link " aria-current="page" href="#">Privacy & Policy</a>
-            <div class="vert"></div>
-                           
-            <a class="nav-link " aria-current="page" href="#">Terms & Condition   </a>
-         
-
-            </div></div>
-          
-                <div class="footer-copyright-wrapper link-secondary my-4 col">
-                  &copy; copyrights <span className="fw-bold text-white">Thamizhan Solutions</span> All Rights Reserved.
-                </div>
+              <div class="row mt-6 border-top border-light-subtle my-5 text-start">
+                <div class="footer-copyright-wrapper foot my-4">
+                  &copy; copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
+                </div>        
               </div>
             </div>
           </div>
@@ -129,6 +239,3 @@ let Footer=()=>{
     )}
                          
 export default Footer
-
-
-

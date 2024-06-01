@@ -50,7 +50,7 @@ let Aidevelopment=()=>{
                           <span class="fs-4 text-secondary">For more details</span>
                         </p>
                         <div class="d-grid">
-                        <Link to="/contactus"> <button class={`btn btn-primary btn-lg ${style.btn}`} type="button"> CONTACT US </button></Link>
+                        <Link to="/contact"> <button class={`btn btn-primary btn-lg ${style.btn}`} type="button"> CONTACT US </button></Link>
                         </div>
                       </div>
                     </div>
