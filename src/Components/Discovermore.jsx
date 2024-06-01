@@ -65,7 +65,6 @@ let Discovermore=()=>{
                     </div>
                 </div>
                 </section>
-                <Footer></Footer>
         </div>
     )
 }

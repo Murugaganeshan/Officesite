@@ -40,6 +40,11 @@
     font-weight: 400;
 
 }
+.rounded{
+  width: 70%;
+ margin-left: 50px;
+  
+}
 .btn{
     margin-top: 15px;
 }
@@ -99,9 +104,21 @@ h6{
     font-weight: 300;
     font-size: 34px !important;
 }
+@media screen and (max-width: 500px) {
+    .rounded{
+        width: 70%;
+       margin-left: 20px;
+        
+      }
+}
 @media screen and (max-width: 370px) {
     .position {
         font-size: 12px;
 
     }
+    .rounded{
+        width: 70%;
+       margin-left: 20px;
+        
+      }
 }

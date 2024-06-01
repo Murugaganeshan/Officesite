@@ -92,11 +92,11 @@ let Contact = () => {
     }, []);
   
     return (
-        <div>
+        <div className="">
             <section class="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(17, 40, 51)"}}>
                 <div class="container ">
                     <div class="row">
-                        <div class=" container-fluid  text-center" data-aos="fade-in">
+                        <div class=" container-fluid  text-center contactpage pb-3" data-aos="fade-in">
                             <h3 class="fs-5 mb-2  contactTitle text-uppercase ">Contact Us</h3>
                             <h2 class="display-5 mb-4 mb-md-5 mb-xl-8 contact contactSubTitle" >We're always on the lookout to work with new clients. Please get in touch in one of the following ways.</h2>
                         </div>
@@ -174,11 +174,15 @@ let Contact = () => {
                                                         <h4 class="mb-2" style={{ color: "white" }}>Phone</h4>
                                                         <p class="mb-2" style={{ color: "grey" }}>Please speak with us directly.</p>
                                                         <hr class="w-75 mb-3 border-dark-subtle" />
-                                                        <p class="mb-0">
-                                                            <a class="text-decoration-none" href="tel:+15057922430" style={{ color: "white" }}>+91 8870854141</a> <br />
-                                                            <a class="text-decoration-none my-3" href="tel:+15057922430" style={{ color: "white" }}>+ 04524207281</a>
+                                                        {/* <p class="mb-0">
+                                                            <p class="text-decoration-none"style={{ color: "white" }}>+91 8870854141</p> <br />
+                                                            <p class="text-decoration-none my-3"  style={{ color: "white" }}>+ 04524207281</p>
 
-                                                        </p>
+                                                        </p> */}
+                                                        <div className="number">
+                                                            <p style={{color:"white"}}>+91 8870854141</p>
+                                                            <p style={{color:"white"}}>+ 04524207281</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -225,7 +229,6 @@ let Contact = () => {
                 </div>
             </section>
 
-            <Footer></Footer>
 
         </div>
     )

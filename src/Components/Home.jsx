@@ -233,7 +233,6 @@
 // };
 
 // export default Home;
-
 import React from 'react';
 import video1 from "../Assets/Images/video1.mp4";
 import image from "../Assets/Images/objects.png";
@@ -243,7 +242,7 @@ import About from "./About";
 const Home = () => {
     return (
         <div className="">
-            <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="3000">
+            <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="2000">
                 <div className="carousel-inner mt-5">
                     <div className="carousel-item active ">
                         <div className="row">

@@ -8,18 +8,17 @@ import Service from "./Service";
 import { Link } from "react-router-dom";
 
 let About = () => {
-
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
 
     return (
-        <div id="about">
+        <div className="" >
             <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(17, 40,51 )"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h3 className={`fs-5 mb-2 text-secondary ${style.aboutTitle}`} data-aos="fade-down">About</h3>
+                            <h3 className={`fs-5 mb-2 text-secondary aboutpage ${style.aboutTitle}`} data-aos="fade-down">About</h3>
                         </div>
                     </div>
                     <div className="row" data-aos="fade-down">
@@ -27,9 +26,12 @@ let About = () => {
                             <h2 className="display-5 mb-4 "  style={{color:"white",fontSize:"24px",fontWeight:"400"}}>
                                 Our journey began with a dream of redefining how the world perceives design.
                             </h2>
-                            <Link to="/discovermore">
-                                <button type="button" className={`btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5 ${style.dis}`}>Discover More</button>
-                            </Link>
+                            {/* <Link to="/discovermore">
+                                <button type="button" className={'btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5'}>Discover More</button>
+                            </Link> */}
+                            <a href="/discover"> <button  className="view btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5" > Discover More
+
+</button></a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +74,6 @@ let About = () => {
                     </div>
                 </div>
             </section>
-            <Service />
         </div>
     );
 }

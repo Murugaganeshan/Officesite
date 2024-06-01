@@ -70,19 +70,25 @@ margin-bottom: 18px;
   .nav-links {
     font-size: 17px;
     font-family: "Josefin Sans", sans-serif;
-    color: #fff;
     text-decoration: none;
+    font-weight: bold;
     padding: 0.5rem 1rem;
     height: 100%;
     border-bottom: 3px solid transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+    cursor: pointer;
+    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
- 
+
   
   .nav-item {
     line-height: 30px;
     margin-right: 1rem;
+    color: #f5b921;
   }
-  
+
   .nav-item:after {
     content: "";
     display: block;
@@ -97,7 +103,7 @@ margin-bottom: 18px;
   .nav-item:hover:after {
     margin: 0 auto;
     width: 60%;
-    background: white;
+    background-image: linear-gradient(rgb(202,172,121),rgb(236,197,133));
     
     
 
@@ -142,7 +148,7 @@ margin-bottom: 18px;
     }
     .nav-item:hover:after {
       margin: 0 auto;
-      width: 30%;
+      width: 20%;
       background: white;
   
     }

@@ -21,9 +21,10 @@ let Carrers=()=>{
     return(
       <div>
         
-        <div className="container-fluid" style={{backgroundColor:" rgb(17, 40, 51)"}}>
+        <div className="container-fluid careers-page" style={{backgroundColor:" rgb(17, 40, 51)"}}>
+     
            <div className="container">
-            <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center py-3 "> 
+            <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center align-items-center py-3 "> 
             <div className="col">
 <div className="card details" data-aos="fade-in">
     <h1 class="fs-1 carrersTitle"> JOIN OUR TEAM </h1>
@@ -33,7 +34,7 @@ let Carrers=()=>{
 
             </div>
             <div className="col">
-            <div className="my-5">
+            <div className="">
             <img className="img-fluid rounded " src={Inter} alt="Interview Image"/>
         </div>
 </div>
@@ -177,7 +178,6 @@ let Carrers=()=>{
             </div>
            </div>
                    </div>
-                   <Contact></Contact>
                     </div>
                  
            

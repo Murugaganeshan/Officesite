@@ -3,9 +3,11 @@ import "../Assets/Css/Submitform.css";
 import Footer from "./Footer";
 import {  toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+
+
+
 import axios from "axios";
 import {ApplyForm}from '../Authiapis/backendcall'
-
 const Submitform = () => {
 
   const [formData, setFormData] = useState({
@@ -91,7 +93,7 @@ const Submitform = () => {
     } else {
 
       console.log("Form submitted:", formData);
-    toast.info("Application Submitted")
+      toast.info("Application Submitted")
 
       setFormData({
         user_name: "",

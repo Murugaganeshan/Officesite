@@ -1,17 +1,19 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import "../Assets/Css/navbar.css"
 import logo from "../Assets/Images/finalLogo.jpg";
 import { CgMenuRightAlt } from "react-icons/cg";
+import { Link } from "react-scroll";
 
 function NavBar() {
-
-
-        
+  const closeMenu=()=> setClick(false)
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+        
+  // const [click, setClick] = useState(false);
+
+  // const handleClick = () => setClick(!click);
    
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
@@ -43,60 +45,87 @@ function NavBar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
+              {/* <Link
+            
+              exact
+                to="homepage"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={closeMenu}
               >
                Home
-              </NavLink>
+              </Link> */}
+              <a href="/" className="nav-links">Home </a>
             </li>
            
             <li className="nav-item">
-              <NavLink
+            {/* <Link
                 exact
-                to="/about"
+                to="aboutpage"
+                spy={true}
+                smooth={true}
+                offset={-110}
+                duration={500}
                 activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={closeMenu}
               >
-                About
-              </NavLink>
+               About
+              </Link> */}
+               <a href="/about" className="nav-links">About </a>
             </li>
             <li className="nav-item">
-              <NavLink
+            {/* <Link
                 exact
-                to="/service"
+                to="serviceTitle"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={closeMenu}
               >
-                Service
-              </NavLink>
+               Service
+              </Link> */}
+                    <a href="/service" className="nav-links">Services</a>
             </li>
             <li className="nav-item">
-              <NavLink
+            {/* <Link
                 exact
-                to="/careers"
+                to="rounded"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={closeMenu}
               >
-                Careers 
-              </NavLink>
+               
+               Careers
+              </Link> */}
+                    <a href="/career" className="nav-links">Careers</a>
             </li>
             <li className="nav-item">
-              <NavLink
+            {/* <Link
                 exact
-                to="/contactus"
+                to="contactus-text"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
                 activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                onClick={closeMenu}
               >
-               Contact Us
-              </NavLink>
+              Contact
+              </Link> */}
+                    <a href="/contact" className="nav-links">Contact</a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
