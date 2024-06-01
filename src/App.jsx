@@ -40,9 +40,6 @@ let App=()=>{
                     <Route element={<Servicepage/>} path="/service"></Route>
                     <Route element={<Careerpage/>} path="/career"></Route>
                     <Route element={<Contactpages/>} path="/contact"></Route>
-
-              
-                 
                     <Route element={<Submitform/>} path="/apply"></Route>
                     <Route element={<Mobile/>} path="/mobileapp"></Route>
                     <Route element={<Webdevelopment/>} path="/webdevelopment"></Route>
