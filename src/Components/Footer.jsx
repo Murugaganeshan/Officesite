@@ -40,7 +40,7 @@ let Footer=()=>{
                   <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light" style={{color:'grey'}}>thamizhan1630@gmail.com</span> </a>
                 </p>
               </div> */}
-              <iframe width="350" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=453&amp;height=400&amp;hl=en&amp;q=%2021,%20Pandian%20Street,%20TVS%20Nagar,%20Madurai%20Madurai+(Thamizhan%20Solutions)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.acadoo.de/'></a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=0d38e54c9e178e1c131e8fc1c513d29279b1afe9'></script>
+              {/* <iframe width="350" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=453&amp;height=400&amp;hl=en&amp;q=%2021,%20Pandian%20Street,%20TVS%20Nagar,%20Madurai%20Madurai+(Thamizhan%20Solutions)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.acadoo.de/'></a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=0d38e54c9e178e1c131e8fc1c513d29279b1afe9'></script> */}
             </div>
           </div>
         </div>

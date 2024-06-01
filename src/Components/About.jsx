@@ -8,12 +8,13 @@ import Service from "./Service";
 import { Link } from "react-router-dom";
 
 let About = () => {
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
 
     return (
-        <div >
+        <div id="about">
             <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(17, 40,51 )"}}>
                 <div className="container">
                     <div className="row">

@@ -1,4 +1,3 @@
-
 import { BrowserRouter,Routes, Route} from "react-router-dom"
 import Nav from "./Components/Nav"
 import About from "./Components/About"
@@ -30,11 +29,11 @@ let App=()=>{
                     <BrowserRouter>
                     <Nav></Nav>
                     <Routes>          
-                    <Route element={<Home/>} path="/"></Route>
-                    <Route element={<About/>} path="/about"></Route>  
-                    <Route element={<Service/>} path="/service"></Route>
-                    <Route element={<Carrers/>} path="/careers"></Route>
-                    <Route element={<Contact/>} path="/contactus"></Route>
+                    <Route element={<Home/>} path="/" ></Route>
+                    <Route element={<About/>} path="/about" ></Route>  
+                    <Route element={<Service/>} path="/service" ></Route>
+                    <Route element={<Carrers/>} path="/careers" ></Route>
+                    <Route element={<Contact/>} path="/contactus"  ></Route>
                     <Route element={<Submitform/>} path="/apply"></Route>
                     <Route element={<MobileApp/>} path="/mobileapp"></Route>
                     <Route element={<Webdevelopment/>} path="/webdevelopment"></Route>
