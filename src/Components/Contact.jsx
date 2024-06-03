@@ -167,16 +167,16 @@ let Contact = () => {
                                          <img src={phone} alt="" className='img-fluid' style={{height:"40px"}}/>
                                     </div>
                                     <div className="col mx-3">
-                                                        <div>
+                                        <div>
                                                         <h4 class="mb-2 mt-4" style={{ color: "white" }}>Phone</h4>
                                                         <p class="mb-2" style={{ color: "grey" }}>Please speak with us directly.</p>
-                                                        <hr class="w-75 mb-3 border-dark-subtle" />
+                                                        <hr class="w-50 mb-3 border-dark-subtle" />
                                                      
                                                         <div className="number">
                                                             <p style={{color:"white"}}>+91 8870854141</p>
                                                             <p style={{color:"white"}}>+ 04524207281</p>
                                                         </div>
-                                                    </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="row d-flex align-items-center">
@@ -187,7 +187,7 @@ let Contact = () => {
                                                      <div>
                                                         <h4 class="mb-2 mt-4" style={{ color: "white" }}>Email</h4>
                                                         <p class="mb-2" style={{ color: "grey" }}>Please write to us directly.</p>
-                                                        <hr class="w-75 mb-3 border-dark-subtle" />
+                                                        <hr class="w-50 mb-3 border-dark-subtle" />
                                                         <p class="mb-0">
                                                             <a class=" text-decoration-none" href="mailto:demo@yourdomain.com" style={{ color: "white" }}>thamizhansolutions1630@gmail.com</a>
                                                         </p>
@@ -199,7 +199,7 @@ let Contact = () => {
                                              <img src={clock} alt="" className='img-fluid' style={{height:"40px"}}/>
                                     </div>
                                     <div className="col mx-3">
-                                                 <h4 class="mb-2 mt-4" style={{ color: "white" }}>Opening Hours</h4>
+                                                <h4 class="mb-2 mt-4" style={{ color: "white" }}>Opening Hours</h4>
                                                 <p class="mb-2" style={{ color: "grey" }}>Explore our business opening hours.</p>
                                                 <hr class="w-50 mb-3 border-dark-subtle" />
                                                 <div class="d-flex mb-1">
