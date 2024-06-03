@@ -92,19 +92,18 @@ let Contact = () => {
     }, []);
   
     return (
-        <div className="">
-            <section class="py-3 py-md-5 py-xl-8" style={{backgroundColor:" rgb(17, 40, 51)"}}>
-                <div class="container ">
+            <section className="container-fluid"  style={{backgroundColor:" rgb(17, 40, 51)"}}>
+                <div class="container  ">
                     <div class="row">
-                        <div class=" container-fluid  text-center contactpage pb-3" data-aos="fade-in">
+                        <div class=" container text-center contactpage pb-3" data-aos="fade-in">
                             <h3 class="fs-5 mb-2  contactTitle text-uppercase ">Contact Us</h3>
-                            <h2 class="display-5 mb-4 mb-md-5 mb-xl-8 contact contactSubTitle" >We're always on the lookout to work with new clients. Please get in touch in one of the following ways.</h2>
+                            <h2 class=" contactSubTitle" >We're always on the lookout to work with new clients. Please get in touch in one of the following ways.</h2>
                         </div>
                     </div>
                 </div>
                 <div className=" container map">
 
-                    <div class="container contactus " >
+                 <div class="container contactus " >
                         <div class="row gy-4 gy-md-5 gy-lg-0 align-items-md-center">
                             <div class="col-12 col-lg-6  ">
                                 <div class=" overflow-hidden formPage" data-aos="fade-right">
@@ -150,7 +149,12 @@ let Contact = () => {
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 " data-aos="fade-left">
+
+
+
+
+
+                             <div class="col-12 col-lg-6 " data-aos="fade-left">
                                 <div class="row justify-content-xl-center">
                                     <div class="col-12 col-xl-11">
                                         <div class="mb-4 mb-md-5">
@@ -174,11 +178,7 @@ let Contact = () => {
                                                         <h4 class="mb-2" style={{ color: "white" }}>Phone</h4>
                                                         <p class="mb-2" style={{ color: "grey" }}>Please speak with us directly.</p>
                                                         <hr class="w-75 mb-3 border-dark-subtle" />
-                                                        {/* <p class="mb-0">
-                                                            <p class="text-decoration-none"style={{ color: "white" }}>+91 8870854141</p> <br />
-                                                            <p class="text-decoration-none my-3"  style={{ color: "white" }}>+ 04524207281</p>
-
-                                                        </p> */}
+                                                   
                                                         <div className="number">
                                                             <p style={{color:"white"}}>+91 8870854141</p>
                                                             <p style={{color:"white"}}>+ 04524207281</p>
@@ -219,18 +219,26 @@ let Contact = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
+
+                        
+
+
+
+
+                            
                         </div>
-                    </div>
+                    </div> 
+                   
                     <div className="map">
                     <iframe width="100%" height="400"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=21,%20Pandian%20Street,%20TVS%20nagar%20Madurai+(Thamizhan%20Solutions)&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
 
                     </div>
+                  
                 </div>
             </section>
 
 
-        </div>
     )
 }
 export default Contact
