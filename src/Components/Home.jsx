@@ -60,7 +60,6 @@ const Home = () => {
                     <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></li>
                 </ol>
             </div>
-            <About />
         </div>
     );
 }

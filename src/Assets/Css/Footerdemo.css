@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.footer-section {
+    background-color: rgb(25, 25, 25);
+
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .footer-section .footerContent{
+    font-size: 16px;
+    line-height: 2.0;
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .footer-section .ulHeading {
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  .list{
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .footer-section ul li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .copy-rights, .privacy-policy{
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .footer-logo {
+    width: 180px; 
+    height: 50px;
+  }
+  .footerCryptoMania{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+ .hhh {
+    border-top: 4px solid rgb(245, 245, 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .copy-rights {
+    font-size: 14px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .privacy-policy {
+    font-size: 14px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    .footer-content {
+      flex-direction: column;
+    }
+
+    .privacy-policy {
+      margin: 5px 0;
+      text-align: start;
+      margin-top: 10px;
+    }
+  }

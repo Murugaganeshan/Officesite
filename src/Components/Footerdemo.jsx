@@ -1,23 +1,31 @@
-import { Link } from "react-router-dom";
-import { GoArrowRight } from "react-icons/go";
-import logo from "../Assets/Images/finalLogo.jpg"
+
+        import React from "react";
+        import "../Assets/Css/Footerdemo.css";
+        import AOS from "aos";
+        import "aos/dist/aos.css";
+        import { useEffect } from "react";
+        import logo from "../Assets/Images/finalLogo.jpg"
+        import { GoArrowRight } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-import { RiWhatsappFill } from "react-icons/ri";
-import "../Assets/Css/Footer.css" 
-import { useState } from "react";
-
-let Footer=()=>{
-  const closeMenu=()=> setClick(false)
-  const [click, setClick] = useState(false);
-
-
-    return( 
-    <div className='footer container-fluid'>
-
-      
+        
+        const Footerdemo = () => {
+        
+            useEffect(() => {
+                AOS.init({
+                    duration: 2000,
+                    easing: "ease-in-out",
+                    once: true,
+                });
+            }, []);
+        
+          return (
+            <div> 
+         
+            <footer className="footer-section " >
+              
       <div className="row">
-        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
+        <div class='col-12 col-lg-4    footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
             <div class="col-12 col-md-11 col-xl-10 footer-con">
               <div class="footer-logo-wrapper m-3">
@@ -138,16 +146,25 @@ let Footer=()=>{
                 </div>
               </div>
               
-              <div class="row mt-6 border-top border-light-subtle my-5 text-start">
-                <div class="footer-copyright-wrapper foot my-4">
-                  &copy; copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved fdfsfsdfsdf.
-                </div>        
-              </div>
+           
             </div>
           </div>
         </div>
       </div>
-    </div>
-    )}
-                         
-export default Footer
+                <hr className="hhh"/>
+                <div className="footer-bottom">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <p className="copy-rights">Copy Rights © 2024 <span className="footerCryptoMania"> Crypto ManiA </span> All Rights Reserved</p>
+                    </div>
+                    <div className="col-md-6 text-end">
+                      <p className="privacy-policy">User Terms & Conditions |  Privacy Policy</p>
+                    </div>
+                  </div>
+                </div>
+            </footer>
+            </div>
+          );
+        };
+        
+        export default Footerdemo;
