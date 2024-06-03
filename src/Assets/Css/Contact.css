@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 /* .contact{
     font-family:  "Lexend", sans-serif    !important;
@@ -21,11 +22,10 @@
 .map{
     position: relative;
 }
-.contactus{
- }
+
  .location-logo {
-    width: 10px;  /* Adjust width as needed */
-    height: auto; /* Maintains aspect ratio */
+    width: 10px;  
+    height: auto; 
 }
 .contactTitle{
     background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
@@ -40,10 +40,11 @@
     font-size: 24px;
     font-weight: 400;
 }
-
-
-
-
 .number{
     line-height: 10px;
 }
+
+
+
+
+
