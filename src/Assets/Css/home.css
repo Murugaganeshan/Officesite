@@ -92,4 +92,36 @@
        
     }
     }
+ 
+  
 
+    @media (max-width: 1500px) {
+      .home-video {
+      max-height: 350px;          
+      }
+  }
+  
+  @media (max-width: 1199px) {
+      .home-video {
+        max-height: 300px;          
+      }
+  }
+  
+  @media (max-width: 991px) {
+      .home-video {
+          max-height: 300px; 
+          max-width: 300px;
+          box-shadow: none;
+      }
+  }
+  
+  @media (max-width: 767px) {
+      .home-video {
+          max-height: 200px; 
+          width: 250px;
+          box-shadow: none;
+      }
+  }
+
+
+  
