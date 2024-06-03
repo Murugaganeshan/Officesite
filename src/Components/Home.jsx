@@ -17,7 +17,7 @@ const Home = () => {
                                 <p className='homeQuotes'>With a multi-billion dollar market capitalization, crypto is here to stay. It's not going anywhere.</p>
                             </div>
                             <div className="col-md-6">
-                                <video src={video1} className="video-fluid  video-shadow home-video" loop muted autoPlay playsInline style={{height:"500px"}}></video>
+                                <video src={video1} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -28,9 +28,7 @@ const Home = () => {
                                 <p className='homeQuotes'>Website without visitors is like a ship lost in the horizon</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={image} className="img-fluid" alt="..." />
-
-                                
+                                <img src={image} className="img-fluid" alt="Web Development" />
                             </div>
                         </div>
                     </div>
@@ -41,7 +39,18 @@ const Home = () => {
                                 <p className='homeQuotes'>Design isn't finished until somebody is using it.</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={image} className="img-fluid" alt="..." />
+                                <img src={image} className="img-fluid" alt="UI/UX Design" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="row">
+                            <div className="col-md-6 d-flex flex-column justify-content-center">
+                                <h1 className='contents-h1'>AI Development</h1>
+                                <p className='homeQuotes'>Software is eating the world, but AI is going to eat software.</p>
+                            </div>
+                            <div className="col-md-6">
+                                <img src={image} className="img-fluid" alt="Mobile App Development" />
                             </div>
                         </div>
                     </div>
@@ -58,6 +67,7 @@ const Home = () => {
                     <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active"></li>
                     <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"></li>
                     <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"></li>
                 </ol>
             </div>
         </div>
