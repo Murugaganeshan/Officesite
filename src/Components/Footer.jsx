@@ -29,11 +29,20 @@ let Footer=()=>{
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">
-                       <a href="/"><FaFacebook/> </a> <h6>jdfjskf</h6>
+                       <a href="/"><FaFacebook/> </a> <h6>Facebook</h6>
                        </div>
-                       <a href="/"><FaInstagram/> </a>
-                       <a href="/"><FaTwitter/> </a>
-                       <a href="/"><FaWhatsapp/> </a>
+                       <div className="social-div">
+                       <a href="/"><FaInstagram/>  </a><h6>Instagram</h6>
+
+                       </div>
+                       <div className="social-div">
+                       <a href="/"><FaTwitter/> </a><h6>Twitter</h6>
+                       </div>
+                       <div className="social-div">
+                       <a href="/"><FaWhatsapp/> </a><h6>Whatsapp</h6>
+                       </div>
+                    
+                      
                        <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><FaLinkedin/></a>
                     </div>
                 </div>

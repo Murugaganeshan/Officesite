@@ -117,8 +117,8 @@
   
   @media (max-width: 767px) {
       .home-video {
-          max-height: 200px; 
-          width: 250px;
+          max-height: 300px; 
+          width: 350px;
           box-shadow: none;
       }
   }

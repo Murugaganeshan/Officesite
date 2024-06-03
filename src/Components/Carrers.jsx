@@ -42,7 +42,7 @@ let Carrers=()=>{
             </div>  
            </div>
           <div className="container my-4 open" data-aos="fade-in">
-            <h3 className="text-center fs-1 carrersSubTitle"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
+            <h3 className="text-center  carrersSubTitle"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
           </div>
            <h1 className="current my-4 fs-1 carrersTitle" ref={ref} data-aos="fade-in ">
             Current Openings
@@ -58,7 +58,7 @@ let Carrers=()=>{
           aria-controls="panel3-content"
           id="panel3-header"
         >
-         <h5 cla>Business Development Executive</h5>
+         <h5 className="job-position">Business Development Executive</h5>
         </AccordionSummary>
         <AccordionDetails >
           <h6>Experiece: 0-1 Year</h6>
