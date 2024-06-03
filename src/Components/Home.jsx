@@ -5,6 +5,7 @@ import "../Assets/Css/home.css";
 import About from "./About";
 
 const Home = () => {
+
     return (
         <div className="">
             <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="2000">
@@ -16,7 +17,7 @@ const Home = () => {
                                 <p className='homeQuotes'>With a multi-billion dollar market capitalization, crypto is here to stay. It's not going anywhere.</p>
                             </div>
                             <div className="col-md-6">
-                                <video src={video1} className="video-fluid video-shadow" loop muted autoPlay playsInline style={{height:"500px"}}></video>
+                                <video src={video1} className="video-fluid  video-shadow home-video" loop muted autoPlay playsInline style={{height:"500px"}}></video>
                             </div>
                         </div>
                     </div>

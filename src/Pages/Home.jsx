@@ -17,8 +17,8 @@ function Homepage(){
             <Carrers/>
             <Contactpage/>
             <Contact/>
-            {/* <Footer/> */}
-            <Footerdemo/>
+            <Footer/>
+            {/* <Footerdemo/> */}
 
         </div>
     )
