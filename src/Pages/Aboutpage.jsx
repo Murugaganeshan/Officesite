@@ -11,7 +11,6 @@ function Aboutpage(){
         <div className="homepage">
             <About/>
             <Service/>
-            
             <Carrers/>
             <Contactpage/>
             <Contact/>
