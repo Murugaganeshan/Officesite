@@ -12,9 +12,8 @@ let Footer=()=>{
   const [click, setClick] = useState(false);
 
 
-    return(
-
-    <div className='container-fluid footer'>
+    return( 
+    <div className='footer'>
 
       
       <div className="row">
@@ -26,7 +25,7 @@ let Footer=()=>{
                   <img src={logo} alt="Company Logo" width="179" height="60"/>
                 
               </div>
-              <div className="col footer-col">
+              <div className="col footer-col mx-5">
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">
@@ -39,15 +38,6 @@ let Footer=()=>{
                     </div>
                 </div>
                     
-           {/* <div class="address-wrapper mt-5">
-                <address class="mb-2 m-1 text-white fw-bold">Address  :   <span class="fw-light" style={{color:'grey'}}>21, Pandian St, T V S Nagar, Madurai, <br/> Tamil Nadu 625003</span> </address>
-                <p class="mb-2">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Phone :   <span class="fw-light" style={{color:'grey'}}>+91 9876543210</span> </a>
-                </p>
-                <p class="mb-0">
-                  <a class="link-light text-decoration-none fw-bold" href="#">Email    :   <span class="fw-light" style={{color:'grey'}}>thamizhan1630@gmail.com</span> </a>
-                </p>
-              </div> */}
             </div>
           </div>
         </div>
@@ -86,90 +76,27 @@ let Footer=()=>{
                     <h4 class="widget-title mb-4 footerTitle">Company</h4>
                     <ul class="list-unstyled company">
                     <li className="mb-3">
-              {/* <Link
-            
-              exact
-                to="/"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="link-secondary text-decoration-none footerSubTitle"
-                onClick={closeMenu}
-              >
-             <GoArrowRight />  Home
-              </Link> */}
+         
 
 
               <a href="/"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Home</a>
             </li>
            
             <li className="mb-3">
-            {/* <Link
-                exact
-                to="/about"
-                spy={true}
-                smooth={true}
-                offset={-110}
-                duration={500}
-                activeClassName="active"
-                className="link-secondary text-decoration-none footerSubTitle"
-                onClick={closeMenu}
-              >
-              <GoArrowRight /> About
-              </Link> */}
+          
               
               <a href="/about"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> About</a>
             </li>
             <li className="mb-3">
-            {/* <Link
-                exact
-                to="/service"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="link-secondary text-decoration-none footerSubTitle"
-                onClick={closeMenu}
-              >
-              <GoArrowRight /> Service
-              </Link> */}
+          
                <a href="/service"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Service</a>
             </li>
             <li className="mb-3">
-            {/* <Link
-                exact
-                to="/career"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="link-secondary text-decoration-none footerSubTitle"
-                onClick={closeMenu}
-              >
-               
-               <GoArrowRight /> Careers
-              </Link> */}
+          
                <a href="/career"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Career</a>
             </li>
             <li className="mb-3">
-            {/* <Link
-            
-                exact
-                to="/contact"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="link-secondary text-decoration-none footerSubTitle"
-                onClick={closeMenu}
-              >
-              <GoArrowRight/> Contact
-              </Link> */}
+        
                <a href="/contact"  class="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Contact</a>
             </li>
             <li className="mb-3">
@@ -185,21 +112,6 @@ let Footer=()=>{
 
 
 
-                       {/* <li class="mb-3">
-                        <Link to="/" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Home</Link>
-                      </li>
-                      <li class="mb-3">
-                      <Link to="/about" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> About</Link>
-                      </li>
-                      <li class="mb-3">
-                      <Link to="/service" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Services</Link>
-                      </li>
-                      <li class="mb-3">
-                      <Link to="/careers" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Careers</Link>
-                      </li>
-                      <li class="mb-3">
-                      <Link to="/contactus" className="link-secondary text-decoration-none footerSubTitle"><GoArrowRight /> Contact Us</Link>
-                      </li>  */}
                     </ul>
                   </div>
                 </div>

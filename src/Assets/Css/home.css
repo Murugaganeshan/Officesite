@@ -4,24 +4,74 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
+.homeBackground{
+    background-color: rgb(28, 41, 47);
+    height: 85vh;
+    width: 100%;
+    padding: 45px;
+    background-image: url("../Images/OBJECTSsss.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-control-prev, .carousel-control-next{
+  display: none;
+}
 .contents-h1{
-    color: white;
-    font-family: "Righteous", sans-serif;
-    /* font-size: 90px; */
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 900;
     background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
 }
+.homeQuotes{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.video-shadow{
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}
+@media (max-width: 991.98px) {
+    .contents-h1 {
+      font-size: 2rem;
+    }
+    
+    .homeQuotes {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .contents-h1 {
+      font-size: 1.8rem;
+    }
+    
+    .homeQuotes {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .contents-h1 {
+      font-size: 1.5rem;
+    }
+    
+    .homeQuotes {
+      font-size: 0.8rem;
+    }
+  }
+  
+  
 @media screen and (max-width: 940px) {
     .contents-h1{
         color: white;
         font-family: "Righteous", sans-serif;
-        /* font-size: 90px; */
         font-size: 50px;
         font-weight: 900;
         background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
@@ -43,98 +93,5 @@
     -webkit-text-fill-color: transparent;
        
     }
-
-  
-    .button-home{
-        display: flex;
-        flex-direction: column;
     }
-}
-.content-h3{
-
-  font-family: "Acme", sans-serif;
-    font-weight: 500;
-    color: white;
-}
-
-
-.bt{
-    height: 50px;
-    width: 350px;
-    border-radius: none !important;
-}
-
-
-
-.btn2 a{
-    color: white;
-    text-decoration: none;
-}
-
-.largeheader {
-    position: relative;
-    width: 100%;
-    background: red;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
-  }
-.more,.us{
-    padding: 10px ;
-    width: 150px;
-    
-}
-.us{
-    margin-left: 10px;
-}
-
-  .elevate{
-    font-weight: bold;
-      font-family: "DM Serif Display", serif;
-      font-size: 3vw;
-  }
-  .Discover{
-      margin-left: 10px;
-      color:silver;
-  }
-  .primary {
-      background-color:black;
-      color: white;
-      padding: 10px 25px;
-      border-radius: 5px;
-      border: none;
-      margin-left: 10px;
-      border: 1px solid;
-      width: 150px;
-  
-  }
-  .Discover{
-      font-size: 1vw;
-  }
- 
- #demo-canvas{
-    width: 100%;
- }
-
-
-
-
- /* .contents-h1 {
-    overflow: hidden; 
-    white-space: nowrap; 
-    border-bottom: 1px solid white;
-    animation: typing 4s steps(40, end) infinite; 
-  }
-  
-  @keyframes typing {
-    from { width: 0; } 
-    to { width: 100%; } 
-  }
-   */
-
-
-
-
-
 
