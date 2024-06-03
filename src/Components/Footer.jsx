@@ -29,11 +29,20 @@ let Footer=()=>{
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">
-                       <a href="/"><FaFacebook/> </a> <h6>jdfjskf</h6>
+                       <a href="/"><FaFacebook/> </a> <h6>Facebook</h6>
                        </div>
-                       <a href="/"><FaInstagram/> </a>
-                       <a href="/"><FaTwitter/> </a>
-                       <a href="/"><FaWhatsapp/> </a>
+                       <div className="social-div">
+                       <a href="/"><FaInstagram/>  </a><h6>Instagram</h6>
+
+                       </div>
+                       <div className="social-div">
+                       <a href="/"><FaTwitter/> </a><h6>Twitter</h6>
+                       </div>
+                       <div className="social-div">
+                       <a href="/"><FaWhatsapp/> </a><h6>Whatsapp</h6>
+                       </div>
+                    
+                      
                        <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><FaLinkedin/></a>
                     </div>
                 </div>
@@ -72,7 +81,7 @@ let Footer=()=>{
                   </div>
                 </div>
                 <div class="col-6 col-sm-3">
-                  <div>
+                  <div className="mx-3">
                     <h4 class="widget-title mb-4 footerTitle">Company</h4>
                     <ul class="list-unstyled company">
                     <li className="mb-3">
@@ -140,7 +149,7 @@ let Footer=()=>{
               
               <div class="row mt-6 border-top border-light-subtle my-5 text-start">
                 <div class="footer-copyright-wrapper foot my-4">
-                  &copy; copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved fdfsfsdfsdf.
+                  &copy; copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
                 </div>        
               </div>
             </div>
