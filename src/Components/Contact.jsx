@@ -150,7 +150,7 @@ let Contact = () => {
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6"  data-aos="fade-left">
+                            <div className="col-12 col-lg-6" >
                                 <div className="row d-flex align-items-center">
                                     <div className="col-auto mb-5">
                                         <img src={location} alt="" className='img-fluid' style={{ height: "40px" }} />
@@ -225,3 +225,5 @@ let Contact = () => {
     )
 }
 export default Contact
+
+
