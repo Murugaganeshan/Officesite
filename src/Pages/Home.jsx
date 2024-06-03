@@ -11,7 +11,7 @@ function Homepage(){
     return(
         <div className="homepage">
             <Home/>
-            <About/>
+         <About/>
             <Service/>
             
             <Carrers/>

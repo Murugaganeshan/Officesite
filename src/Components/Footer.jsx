@@ -13,7 +13,7 @@ let Footer=()=>{
 
 
     return( 
-    <div className='footer'>
+    <div className='footer container-fluid'>
 
       
       <div className="row">
