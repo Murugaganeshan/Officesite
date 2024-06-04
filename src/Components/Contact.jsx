@@ -151,8 +151,8 @@ let Contact = () => {
                                 </div>
                             </div>
                           
-                            <div class="col-12 col-lg-6 ">
-                                <div class="row justify-content-xl-center">
+                            <div class="col-12 col-lg-6 " >
+                                <div class="row justify-content-xl-center" data-aos="fade-right">
                                     <div class="col-12 col-xl-11">
                                         <div class="mb-4 mb-md-5">
                                         <div class="col-12 col-lg-2 mb-3">

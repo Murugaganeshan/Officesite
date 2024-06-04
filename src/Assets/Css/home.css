@@ -17,6 +17,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .carousel-control-prev, .carousel-control-next{
   display: none;
 }
@@ -92,9 +93,6 @@
        
     }
     }
- 
-  
-
     @media (max-width: 1500px) {
       .home-video {
       max-height: 350px;          
@@ -121,7 +119,4 @@
           width: 350px;
           box-shadow: none;
       }
-  }
-
-
-  
+  }   

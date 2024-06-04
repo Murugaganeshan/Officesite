@@ -1,5 +1,7 @@
 import React from 'react';
 import video1 from "../Assets/Images/video1.mp4";
+import video2 from "../Assets/Images/video2.mp4"
+import video3 from "../Assets/Images/video3.mp4"
 import image from "../Assets/Images/objects.png";
 import "../Assets/Css/home.css";
 import About from "./About";
@@ -28,7 +30,8 @@ const Home = () => {
                                 <p className='homeQuotes'>Website without visitors is like a ship lost in the horizon</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={image} className="img-fluid" alt="Web Development" />
+                                {/* <img src={image} className="img-fluid" alt="Web Development" /> */}
+                                <video src={video2} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -39,7 +42,8 @@ const Home = () => {
                                 <p className='homeQuotes'>Design isn't finished until somebody is using it.</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={image} className="img-fluid" alt="UI/UX Design" />
+                                {/* <img src={image} className="img-fluid" alt="UI/UX Design" /> */}
+                                <video src={video3} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -50,7 +54,7 @@ const Home = () => {
                                 <p className='homeQuotes'>Software is eating the world, but AI is going to eat software.</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={image} className="img-fluid" alt="Mobile App Development" />
+                                <img src={image} className="img-fluid" alt="AI Development" />
                             </div>
                         </div>
                     </div>
