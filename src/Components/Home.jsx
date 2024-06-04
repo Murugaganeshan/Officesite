@@ -2,6 +2,7 @@ import React from 'react';
 import video1 from "../Assets/Images/video1.mp4";
 import video2 from "../Assets/Images/video2.mp4"
 import video3 from "../Assets/Images/video3.mp4"
+import video4 from "../Assets/Images/video4.mp4"
 import image from "../Assets/Images/objects.png";
 import "../Assets/Css/home.css";
 import About from "./About";
@@ -10,7 +11,7 @@ const Home = () => {
 
     return (
         <div className="">
-            <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="2000">
+            <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="3000">
                 <div className="carousel-inner mt-5">
                     <div className="carousel-item active ">
                         <div className="row">
@@ -54,7 +55,8 @@ const Home = () => {
                                 <p className='homeQuotes'>Software is eating the world, but AI is going to eat software.</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={image} className="img-fluid" alt="AI Development" />
+                                {/* <img src={image} className="img-fluid" alt="AI Development" /> */}
+                                <video src={video4} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
