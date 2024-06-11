@@ -84,13 +84,16 @@
     font-weight: bolder;
 }
 h5{
-    color: black;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family:  "Lexend", sans-serif;
     font-weight: 400;
     
 }
+
 h6{
-    color: grey;
+   color: white;
 }
 .joinCard{
     /* border: 1px solid white; */
@@ -146,3 +149,30 @@ h6{
       }
      
 }
+.accordionBack{
+    background: url(../Images//accordion.png);
+    background-color: #000000 !important;
+}
+.customExpandIcon {
+    color: rgb(236, 197, 132);
+  }
+  .skillsList li{
+    color: white;
+    text-align: justify;
+    line-height: 24px;
+
+  }
+  .jobApplyButton{
+    height: 50px;
+    width: 180px;
+    border: 2px solid ;
+    border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+  }
+  
+  
+  
+  

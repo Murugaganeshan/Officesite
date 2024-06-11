@@ -52,9 +52,9 @@ let Carrers=()=>{
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col my-3"> 
 
-      <Accordion className="p-1" >
+      <Accordion className="p-1 accordionBack" >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
           aria-controls="panel3-content"
           id="panel3-header"
         >
@@ -63,7 +63,7 @@ let Carrers=()=>{
         <AccordionDetails >
           <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
-        <ul>
+        <ul className="skillsList">
         <li>Strong communication skills, both verbal and written, are essential. You should be able to effectively communicate with clients, colleagues, and other stakeholders. </li>
         <li>Additionally, having basic sales skills and the ability to pitch products or services persuasively is important.</li>
         <li>Fluently in English.</li>
@@ -73,7 +73,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
@@ -82,9 +82,9 @@ let Carrers=()=>{
     <div className="col my-3"> 
       
     
-      <Accordion className="p-1" >
+      <Accordion className="p-1 accordionBack" >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
           aria-controls="panel3-content"
           id="panel3-header"
         >
@@ -93,7 +93,7 @@ let Carrers=()=>{
         <AccordionDetails>
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
-          <ul>
+          <ul className="skillsList">
         <li>Proficiency in HTML, CSS, and JavaScript is essential. These are the core technologies used in front-end development.</li>
         <li>Understanding of responsive design principles and experience with CSS preprocessors like Sass or Less.</li>
         <li>Expertise in React and related libraries for building modern web applications</li>
@@ -105,16 +105,16 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
       </Accordion>
     </div>
     <div className="col my-3"> 
-      <Accordion className="p-1">
+      <Accordion className="p-1 accordionBack">
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
           aria-controls="panel3-content"
           id="panel3-header"
         >
@@ -123,7 +123,7 @@ let Carrers=()=>{
         <AccordionDetails >
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
-          <ul>
+          <ul className="skillsList">
         <li>Good knowledge of Node.js with 1 year of minimum experience.</li>
         <li>Good exposure on Mongodb and Express.js.</li>
         <li>User authentication and authorization between multiple systems, servers, and environments.</li>
@@ -135,7 +135,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
@@ -144,9 +144,9 @@ let Carrers=()=>{
     <div className="col my-3"> 
       
       
-      <Accordion className="p-1">
+      <Accordion className="p-1 accordionBack">
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
           aria-controls="panel3-content"
           id="panel3-header"
         >
@@ -155,7 +155,7 @@ let Carrers=()=>{
         <AccordionDetails >
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
-          <ul>
+          <ul className="skillsList">
         <li>SEO (Search Engine Optimization): Understanding how search engines work and optimizing content to rank higher in search engine results pages (SERPs) is crucial for driving organic traffic to websites.</li>
         <li>Content Marketing: Creating valuable, relevant, and engaging content tailored to the target audience is essential for attracting and retaining customers. This includes blog posts, videos, infographics, and more.</li>
         <li>Social Media Marketing: Proficiency in leveraging various social media platforms (such as Facebook, Twitter, Instagram, LinkedIn, etc.) to build brand awareness, engage with the audience, and drive traffic to the website.</li>
@@ -167,7 +167,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn btn-primary"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
