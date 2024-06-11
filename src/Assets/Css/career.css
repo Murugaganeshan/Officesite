@@ -9,11 +9,8 @@
 
 }
 .details{
-    margin-top: 25%;
     background-color: transparent;
     border: none;
-    
-    
 }
 .details h1{
     
@@ -95,12 +92,31 @@ h5{
 h6{
     color: grey;
 }
+.joinCard{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 200px;
+    background: url(../Images//joinGlass.png);
+}
+.joinSubTitle{
+    color: white;
+    font-size: 24px;
+}
 .carrersTitle{
-    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 36px !important;
+    font-weight: 400;
 }
 .carrersSubTitle{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../Images//Slogan\ 1.png);
     color: white;
     font-weight: 300;
     font-size: 34px !important;

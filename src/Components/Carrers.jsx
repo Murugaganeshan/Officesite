@@ -1,4 +1,4 @@
-import Inter from "../Assets/Images/interview.png"
+import Inter from "../Assets/Images/interview2.png"
 import "../Assets/Css/career.css"
 import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
@@ -21,15 +21,15 @@ let Carrers=()=>{
     return(
       <div>
         
-        <div className="container-fluid careers-page" style={{backgroundColor:" rgb(17, 40, 51)"}}>
+        <div className="container-fluid careers-page" style={{backgroundColor:" #000000"}}>
      
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center align-items-center py-3 "> 
-            <div className="col">
+            <div className="col joinCard" >
 <div className="card details" data-aos="fade-in">
     <h1 class="fs-1 carrersTitle"> JOIN OUR TEAM </h1>
-    <h3 style={{color:"white",marginTop:"10"}} class="fs-3 carrersSubTitle">Come work with us</h3>
-    <h6 className="fs-5 text-secondary">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
+    <h3 style={{color:"white",marginTop:"10"}} class="fs-3 joinSubTitle">Come work with us</h3>
+    <h6 className="fs-5 joinSubTitle">Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant and more productive.</h6>
 </div>
 
             </div>
