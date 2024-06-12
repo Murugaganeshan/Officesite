@@ -143,7 +143,7 @@ let Footer=()=>{
               
               <div class="row mt-6 border-top border-light-subtle my-5 text-start">
                 <div class="footer-copyright-wrapper foot my-4">
-                 <img src={copyright} alt="" className="img-fluid" style={{height:"20px"}}/> copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
+                 <img src={copyright} alt="" className="img-fluid" style={{height:"18px"}}/> copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
                 </div>        
               </div>
             </div>

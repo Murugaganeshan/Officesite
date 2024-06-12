@@ -44,6 +44,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.sendMessageButton:hover{
+    border-image: linear-gradient(45deg, rgb(51,120,153), rgb(252,252,252)) 1 !important;
+    background: -webkit-linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    background: linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .informationBack {
     background: url(../Images/informationBack.png);
