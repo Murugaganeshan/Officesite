@@ -6,24 +6,22 @@
 }
 
 .navbar {
-
-     /* background-color:  rgb(17, 40,51 ); */
-     background: linear-gradient(rgb(28,41,47),rgb(89,130,149));
+     /* background-color: black; */
+     background: url(../Images//Navbar.png);
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: center;
-
     transition: 0.4s;
+
   }
   
   .colorChange{
     width: 100%;
     position: fixed;
     height: 10vh;
-    background-color: rgb(28, 41, 47);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 20px 15px 20px rgb(17, 40, 51) ;
   }
 
   .nav-container {
@@ -78,7 +76,10 @@ margin-bottom: 18px;
     border-bottom: 3px solid transparent;
     transition: width 0.5s ease, background-color 0.5s ease;
     cursor: pointer;
-    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    color: white;
+  }
+  .nav-links:hover{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -104,10 +105,7 @@ margin-bottom: 18px;
   .nav-item:hover:after {
     margin: 0 auto;
     width: 60%;
-    background-image: linear-gradient(rgb(202,172,121),rgb(236,197,133));
-    
-    
-
+    background-image: linear-gradient(rgb(236,197,132),rgb(252,252,252));
   }
  
   .nav-icon {
@@ -126,7 +124,6 @@ margin-bottom: 18px;
       display: flex;
       flex-direction: column;
       width: 100%;
-      border-top: 1pxsolid #fff;
       position: absolute;
       top: 10vh;
       left: -110%;
@@ -150,8 +147,7 @@ margin-bottom: 18px;
     .nav-item:hover:after {
       margin: 0 auto;
       width: 20%;
-      background: white;
-  
+      background-image: linear-gradient(rgb(236,197,132),rgb(252,252,252));
     }
     .nav-links {
       width: 100%;

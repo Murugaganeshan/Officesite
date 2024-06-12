@@ -254,7 +254,7 @@ const Submitform = () => {
                 <div className="form-group">
                   <textarea
                     style={{ width: "100%", padding: "8px" }}
-                    className={`email ${
+                    className={`form-control email ${
                       errors.message ? "is-invalid" : ""
                     }`}
                     name="message"

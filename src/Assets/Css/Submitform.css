@@ -45,6 +45,27 @@ textarea::placeholder {
     font-size: 40px !important;
     font-weight: 600;
 }
+
+
+@media (min-width: 992px) {
+    .applyFormTitle {
+      font-size: 40px !important; /* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .applyFormTitle {
+      font-size: 32px !important; /* Adjust as needed */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .applyFormTitle {
+      font-size: 20px !important; /* Adjust as needed */
+    }
+  }
+
+
 #formName, #formEmail, #formPhone{
     background: url(../Images//applyFormName.png);
     border: 1px solid ;
@@ -61,7 +82,7 @@ textarea::placeholder {
     background: url(../Images//Text\ your\ messages.png);
     border: 1px solid ;
     border-image: linear-gradient(45deg, rgb(236,197,132), rgb(252,252,252)) 1 ;
-    color: white;
+    color: white !important;
 }
 .applySubmitButton{
     height: 50px;
