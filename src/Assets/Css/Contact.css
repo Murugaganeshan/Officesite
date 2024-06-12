@@ -14,11 +14,10 @@
 }
 .formBack{
     background: url(../Images//formBack.png);
-}
-.formPage{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
+
 .formName, .formSubject{
     background: url(../Images//formName.png);
     border-image: linear-gradient(45deg, rgb(236,197,132), rgb(252,252,252)) 1;
@@ -33,7 +32,7 @@
 }
 .sendMessageButton{
     height: 50px;
-    width: 528px;
+    width: 320px;
     border: 2px solid ;
     border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1;
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
@@ -47,8 +46,10 @@
     background: url(../Images//informationBack.png);
     height: 676px;
     border-radius: 10px;
-}
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 
+}
+ 
 .officeLabel, .phoneLabel, .emailLabel, .openingLabel{
     background: -webkit-linear-gradient(23deg, rgb(236, 197, 132) 3%, rgb(252, 252, 252) 20%);
     -webkit-background-clip: text;

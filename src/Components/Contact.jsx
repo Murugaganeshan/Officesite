@@ -92,7 +92,7 @@ let Contact = () => {
     }, []);
   
     return (
-        <div className=" ">
+        <div className="">
             <section class="py-3 py-md-5 py-xl-8 contactBack" style={{backgroundColor:" #000000"}}>
                 <div class="container">
                     <div class="row">
@@ -107,7 +107,7 @@ let Contact = () => {
                     <div class="container contactus " >
                         <div class="row gy-4 gy-md-5 gy-lg-0 align-items-md-center ">
                             <div class="col-12 col-lg-6  ">
-                                <div class=" overflow-hidden formPage formBack" data-aos="fade-right">
+                                <div class=" overflow-hidden  formBack" data-aos="fade-right">
                                     <form onSubmit={handleSubmit} >
                                         <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
                                             <div className="col-12">
@@ -142,7 +142,7 @@ let Contact = () => {
                                                 {errors.message && <div className="text-danger">{errors.message}</div>}
                                             </div>
                                             <div className="col-12">
-                                                <div className="d-grid">
+                                                <div className="d-grid d-flex justify-content-center">
                                                     <button className="btn sendMessageButton btn-lg" type="submit">Send Message</button>
                                                 </div>
                                             </div>

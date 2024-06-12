@@ -147,11 +147,11 @@ const Submitform = () => {
 
   return (
     <div>
-      <div style={{backgroundColor:" rgb(17, 40, 51)"}}>
+      <div className="applyBack" style={{backgroundColor: "#000000"}}>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-6 glass">
-              <h1 className="text-center" style={{ color: "white" }}>
+              <h1 className="text-center applyFormTitle" >
                 Job Application
               </h1>
               <form className="my-5">
@@ -165,6 +165,7 @@ const Submitform = () => {
                       errors.name ? "is-invalid" : ""
                     }`}
                     placeholder="Name"
+                     id="formName"
                   />
                   {errors.name && (
                     <div className="invalid-feedback"><b>{errors.name}</b></div>
@@ -176,10 +177,12 @@ const Submitform = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
-                    className={`form-control email ${
+                    className={`form-control  email ${
                       errors.email ? "is-invalid" : ""
                     }`}
                     placeholder="Your Email"
+                    id="formEmail"
+                   
                    
                   />
                   {errors.email && (
@@ -198,6 +201,7 @@ const Submitform = () => {
                       errors.contact ? "is-invalid" : ""
                     }`}
                     placeholder="Phone number"
+                    id="formPhone"
                   />
                   {errors.contact && (
                     <div className="invalid-feedback"><b>{errors.contact}</b></div>
@@ -209,7 +213,7 @@ const Submitform = () => {
                       name="Position"
                       value={formData.Position}
                       onChange={handleInputChange}
-                      id="inputState"
+                      id="inputState formChoose"
                       className={`form-control email ${
                         errors.Position ? "is-invalid" : ""
                       }`}
@@ -237,6 +241,7 @@ const Submitform = () => {
                         errors.Experience ? "is-invalid" : ""
                       }`}
                       placeholder="Experience"
+                      id="formExp"
                       style={{ width: "100%" }}
                     />
                     {errors.Experience && (
@@ -257,6 +262,7 @@ const Submitform = () => {
                     onChange={handleInputChange}
                     placeholder="Text your message here..."
                     rows="5"
+                    id="textArea"
                   ></textarea>
                   {errors.message && (
                     <div className="invalid-feedback"><b>{errors.message}</b></div>
@@ -266,8 +272,9 @@ const Submitform = () => {
                   <input
                     className={`form-control form-control-lg email ${
                       errors.file ? "is-invalid" : ""
+                      
                     }`}
-                    id="file"
+                    id="file "
                     type="file"
                     accept=".pdf"
                      name="file" 
@@ -276,11 +283,12 @@ const Submitform = () => {
                   {errors.file && (
                     <div className="invalid-feedback"><b>{errors.file}</b></div>
                   )}
+                  
                 </div>
                 <div className="Submit_form">
                   <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn applySubmitButton"
                     onClick={submit}
                   >
                     Submit
