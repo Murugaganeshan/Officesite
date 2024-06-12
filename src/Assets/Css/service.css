@@ -7,7 +7,7 @@
 }
 .serviceBack{
     background-image: url("../Images/Circle\ line.png"); 
-    background-position: center center;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -37,7 +37,7 @@
     background-color: #000000;
     padding: 10px;
     border-radius: 10px;
-    margin-bottom: 50px; /* Adjust the margin value as needed */
+    margin-bottom: 10px; /* Adjust the margin value as needed */
     display: flex;
     flex-direction: column;
     background: url(../Images//blue\ background.png);

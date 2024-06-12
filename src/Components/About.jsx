@@ -26,10 +26,12 @@ let About = () => {
                             <h2 className="display-5 mb-4 "  style={{color:"white",fontSize:"24px",fontWeight:"400"}}>
                                 Our journey began with a dream of redefining how the world perceives design.
                             </h2>
+                            
                             <a href="/discover"> <button  className={`btn btn-lg  mb-3 mb-md-4 mb-xl-5 ${style.discoverButton}`} > Discover More</button></a>
                         </div>
                     </div>
                 </div>
+
                 <div className="container overflow-hidden">
                     <div className="row gy-4 gy-lg-0">
                         <div className="col-12 col-lg-6">

@@ -36,8 +36,8 @@ let Carrers=()=>{
             <div className="col">
             <div className="">
             <img className="img-fluid rounded " src={Inter} alt="Interview Image"/>
-        </div>
-</div>
+           </div>
+           </div>
 
             </div>  
            </div>
