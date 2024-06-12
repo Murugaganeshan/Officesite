@@ -8,18 +8,12 @@
     box-shadow: 0px 0px  10px rgb(0, 0, 0);
 
 }
-.services-li{
-    background-color: red;
+.footerBack{
+    background: url(../Images//footerBack.png);
 }
 
-.footerBlock{
-    background-color: rgb(28, 41, 47);
-}
-.footerRight{
-    background-color: rgb(28, 41, 47);
- 
 
-}
+
 .fullWidthContainer {
     padding-left: 0;
     padding-right: 0px;
@@ -34,21 +28,16 @@
     display: inline-block;
     height: 45px;
     width: 45px;
-    background-color: rgba(225, 255, 255, 0.2);
     margin: 0 15px 10px 0;
     text-align: center;
     line-height: 45px;
     border-radius: 10px;
-    color: #ffffff;
+    /* color: #ffffff; */
     transition: all 0.2s ease;
     font-size: 18px;
   
 }
-.footer-col .social-links a:hover{
-    color: #23262b;
-    background-color: #ffffff;
-    border-radius: 50%;
-}
+
 .bottom-1,.bottom-2,.bottom-3{
     margin-top: 80px;
 }
@@ -59,15 +48,9 @@
 
 }
 
-iframe{
-  padding: 20px;
-  margin: 0px;
-  width: 100%;
-  border-radius: 30px;
- 
-}
+
 .footerTitle{
-    background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
@@ -76,20 +59,7 @@ iframe{
     color: white !important;
     cursor: pointer;
 }
-@media screen and (max-width: 450px) {
-    iframe{
-        height: 150px;
-       width: 100%;
-    }
 
-}
-@media screen and (max-width: 290px) {
-    iframe{
-        height: 150px;
-        width: 100%;
-    }
-
-}
 
 
 .service li:hover{
@@ -103,12 +73,26 @@ iframe{
 .foot{
     color: white;
 }
+.subscribeBack{
+    background: url(../Images//subscribeBack.png);
+    /* border: none !important; */
+    border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
+
+}
+ .subscribeButton{
+    height: 50px;
+    width: 283px;
+    border: 2px solid !important;
+    border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1 !important;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
  .companyName{
     background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
-
 
 
 
