@@ -17,9 +17,7 @@ let Footer=()=>{
 
 
     return( 
-    <div className='footer container-fluid'>
-
-      
+    <div className='footer container-fluid'>    
       <div className="row footerBack">
         <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
@@ -85,13 +83,10 @@ let Footer=()=>{
                   </div>
                 </div>
                 <div class="col-6 col-sm-3">
-                  <div className="mx-3">
+                  <div className="mx-1">
                     <h4 class="widget-title mb-4 footerTitle">Company</h4>
                     <ul class="list-unstyled company">
                     <li className="mb-3">
-         
-
-
               <a href="/"  class="link-secondary text-decoration-none footerSubTitle"><img src={arrow} alt="" className="img-fluid"/> Home</a>
             </li>
            
@@ -120,16 +115,11 @@ let Footer=()=>{
 
             <a href="/contact"  class="link-secondary text-decoration-none footerSubTitle"><img src={arrow} alt="" className="img-fluid"/> Privacy Policy</a>
             </li>
-
-
-
-
-
                     </ul>
                   </div>
                 </div>
                 <div class="col-12 col-sm-6">
-                  <div class="widget mx-4">
+                  <div class="widget mx-0">
                     <h4 class="widget-title mb-4 footerTitle">Our Newsletter</h4>
                     <p class="mb-4    footerSubTitle" >Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
                     <form action="#!">
