@@ -44,10 +44,11 @@
 .social-div{
     display: flex;
     align-items: center;
-    transition: 2s;
-
 }
-
+.social-div:hover{
+    margin-left: 20px;
+    transition: all 0.3s ;
+}
 
 .footerTitle{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
@@ -76,12 +77,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.foot{
-    color: white;
-}
+
 .subscribeBack{
     background: url(../Images//subscribeBack.png);
-    /* border: none !important; */
     border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
 }
  .subscribeButton{
@@ -106,6 +104,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
+ .foot{
+    color: white;
+}
 
 
 

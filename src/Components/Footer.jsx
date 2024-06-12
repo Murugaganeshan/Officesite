@@ -27,7 +27,7 @@ let Footer=()=>{
                   <img src={logo} alt="Company Logo" width="179" height="60"/>
                 
               </div>
-              <div className="col footer-col mx-5">
+              <div className="col footer-col mx-1">
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">
