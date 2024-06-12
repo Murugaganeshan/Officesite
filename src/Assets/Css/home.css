@@ -74,10 +74,9 @@
         font-family: "Righteous", sans-serif;
         font-size: 50px;
         font-weight: 900;
-        background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+        background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-       
     }
 }
 
@@ -88,10 +87,9 @@
         /* font-size: 90px; */
         font-size: 30px;
         font-weight: 900;
-        background: -webkit-linear-gradient(rgb(202,172,121),rgb(236,197,133));
+        background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-       
     }
     }
     @media (max-width: 1500px) {

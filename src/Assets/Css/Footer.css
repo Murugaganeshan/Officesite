@@ -80,7 +80,7 @@
 }
  .subscribeButton{
     height: 50px;
-    width: 283px;
+    width: 333px;
     border: 2px solid !important;
     border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1 !important;
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
