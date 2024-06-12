@@ -77,7 +77,6 @@
     background: url(../Images//subscribeBack.png);
     /* border: none !important; */
     border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
-
 }
  .subscribeButton{
     height: 50px;

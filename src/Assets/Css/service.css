@@ -40,7 +40,7 @@
     margin-bottom: 10px; /* Adjust the margin value as needed */
     display: flex;
     flex-direction: column;
-    background: url(../Images//blue\ background.png);
+    background: url(../Images//serviceCard.png);
 }
 .serviceCardTitle{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);

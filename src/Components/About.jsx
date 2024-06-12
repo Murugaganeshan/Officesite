@@ -38,7 +38,6 @@ let About = () => {
                             <article>
                                 <div className="card border-0" data-aos="fade-right">
                                     <img className="card-img-top img-fluid m-0" loading="lazy" src={image1} alt="Our Vision" />
-                                    {/* <div className="card-body border bg-white p-4 textBackground"> */}
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3">
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>
