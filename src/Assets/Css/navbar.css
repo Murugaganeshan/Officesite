@@ -6,7 +6,6 @@
 }
 
 .navbar {
-     /* background-color: black; */
      background: url(../Images//footerBack.png);
     height: 10vh;
     display: flex;
