@@ -7,15 +7,17 @@
 }
 .discoverCard{
     border: none;
+ 
 }
 .discoverCardBack{
     background: url(../Images//discoverCardBack.png);
-    background-color: black;
+    background-color: black;     
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 5px;
 }
 .discoverTitle{
     background: -webkit-linear-gradient(20deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 40%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     font-size: 40px !important;
     font-weight: 500;
@@ -36,7 +38,7 @@
 @media (min-width: 1200px) {
     .discoverImage {
         height: 330px; 
-        width: 430px;
+        width: 430px;   
     }
 }
 
@@ -49,5 +51,6 @@
 @media (max-width: 767px) {
     .discoverImage {
         height: auto; 
+        width: 350px;
     }
 }
